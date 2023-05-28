@@ -1,0 +1,5 @@
+**/node_modules
+**/.product_info.json
+**/com.liferay.*.jar
+**/.DS_Store
+.DS_Store

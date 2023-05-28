@@ -1,0 +1,41 @@
+name: builder
+
+on:
+  push:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Setup Java (Zulu 11)
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '11'
+      - name: Setup Node 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Get Liferay Lib
+        working-directory: ./better-json-builder
+        run: |
+          cd better-json-builder
+          curl -LJO https://github.com/liferay/liferay-portal/raw/master/modules/sdk/gradle-plugins-workspace/lib/com.liferay.workspace.bundle.url.codec-1.0.0.jar
+      - name: Build JSON files
+        working-directory: ./better-json-builder
+        run: |
+          npm start
+      - name: Commit JSON Files
+        run: |
+          git config --global user.name 'lgdd'
+          git config --global user.email 'lgdd@users.noreply.github.com'
+          git commit -am "chore: auto update json files"
+          git push
