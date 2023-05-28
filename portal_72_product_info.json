@@ -1,26 +1,26 @@
 [
 	{
 		"appServerTomcatVersion": "9.0.17",
-		"bundleUrl": "AaHR0cHM6Ly9yZWxlYXNlcy1jZG4ubGlmZXJheS5jb20vcG9ydGFsLzcuMi4xLWdhMi9saWZlcmF5LWNlLXBvcnRhbC10b21jYXQtNy4yLjEtZ2EyLTIwMTkxMTExMTQxNDQ4MzI2LnRhci5negAAA==",
+		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.2.1-ga2/liferay-ce-portal-tomcat-7.2.1-ga2-20191111141448326.tar.gz",
 		"liferayDockerImage": "liferay/portal:7.2.1-ga2",
 		"liferayProductVersion": "Portal 7.2 GA2",
 		"promoted": "true",
 		"releaseDate": "11/18/2019",
 		"targetPlatformVersion": "7.2.1-1",
 		"bundleChecksumMD5": "ce6baa9ae3590df46760443e80c09831",
-		"bundleChecksumMD5Url": "AaHR0cHM6Ly9yZWxlYXNlcy1jZG4ubGlmZXJheS5jb20vcG9ydGFsLzcuMi4xLWdhMi9saWZlcmF5LWNlLXBvcnRhbC10b21jYXQtNy4yLjEtZ2EyLTIwMTkxMTExMTQxNDQ4MzI2LnRhci5nei5NRDUAAA=",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.2.1-ga2/liferay-ce-portal-tomcat-7.2.1-ga2-20191111141448326.tar.gz.MD5",
 		"name": "portal-7.2-ga2"
 	},
 	{
 		"appServerTomcatVersion": "9.0.17",
-		"bundleUrl": "BodHRwczovL3JlbGVhc2VzLWNkbi5saWZlcmF5LmNvbS9wb3J0YWwvNy4yLjAtZ2ExL2xpZmVyYXktY2UtcG9ydGFsLXRvbWNhdC03LjIuMC1nYTEtMjAxOTA1MzExNTM3MDk3NjEudGFyLmd6A=",
+		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.2.0-ga1/liferay-ce-portal-tomcat-7.2.0-ga1-20190531153709761.tar.gz",
 		"liferayDockerImage": "liferay/portal:7.2.0-ga1",
 		"liferayProductVersion": "Portal 7.2 GA1",
 		"promoted": "false",
 		"releaseDate": "6/4/2019",
 		"targetPlatformVersion": "7.2.0",
 		"bundleChecksumMD5": "e68ab5dae19063924ae8d7e7ea0078fa",
-		"bundleChecksumMD5Url": "BodHRwczovL3JlbGVhc2VzLWNkbi5saWZlcmF5LmNvbS9wb3J0YWwvNy4yLjAtZ2ExL2xpZmVyYXktY2UtcG9ydGFsLXRvbWNhdC03LjIuMC1nYTEtMjAxOTA1MzExNTM3MDk3NjEudGFyLmd6Lk1ENQ",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.2.0-ga1/liferay-ce-portal-tomcat-7.2.0-ga1-20190531153709761.tar.gz.MD5",
 		"name": "portal-7.2-ga1"
 	}
 ]

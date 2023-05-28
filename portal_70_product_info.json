@@ -1,14 +1,14 @@
 [
 	{
 		"appServerTomcatVersion": "8.0.32",
-		"bundleUrl": "NDo6ODmdF5e5MrYysLmyuZaxsjcXNjSzMrkwvJcxt7aXuDe5OjC2F5uXGBcbFrOwm5e2NLMyuTC8lrGylrg3uTowtha6N7axsLoWm5cYFrOwm5aZGBicGBqYG5iYmJuamZkZGZc9NLgAAAA=",
+		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.0.6-ga7/liferay-ce-portal-tomcat-7.0-ga7-20180507111753223.zip",
 		"liferayDockerImage": "liferay/portal:7.0.6-ga7",
 		"liferayProductVersion": "Portal 7.0 GA7",
 		"promoted": "true",
 		"releaseDate": "5/23/2018",
 		"targetPlatformVersion": "7.0.6-2",
 		"bundleChecksumMD5": "264613888e549c036b7c61cbc1ad0350",
-		"bundleChecksumMD5Url": "NDo6ODmdF5e5MrYysLmyuZaxsjcXNjSzMrkwvJcxt7aXuDe5OjC2F5uXGBcbFrOwm5e2NLMyuTC8lrGylrg3uTowtha6N7axsLoWm5cYFrOwm5aZGBicGBqYG5iYmJuamZkZGZc9NLgXJqIagAAA",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.0.6-ga7/liferay-ce-portal-tomcat-7.0-ga7-20180507111753223.zip.MD5",
 		"name": "portal-7.0-ga7"
 	}
 ]

@@ -1,50 +1,50 @@
 [
 	{
 		"appServerTomcatVersion": "9.0.6",
-		"bundleUrl": "BodHRwczovL2FwaS5saWZlcmF5LmNvbS9kb3dubG9hZHMvY29tbWVyY2UvMS4wLjIvbGlmZXJheS1jb21tZXJjZS1lbnRlcnByaXNlLTEuMC4yLTIwMTgxMjIwMDk0OC43egAAA=",
+		"bundleUrl": "https://api.liferay.com/downloads/commerce/1.0.2/liferay-commerce-enterprise-1.0.2-201812200948.7z",
 		"liferayDockerImage": "",
 		"liferayProductVersion": "Commerce 1.0.2",
 		"promoted": "false",
 		"releaseDate": "12/20/2018",
 		"targetPlatformVersion": "7.1.10.fp4",
 		"bundleChecksumMD5": "5f41c393e405a2d60dfe15c170756c06",
-		"bundleChecksumMD5Url": "BodHRwczovL2FwaS5saWZlcmF5LmNvbS9kb3dubG9hZHMvY29tbWVyY2UvMS4wLjIvbGlmZXJheS1jb21tZXJjZS1lbnRlcnByaXNlLTEuMC4yLTIwMTgxMjIwMDk0OC43ei5NRDUAAA",
+		"bundleChecksumMD5Url": "https://api.liferay.com/downloads/commerce/1.0.2/liferay-commerce-enterprise-1.0.2-201812200948.7z.MD5",
 		"name": "commerce-1.0.2"
 	},
 	{
 		"appServerTomcatVersion": "9.0.6",
-		"bundleUrl": "AaHR0cHM6Ly9hcGkubGlmZXJheS5jb20vZG93bmxvYWRzL2NvbW1lcmNlLzIuMC42L2xpZmVyYXktY29tbWVyY2UtZW50ZXJwcmlzZS0yLjAuNi0yMDE5MTAwMjE0MzQuN3o",
+		"bundleUrl": "https://api.liferay.com/downloads/commerce/2.0.6/liferay-commerce-enterprise-2.0.6-201910021434.7z",
 		"liferayDockerImage": "liferay/commerce-enterprise:2.0.6",
 		"liferayProductVersion": "Commerce 2.0.6",
 		"promoted": "false",
 		"releaseDate": "10/2/2019",
 		"targetPlatformVersion": "7.1.10.fp14",
 		"bundleChecksumMD5": "3b59c0c6f48180093ab82d876ba255d6",
-		"bundleChecksumMD5Url": "AaHR0cHM6Ly9hcGkubGlmZXJheS5jb20vZG93bmxvYWRzL2NvbW1lcmNlLzIuMC42L2xpZmVyYXktY29tbWVyY2UtZW50ZXJwcmlzZS0yLjAuNi0yMDE5MTAwMjE0MzQuN3ouTUQ1A==",
+		"bundleChecksumMD5Url": "https://api.liferay.com/downloads/commerce/2.0.6/liferay-commerce-enterprise-2.0.6-201910021434.7z.MD5",
 		"name": "commerce-2.0.6"
 	},
 	{
 		"appServerTomcatVersion": "9.0.17",
-		"bundleUrl": "AaHR0cHM6Ly9hcGkubGlmZXJheS5jb20vZG93bmxvYWRzL2NvbW1lcmNlLzIuMC43L2xpZmVyYXktY29tbWVyY2UtZW50ZXJwcmlzZS0yLjAuNy03LjIueC0yMDE5MTIyNjEyMzguN3oAAAA",
+		"bundleUrl": "https://api.liferay.com/downloads/commerce/2.0.7/liferay-commerce-enterprise-2.0.7-7.2.x-201912261238.7z",
 		"liferayDockerImage": "liferay/commerce-enterprise:2.0.7-7.2.x",
 		"liferayProductVersion": "Commerce 2.0.7 (7.2.x)",
 		"promoted": "true",
 		"releaseDate": "12/26/2019",
 		"targetPlatformVersion": "7.2.10.fp3",
 		"bundleChecksumMD5": "c2d68c022d0d72e1d852af0956d55803",
-		"bundleChecksumMD5Url": "AaHR0cHM6Ly9hcGkubGlmZXJheS5jb20vZG93bmxvYWRzL2NvbW1lcmNlLzIuMC43L2xpZmVyYXktY29tbWVyY2UtZW50ZXJwcmlzZS0yLjAuNy03LjIueC0yMDE5MTIyNjEyMzguN3ouTUQ1AAAAA==",
+		"bundleChecksumMD5Url": "https://api.liferay.com/downloads/commerce/2.0.7/liferay-commerce-enterprise-2.0.7-7.2.x-201912261238.7z.MD5",
 		"name": "commerce-2.0.7-7.2"
 	},
 	{
 		"appServerTomcatVersion": "9.0.17",
-		"bundleUrl": "AaHR0cHM6Ly9hcGkubGlmZXJheS5jb20vZG93bmxvYWRzL2NvbW1lcmNlLzIuMC43L2xpZmVyYXktY29tbWVyY2UtZW50ZXJwcmlzZS0yLjAuNy03LjEueC0yMDIwMDMwMjExNDkuN3o",
+		"bundleUrl": "https://api.liferay.com/downloads/commerce/2.0.7/liferay-commerce-enterprise-2.0.7-7.1.x-202003021149.7z",
 		"liferayDockerImage": "liferay/commerce-enterprise:2.0.7-7.1.x",
 		"liferayProductVersion": "Commerce 2.0.7 (7.1.x)",
 		"promoted": "true",
 		"releaseDate": "3/2/2020",
 		"targetPlatformVersion": "7.1.10.fp16",
 		"bundleChecksumMD5": "4acc60fc4f0b1ef646fb819b778a4f83",
-		"bundleChecksumMD5Url": "AaHR0cHM6Ly9hcGkubGlmZXJheS5jb20vZG93bmxvYWRzL2NvbW1lcmNlLzIuMC43L2xpZmVyYXktY29tbWVyY2UtZW50ZXJwcmlzZS0yLjAuNy03LjEueC0yMDIwMDMwMjExNDkuN3ouTUQ1A==",
+		"bundleChecksumMD5Url": "https://api.liferay.com/downloads/commerce/2.0.7/liferay-commerce-enterprise-2.0.7-7.1.x-202003021149.7z.MD5",
 		"name": "commerce-2.0.7-7.1"
 	}
 ]
