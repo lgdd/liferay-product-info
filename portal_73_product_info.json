@@ -1,0 +1,98 @@
+[
+	{
+		"appServerTomcatVersion": "9.0.33",
+		"bundleUrl": "DQ6Ojg5nReXuTK2MrC5srmWsbI3FzY0szK5MLyXMbe2l7g3uTowtheblxmXGRazsJmXtjSzMrkwvJaxspa4N7k6MLYWuje2sbC6FpuXGZcZFrOwmZaZGBkYGBqYnJibGhgZGhwYnJc6MLkXM70AAAA==",
+		"liferayDockerImage": "liferay/portal:7.3.2-ga3",
+		"liferayProductVersion": "Portal 7.3 GA3",
+		"promoted": "false",
+		"releaseDate": "5/21/2020",
+		"targetPlatformVersion": "7.3.2-1",
+		"bundleChecksumMD5": "f5e9149132696968c27550cda8a7b07a",
+		"bundleChecksumMD5Url": "DQ6Ojg5nReXuTK2MrC5srmWsbI3FzY0szK5MLyXMbe2l7g3uTowtheblxmXGRazsJmXtjSzMrkwvJaxspa4N7k6MLYWuje2sbC6FpuXGZcZFrOwmZaZGBkYGBqYnJibGhgZGhwYnJc6MLkXM70XJqIagAAA=",
+		"name": "portal-7.3-ga3"
+	},
+	{
+		"appServerTomcatVersion": "9.0.33",
+		"bundleUrl": "NDo6ODmdF5e5MrYysLmyuZaxsjcXNjSzMrkwvJcxt7aXuDe5OjC2F5uXGZcYlrOwmRe2NLMyuTC8lrGylrg3uTowtha6N7axsLoWm5cZlxiWs7CZFpkYGRgYGZkbmByYHBqcmxgZlzowuRczvQAAAAA=",
+		"liferayDockerImage": "liferay/portal:7.3.1-ga2",
+		"liferayProductVersion": "Portal 7.3 GA2",
+		"promoted": "false",
+		"releaseDate": "3/31/2020",
+		"targetPlatformVersion": "7.3.1-1",
+		"bundleChecksumMD5": "d17c849913fa411b5190442aed134abf",
+		"bundleChecksumMD5Url": "NDo6ODmdF5e5MrYysLmyuZaxsjcXNjSzMrkwvJcxt7aXuDe5OjC2F5uXGZcYlrOwmRe2NLMyuTC8lrGylrg3uTowtha6N7axsLoWm5cZlxiWs7CZFpkYGRgYGZkbmByYHBqcmxgZlzowuRczvRcmohqAAAAA",
+		"name": "portal-7.3-ga2"
+	},
+	{
+		"appServerTomcatVersion": "9.0.17",
+		"bundleUrl": "Gh0dHBzOi8vcmVsZWFzZXMtY2RuLmxpZmVyYXkuY29tL3BvcnRhbC83LjMuMC1nYTEvbGlmZXJheS1jZS1wb3J0YWwtdG9tY2F0LTcuMy4wLWdhMS0yMDIwMDEyNzE1MDY1Mzk1My50YXIuZ3oAAAAA=",
+		"liferayDockerImage": "liferay/portal:7.3.0-ga1",
+		"liferayProductVersion": "Portal 7.3 GA1",
+		"promoted": "false",
+		"releaseDate": "1/30/2020",
+		"targetPlatformVersion": "7.3.0-1",
+		"bundleChecksumMD5": "cfe948da119068c918251b733c1c0364",
+		"bundleChecksumMD5Url": "Gh0dHBzOi8vcmVsZWFzZXMtY2RuLmxpZmVyYXkuY29tL3BvcnRhbC83LjMuMC1nYTEvbGlmZXJheS1jZS1wb3J0YWwtdG9tY2F0LTcuMy4wLWdhMS0yMDIwMDEyNzE1MDY1Mzk1My50YXIuZ3ouTUQ1AAAAA",
+		"name": "portal-7.3-ga1"
+	},
+	{
+		"appServerTomcatVersion": "9.0.33",
+		"bundleUrl": "AaHR0cHM6Ly9yZWxlYXNlcy1jZG4ubGlmZXJheS5jb20vcG9ydGFsLzcuMy4zLWdhNC9saWZlcmF5LWNlLXBvcnRhbC10b21jYXQtNy4zLjMtZ2E0LTIwMjAwNzAxMDE1MzMwOTU5LnRhci5neg=",
+		"liferayDockerImage": "liferay/portal:7.3.3-ga4",
+		"liferayProductVersion": "Portal 7.3 GA4",
+		"promoted": "false",
+		"releaseDate": "7/2/2020",
+		"targetPlatformVersion": "7.3.3-1",
+		"bundleChecksumMD5": "34904d3aae3b60a658189b5b513e738c",
+		"bundleChecksumMD5Url": "AaHR0cHM6Ly9yZWxlYXNlcy1jZG4ubGlmZXJheS5jb20vcG9ydGFsLzcuMy4zLWdhNC9saWZlcmF5LWNlLXBvcnRhbC10b21jYXQtNy4zLjMtZ2E0LTIwMjAwNzAxMDE1MzMwOTU5LnRhci5nei5NRDU",
+		"name": "portal-7.3-ga4"
+	},
+	{
+		"appServerTomcatVersion": "9.0.33",
+		"bundleUrl": "Gh0dHBzOi8vcmVsZWFzZXMtY2RuLmxpZmVyYXkuY29tL3BvcnRhbC83LjMuNC1nYTUvbGlmZXJheS1jZS1wb3J0YWwtdG9tY2F0LTcuMy40LWdhNS0yMDIwMDgxMTE1NDMxOTAyOS50YXIuZ3oAA",
+		"liferayDockerImage": "liferay/portal:7.3.4-ga5",
+		"liferayProductVersion": "Portal 7.3 GA5",
+		"promoted": "false",
+		"releaseDate": "8/14/2020",
+		"targetPlatformVersion": "7.3.4",
+		"bundleChecksumMD5": "a58255aac7fdc12f6cc30394811e91c4",
+		"bundleChecksumMD5Url": "Gh0dHBzOi8vcmVsZWFzZXMtY2RuLmxpZmVyYXkuY29tL3BvcnRhbC83LjMuNC1nYTUvbGlmZXJheS1jZS1wb3J0YWwtdG9tY2F0LTcuMy40LWdhNS0yMDIwMDgxMTE1NDMxOTAyOS50YXIuZ3ouTUQ1AAA==",
+		"name": "portal-7.3-ga5"
+	},
+	{
+		"appServerTomcatVersion": "9.0.37",
+		"bundleUrl": "Gh0dHBzOi8vcmVsZWFzZXMtY2RuLmxpZmVyYXkuY29tL3BvcnRhbC83LjMuNS1nYTYvbGlmZXJheS1jZS1wb3J0YWwtdG9tY2F0LTcuMy41LWdhNi0yMDIwMDkzMDE3MjMxMjI3NS50YXIuZ3oAAAAA=",
+		"liferayDockerImage": "liferay/portal:7.3.5-ga6",
+		"liferayProductVersion": "Portal 7.3 GA6",
+		"promoted": "false",
+		"releaseDate": "9/30/2020",
+		"targetPlatformVersion": "7.3.5",
+		"bundleChecksumMD5": "107aa96e14fc9fe09886ad76212ec384",
+		"bundleChecksumMD5Url": "Gh0dHBzOi8vcmVsZWFzZXMtY2RuLmxpZmVyYXkuY29tL3BvcnRhbC83LjMuNS1nYTYvbGlmZXJheS1jZS1wb3J0YWwtdG9tY2F0LTcuMy41LWdhNi0yMDIwMDkzMDE3MjMxMjI3NS50YXIuZ3ouTUQ1AAAAA",
+		"name": "portal-7.3-ga6"
+	},
+	{
+		"appServerTomcatVersion": "9.0.40",
+		"bundleUrl": "aHR0cHM6Ly9yZWxlYXNlcy1jZG4ubGlmZXJheS5jb20vcG9ydGFsLzcuMy42LWdhNy9saWZlcmF5LWNlLXBvcnRhbC10b21jYXQtNy4zLjYtZ2E3LTIwMjEwMzAxMTU1NTI2MTkxLnRhci5negA=",
+		"bundleChecksumMD5": "d86b88b2ba2990700f3bccc26ea3c372",
+		"bundleChecksumMD5Url": "aHR0cHM6Ly9yZWxlYXNlcy1jZG4ubGlmZXJheS5jb20vcG9ydGFsLzcuMy42LWdhNy9saWZlcmF5LWNlLXBvcnRhbC10b21jYXQtNy4zLjYtZ2E3LTIwMjEwMzAxMTU1NTI2MTkxLnRhci5nei5NRDUA",
+		"liferayDockerImage": "liferay/portal:7.3.6-ga7",
+		"liferayProductVersion": "Portal 7.3 GA7",
+		"promoted": "false",
+		"releaseDate": "3/8/2021",
+		"targetPlatformVersion": "7.3.6",
+		"name": "portal-7.3-ga7"
+	},
+	{
+		"appServerTomcatVersion": "9.0.43",
+		"bundleUrl": "DQ6Ojg5nReXuTK2MrC5srmWsbI3FzY0szK5MLyXMbe2l7g3uTowtheblxmXG5azsJwXtjSzMrkwvJaxspa4N7k6MLYWuje2sbC6FpuXGZcblrOwnBaZGBkYmBsYmBicGZqanJuZGJc6MLkXM70AAAA==",
+		"bundleChecksumMD5": "bf3de867b464b526d3b3a8fe38b25e83",
+		"bundleChecksumMD5Url": "DQ6Ojg5nReXuTK2MrC5srmWsbI3FzY0szK5MLyXMbe2l7g3uTowtheblxmXG5azsJwXtjSzMrkwvJaxspa4N7k6MLYWuje2sbC6FpuXGZcblrOwnBaZGBkYmBsYmBicGZqanJuZGJc6MLkXM70XJqIagAAA=",
+		"liferayDockerImage": "liferay/portal:7.3.7-ga8",
+		"liferayProductVersion": "Portal 7.3 GA8",
+		"promoted": "true",
+		"releaseDate": "6/21/2021",
+		"targetPlatformVersion": "7.3.7",
+		"name": "portal-7.3-ga8"
+	}
+]
