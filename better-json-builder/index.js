@@ -2,8 +2,6 @@ const http = require('https');
 const fs = require('fs');
 const { execSync } = require('child_process');
 
-const bundleUrlCodecLibUrl =
-  'https://github.com/liferay/liferay-portal/raw/master/modules/sdk/gradle-plugins-workspace/lib/com.liferay.workspace.bundle.url.codec-1.0.0.jar';
 const productInfoJsonUrl =
   'https://releases-cdn.liferay.com/tools/workspace/.product_info.json';
 
@@ -93,7 +91,7 @@ const writeTypedProductsJson = (betterJson, productType) => {
 
 const decodeBundleUrl = (encodedBundleUrl, releaseDate) => {
   const bundleUrlDecodeResultBytes = execSync(
-    `java -cp com.liferay.workspace.bundle.url.codec.jar Main.java ${encodedBundleUrl} ${releaseDate}`
+    `java -cp com.liferay.workspace.bundle.url.codec-1.0.0.jar Main.java ${encodedBundleUrl} ${releaseDate}`
   );
   return bundleUrlDecodeResultBytes.toString().trim();
 };
