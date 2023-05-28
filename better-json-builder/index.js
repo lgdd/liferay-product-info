@@ -1,6 +1,7 @@
 const http = require('https');
 const fs = require('fs');
 const { execSync } = require('child_process');
+const cliProgress = require('cli-progress');
 
 const productInfoJsonUrl =
   'https://releases-cdn.liferay.com/tools/workspace/.product_info.json';
@@ -30,16 +31,28 @@ const buildBetterJson = (productJson) => {
   const betterJson = [];
   Object.keys(productJson).forEach((key) => {
     productJson[key]['name'] = key;
-    productJson[key]['bundleUrl'] = decodeBundleUrl(
-      productJson[key].bundleUrl,
-      productJson[key].releaseDate
-    );
-    productJson[key]['bundleChecksumMD5Url'] = decodeBundleUrl(
-      productJson[key].bundleChecksumMD5Url,
-      productJson[key].releaseDate
-    );
     betterJson.push(productJson[key]);
   });
+
+  const progressbar = new cliProgress.SingleBar(
+    {
+      format:
+        'Decoding Bundle URLs [{bar}] {percentage}% | ETA: {eta}s | {value}/{total}',
+    },
+    cliProgress.Presets.shades_classic
+  );
+  progressbar.start(betterJson.length, 0);
+
+  betterJson.forEach((product) => {
+    product.bundleUrl = decodeBundleUrl(product.bundleUrl, product.releaseDate);
+    product.bundleChecksumMD5Url = decodeBundleUrl(
+      product.bundleChecksumMD5Url,
+      product.releaseDate
+    );
+    progressbar.increment();
+  });
+
+  progressbar.stop();
 
   fs.writeFile(
     '../better_product_info.json',
