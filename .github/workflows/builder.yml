@@ -6,7 +6,7 @@ on:
     - cron: '0 0 * * *'
 
 jobs:
-  test:
+  builder:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -27,7 +27,6 @@ jobs:
       - name: Get Liferay Lib
         working-directory: ./better-json-builder
         run: |
-          cd better-json-builder
           curl -LJO https://github.com/liferay/liferay-portal/raw/master/modules/sdk/gradle-plugins-workspace/lib/com.liferay.workspace.bundle.url.codec-1.0.0.jar
       - name: Build JSON files
         working-directory: ./better-json-builder
