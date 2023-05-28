@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env DECODE_BUNDLE_URLS=true&& node index.js",
+    "start": "node index.js",
     "dev": "cross-env DECODE_BUNDLE_URLS=false&& nodemon --watch index.js index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
