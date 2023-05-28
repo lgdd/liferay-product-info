@@ -5,14 +5,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon --watch index.js index.js",
+    "start": "cross-env DECODE_BUNDLE_URLS=true&& node index.js",
+    "dev": "cross-env DECODE_BUNDLE_URLS=false&& nodemon --watch index.js index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "nodemon": "^2.0.22"
   },
   "dependencies": {

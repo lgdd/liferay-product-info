@@ -20,8 +20,21 @@ http.get(productInfoJsonUrl, function (response) {
       }
       const betterJson = buildBetterJson(JSON.parse(data));
       writePromotedProductsJson(betterJson);
+
       writeTypedProductsJson(betterJson, 'dxp');
+      writeTypedProductsJson(betterJson, 'dxp', '7.4');
+      writeTypedProductsJson(betterJson, 'dxp', '7.3');
+      writeTypedProductsJson(betterJson, 'dxp', '7.2');
+      writeTypedProductsJson(betterJson, 'dxp', '7.1');
+      writeTypedProductsJson(betterJson, 'dxp', '7.0');
+
       writeTypedProductsJson(betterJson, 'portal');
+      writeTypedProductsJson(betterJson, 'portal', '7.4');
+      writeTypedProductsJson(betterJson, 'portal', '7.3');
+      writeTypedProductsJson(betterJson, 'portal', '7.2');
+      writeTypedProductsJson(betterJson, 'portal', '7.1');
+      writeTypedProductsJson(betterJson, 'portal', '7.0');
+
       writeTypedProductsJson(betterJson, 'commerce');
     });
   });
@@ -34,25 +47,30 @@ const buildBetterJson = (productJson) => {
     betterJson.push(productJson[key]);
   });
 
-  const progressbar = new cliProgress.SingleBar(
-    {
-      format:
-        'Decoding Bundle URLs [{bar}] {percentage}% | ETA: {eta}s | {value}/{total}',
-    },
-    cliProgress.Presets.shades_classic
-  );
-  progressbar.start(betterJson.length, 0);
-
-  betterJson.forEach((product) => {
-    product.bundleUrl = decodeBundleUrl(product.bundleUrl, product.releaseDate);
-    product.bundleChecksumMD5Url = decodeBundleUrl(
-      product.bundleChecksumMD5Url,
-      product.releaseDate
+  if (process.env.DECODE_BUNDLE_URLS) {
+    const progressbar = new cliProgress.SingleBar(
+      {
+        format:
+          'Decoding Bundle URLs [{bar}] {percentage}% | ETA: {eta}s | {value}/{total}',
+      },
+      cliProgress.Presets.shades_classic
     );
-    progressbar.increment();
-  });
+    progressbar.start(betterJson.length, 0);
 
-  progressbar.stop();
+    betterJson.forEach((product) => {
+      product.bundleUrl = decodeBundleUrl(
+        product.bundleUrl,
+        product.releaseDate
+      );
+      product.bundleChecksumMD5Url = decodeBundleUrl(
+        product.bundleChecksumMD5Url,
+        product.releaseDate
+      );
+      progressbar.increment();
+    });
+
+    progressbar.stop();
+  }
 
   fs.writeFile(
     '../better_product_info.json',
@@ -84,16 +102,21 @@ const writePromotedProductsJson = (betterJson) => {
   );
 };
 
-const writeTypedProductsJson = (betterJson, productType) => {
+const writeTypedProductsJson = (betterJson, productType, version) => {
+  version = version === undefined ? '' : version;
+  const prefix =
+    version === ''
+      ? productType
+      : `${productType}_${version.replaceAll('.', '')}`;
   const specificProducts = [];
   betterJson.forEach((product) => {
-    if (product.name.startsWith(productType)) {
+    if (product.name.startsWith(`${productType}-${version}`)) {
       specificProducts.push(product);
     }
   });
 
   fs.writeFile(
-    `../${productType}_product_info.json`,
+    `../${prefix}_product_info.json`,
     JSON.stringify(specificProducts, null, '\t'),
     function (err) {
       if (err) throw err;
