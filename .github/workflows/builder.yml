@@ -39,5 +39,5 @@ jobs:
           git config --global user.name 'lgdd'
           git config --global user.email 'lgdd@users.noreply.github.com'
           git add *.json
-          git commit -am "chore: auto update json files"
+          git commit -am "chore: auto update json files" || echo "We're good for now. See you next time!'"
           git push
