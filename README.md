@@ -1,3 +1,5 @@
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/lgdd/liferay-product-info/builder.yml?label=auto-update&style=flat)
+
 # Liferay Product Info
 
 Liferay produces and uses a JSON file called [.product_info.json](https://releases-cdn.liferay.com/tools/workspace/.product_info.json) for Blade CLI. The JSON format is annoying to parse and bundle URLs are encoded.
