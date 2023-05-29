@@ -1,4 +1,5 @@
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/lgdd/liferay-product-info/builder.yml?label=auto-update&style=flat)
+![GitHub last commit](https://img.shields.io/github/last-commit/lgdd/liferay-product-info?color=informational&label=latest%20update)
 
 # Liferay Product Info
 
