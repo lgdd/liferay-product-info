@@ -17,6 +17,7 @@
     "nodemon": "^2.0.22"
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "cli-progress": "^3.12.0"
   }
 }
