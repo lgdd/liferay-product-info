@@ -9,37 +9,37 @@ const productInfoJsonUrl =
 
 const productJsonFileName = '.product_info.json';
 const productJsonFile = fs.createWriteStream(productJsonFileName);
-// http.get(productInfoJsonUrl, function (response) {
-//   response.pipe(productJsonFile);
-//   productJsonFile.on('finish', () => {
-//     productJsonFile.close();
-//     console.log(`Downloaded ${productJsonFileName}`);
-//     fs.readFile(productJsonFileName, 'utf8', (err, data) => {
-//       if (err) {
-//         console.error(err);
-//         return;
-//       }
-//       const betterJson = buildBetterJson(JSON.parse(data));
-//       writePromotedProductsJson(betterJson);
+http.get(productInfoJsonUrl, function (response) {
+  response.pipe(productJsonFile);
+  productJsonFile.on('finish', () => {
+    productJsonFile.close();
+    console.log(`Downloaded ${productJsonFileName}`);
+    fs.readFile(productJsonFileName, 'utf8', (err, data) => {
+      if (err) {
+        console.error(err);
+        return;
+      }
+      const betterJson = buildBetterJson(JSON.parse(data));
+      writePromotedProductsJson(betterJson);
 
-//       writeTypedProductsJson(betterJson, 'dxp');
-//       writeTypedProductsJson(betterJson, 'dxp', '7.4');
-//       writeTypedProductsJson(betterJson, 'dxp', '7.3');
-//       writeTypedProductsJson(betterJson, 'dxp', '7.2');
-//       writeTypedProductsJson(betterJson, 'dxp', '7.1');
-//       writeTypedProductsJson(betterJson, 'dxp', '7.0');
+      writeTypedProductsJson(betterJson, 'dxp');
+      writeTypedProductsJson(betterJson, 'dxp', '7.4');
+      writeTypedProductsJson(betterJson, 'dxp', '7.3');
+      writeTypedProductsJson(betterJson, 'dxp', '7.2');
+      writeTypedProductsJson(betterJson, 'dxp', '7.1');
+      writeTypedProductsJson(betterJson, 'dxp', '7.0');
 
-//       writeTypedProductsJson(betterJson, 'portal');
-//       writeTypedProductsJson(betterJson, 'portal', '7.4');
-//       writeTypedProductsJson(betterJson, 'portal', '7.3');
-//       writeTypedProductsJson(betterJson, 'portal', '7.2');
-//       writeTypedProductsJson(betterJson, 'portal', '7.1');
-//       writeTypedProductsJson(betterJson, 'portal', '7.0');
+      writeTypedProductsJson(betterJson, 'portal');
+      writeTypedProductsJson(betterJson, 'portal', '7.4');
+      writeTypedProductsJson(betterJson, 'portal', '7.3');
+      writeTypedProductsJson(betterJson, 'portal', '7.2');
+      writeTypedProductsJson(betterJson, 'portal', '7.1');
+      writeTypedProductsJson(betterJson, 'portal', '7.0');
 
-//       writeTypedProductsJson(betterJson, 'commerce');
-//     });
-//   });
-// });
+      writeTypedProductsJson(betterJson, 'commerce');
+    });
+  });
+});
 
 const buildBetterJson = (productJson) => {
   const betterJson = [];
