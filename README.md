@@ -24,3 +24,4 @@ These files are automatically updated on a daily basis:
   - [portal_71_product_info.json](https://raw.githubusercontent.com/lgdd/liferay-product-info/main/portal_71_product_info.json)
   - [portal_70_product_info.json](https://raw.githubusercontent.com/lgdd/liferay-product-info/main/portal_70_product_info.json)
 - [commerce_product_info.json](https://raw.githubusercontent.com/lgdd/liferay-product-info/main/commerce_product_info.json)
+- [liferaycloud_latest_docker_images.json](https://raw.githubusercontent.com/lgdd/liferay-product-info/main/liferaycloud_latest_docker_images.json)
