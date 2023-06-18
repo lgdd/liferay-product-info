@@ -157,26 +157,26 @@
 	},
 	{
 		"appServerTomcatVersion": "9.0.75",
-		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u81/liferay-dxp-tomcat-7.4.13.u81-20230612121643224.tar.gz",
-		"bundleChecksumMD5": "9f6b5e8afd16ee6e817a6f7ee4468a28",
-		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u81/liferay-dxp-tomcat-7.4.13.u81-20230612121643224.tar.gz.MD5",
-		"liferayDockerImage": "liferay/dxp:7.4.13-u81",
-		"liferayProductVersion": "DXP 7.4 U81",
+		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u80/liferay-dxp-tomcat-7.4.13.u80-20230605104714785.tar.gz",
+		"bundleChecksumMD5": "99c6831b5dd66f9d9ebec244d42d138f",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u80/liferay-dxp-tomcat-7.4.13.u80-20230605104714785.tar.gz.MD5",
+		"liferayDockerImage": "liferay/dxp:7.4.13-u80",
+		"liferayProductVersion": "DXP 7.4 U80",
 		"promoted": "true",
-		"releaseDate": "06/16/2023",
-		"targetPlatformVersion": "7.4.13.u81",
-		"name": "dxp-7.4-u81"
+		"releaseDate": "06/09/2023",
+		"targetPlatformVersion": "7.4.13.u80",
+		"name": "dxp-7.4-u80"
 	},
 	{
 		"appServerTomcatVersion": "9.0.75",
-		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.4.3.81-ga81/liferay-ce-portal-tomcat-7.4.3.81-ga81-20230612134331068.tar.gz",
-		"bundleChecksumMD5": "95e043ed1797f83e0aa1a29ec8dc0f33",
-		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.81-ga81/liferay-ce-portal-tomcat-7.4.3.81-ga81-20230612134331068.tar.gz.MD5",
-		"liferayDockerImage": "liferay/portal:7.4.3.81-ga81",
-		"liferayProductVersion": "Portal 7.4 GA81",
+		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.4.3.80-ga80/liferay-ce-portal-tomcat-7.4.3.80-ga80-20230605121335720.tar.gz",
+		"bundleChecksumMD5": "2556d6b241bd524dccc589fe34c2a193",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.80-ga80/liferay-ce-portal-tomcat-7.4.3.80-ga80-20230605121335720.tar.gz.MD5",
+		"liferayDockerImage": "liferay/portal:7.4.3.80-ga80",
+		"liferayProductVersion": "Portal 7.4 GA80",
 		"promoted": "true",
-		"releaseDate": "06/16/2023",
-		"targetPlatformVersion": "7.4.3.81",
-		"name": "portal-7.4-ga81"
+		"releaseDate": "06/09/2023",
+		"targetPlatformVersion": "7.4.3.80",
+		"name": "portal-7.4-ga80"
 	}
 ]
