@@ -721,7 +721,7 @@
 	},
 	{
 		"appServerTomcatVersion": "9.0.71",
-		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u61/liferay-dxp-tomcat-7.4.13.u61-20230126101645878.zip",
+		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u61/liferay-dxp-tomcat-7.4.13.u61-20230126101645878.tar.gz",
 		"bundleChecksumMD5": "d665f60b9ae7acfd451ed2f3a8b7b39c",
 		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u61/liferay-dxp-tomcat-7.4.13.u61-20230126101645878.tar.gz.MD5",
 		"liferayDockerImage": "liferay/dxp:7.4.13-u61",
@@ -930,33 +930,9 @@
 		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u78/liferay-dxp-tomcat-7.4.13.u78-20230524065840939.tar.gz.MD5",
 		"liferayDockerImage": "liferay/dxp:7.4.13-u78",
 		"liferayProductVersion": "DXP 7.4 U78",
-		"promoted": "false",
+		"promoted": "true",
 		"releaseDate": "05/26/2023",
 		"targetPlatformVersion": "7.4.13.u78",
 		"name": "dxp-7.4-u78"
-	},
-	{
-		"appServerTomcatVersion": "9.0.75",
-		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u79/liferay-dxp-tomcat-7.4.13.u79-20230531060842236.tar.gz",
-		"bundleChecksumMD5": "0e8f91091fa4582ffc503356ea40b3da",
-		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u79/liferay-dxp-tomcat-7.4.13.u79-20230531060842236.tar.gz.MD5",
-		"liferayDockerImage": "liferay/dxp:7.4.13-u79",
-		"liferayProductVersion": "DXP 7.4 U79",
-		"promoted": "false",
-		"releaseDate": "06/02/2023",
-		"targetPlatformVersion": "7.4.13.u79",
-		"name": "dxp-7.4-u79"
-	},
-	{
-		"appServerTomcatVersion": "9.0.75",
-		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u80/liferay-dxp-tomcat-7.4.13.u80-20230605104714785.tar.gz",
-		"bundleChecksumMD5": "99c6831b5dd66f9d9ebec244d42d138f",
-		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u80/liferay-dxp-tomcat-7.4.13.u80-20230605104714785.tar.gz.MD5",
-		"liferayDockerImage": "liferay/dxp:7.4.13-u80",
-		"liferayProductVersion": "DXP 7.4 U80",
-		"promoted": "true",
-		"releaseDate": "06/09/2023",
-		"targetPlatformVersion": "7.4.13.u80",
-		"name": "dxp-7.4-u80"
 	}
 ]
