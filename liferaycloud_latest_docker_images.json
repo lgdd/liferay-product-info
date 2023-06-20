@@ -1,5 +1,37 @@
 [
-	null,
+	{
+		"creator": 8198517,
+		"id": 457605081,
+		"images": [
+			{
+				"architecture": "amd64",
+				"features": "",
+				"variant": null,
+				"digest": "sha256:9d85ad9d364a553c8942a3b37943e4411eede4806c433ed39e117fee110b069d",
+				"os": "linux",
+				"os_features": "",
+				"os_version": null,
+				"size": 488260896,
+				"status": "active",
+				"last_pulled": "2023-06-20T01:13:26.047502Z",
+				"last_pushed": "2023-06-14T19:43:02.357215Z"
+			}
+		],
+		"last_updated": "2023-06-14T19:43:02.511936Z",
+		"last_updater": 8198517,
+		"last_updater_username": "ciliferaycloud",
+		"name": "5.5.0",
+		"repository": 7077464,
+		"full_size": 488260896,
+		"v2": true,
+		"tag_status": "active",
+		"tag_last_pulled": "2023-06-20T01:13:26.047502Z",
+		"tag_last_pushed": "2023-06-14T19:43:02.511936Z",
+		"media_type": "application/vnd.docker.container.image.v1+json",
+		"content_type": "image",
+		"digest": "sha256:9d85ad9d364a553c8942a3b37943e4411eede4806c433ed39e117fee110b069d",
+		"latest_docker_image": "liferaycloud/backup:5.5.0"
+	},
 	null,
 	null,
 	null,
