@@ -1158,9 +1158,21 @@
 		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.82-ga82/liferay-ce-portal-tomcat-7.4.3.82-ga82-20230626105322732.tar.gz.MD5",
 		"liferayDockerImage": "liferay/portal:7.4.3.82-ga82",
 		"liferayProductVersion": "Portal 7.4 GA82",
-		"promoted": "true",
+		"promoted": "false",
 		"releaseDate": "06/27/2023",
 		"targetPlatformVersion": "7.4.3.82",
 		"name": "portal-7.4-ga82"
+	},
+	{
+		"appServerTomcatVersion": "9.0.75",
+		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.4.3.83-ga83/liferay-ce-portal-tomcat-7.4.3.83-ga83-20230628123401754.tar.gz",
+		"bundleChecksumMD5": "2ba13461573526bd4d189150bd9249dc",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.83-ga83/liferay-ce-portal-tomcat-7.4.3.83-ga83-20230628123401754.tar.gz.MD5",
+		"liferayDockerImage": "liferay/portal:7.4.3.83-ga83",
+		"liferayProductVersion": "Portal 7.4 GA83",
+		"promoted": "true",
+		"releaseDate": "06/30/2023",
+		"targetPlatformVersion": "7.4.3.83",
+		"name": "portal-7.4-ga83"
 	}
 ]
