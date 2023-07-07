@@ -966,33 +966,9 @@
 		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u81/liferay-dxp-tomcat-7.4.13.u81-20230612121643224.tar.gz.MD5",
 		"liferayDockerImage": "liferay/dxp:7.4.13-u81",
 		"liferayProductVersion": "DXP 7.4 U81",
-		"promoted": "false",
+		"promoted": "true",
 		"releaseDate": "06/16/2023",
 		"targetPlatformVersion": "7.4.13.u81",
 		"name": "dxp-7.4-u81"
-	},
-	{
-		"appServerTomcatVersion": "9.0.75",
-		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u82/liferay-dxp-tomcat-7.4.13.u82-20230626094743744.tar.gz",
-		"bundleChecksumMD5": "d11cc3b33f42125b3d35f046062cb146",
-		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u82/liferay-dxp-tomcat-7.4.13.u82-20230626094743744.tar.gz.MD5",
-		"liferayDockerImage": "liferay/dxp:7.4.13-u82",
-		"liferayProductVersion": "DXP 7.4 U82",
-		"promoted": "false",
-		"releaseDate": "06/27/2023",
-		"targetPlatformVersion": "7.4.13.u82",
-		"name": "dxp-7.4-u82"
-	},
-	{
-		"appServerTomcatVersion": "9.0.75",
-		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u83/liferay-dxp-tomcat-7.4.13.u83-20230628110742011.tar.gz",
-		"bundleChecksumMD5": "0c381372cb711684dd69e1abe43b2295",
-		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u83/liferay-dxp-tomcat-7.4.13.u83-20230628110742011.tar.gz.MD5",
-		"liferayDockerImage": "liferay/dxp:7.4.13-u83",
-		"liferayProductVersion": "DXP 7.4 U83",
-		"promoted": "true",
-		"releaseDate": "06/30/2023",
-		"targetPlatformVersion": "7.4.13.u83",
-		"name": "dxp-7.4-u83"
 	}
 ]
