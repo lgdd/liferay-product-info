@@ -13,7 +13,7 @@
 				"os_version": null,
 				"size": 488446738,
 				"status": "active",
-				"last_pulled": "2023-07-08T00:37:42.878711Z",
+				"last_pulled": "2023-07-08T20:20:36.846534Z",
 				"last_pushed": "2023-06-28T23:54:18.575746Z"
 			}
 		],
@@ -25,79 +25,15 @@
 		"full_size": 488446738,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2023-07-08T00:37:42.878711Z",
+		"tag_last_pulled": "2023-07-08T20:20:36.846534Z",
 		"tag_last_pushed": "2023-06-28T23:54:18.575746Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
 		"digest": "sha256:e85a3aaa806a0dad5d3a1fe15c2c3b2cb0f2792a027a473c3ed06e8177a0d892",
 		"latest_docker_image": "liferaycloud/backup:5.7.0"
 	},
-	{
-		"creator": 8198517,
-		"id": 455942940,
-		"images": [
-			{
-				"architecture": "amd64",
-				"features": "",
-				"variant": null,
-				"digest": "sha256:319712361ccc35d07510aef5f84e0578877f6f59cbfb3f3c76d552275faeadb3",
-				"os": "linux",
-				"os_features": "",
-				"os_version": null,
-				"size": 824763092,
-				"status": "active",
-				"last_pulled": "2023-07-08T00:35:07.095727Z",
-				"last_pushed": "2023-06-12T14:26:50.674494Z"
-			}
-		],
-		"last_updated": "2023-06-12T14:26:50.778529Z",
-		"last_updater": 8198517,
-		"last_updater_username": "ciliferaycloud",
-		"name": "2.356-jdk8-5.0.4",
-		"repository": 7077473,
-		"full_size": 824763092,
-		"v2": true,
-		"tag_status": "active",
-		"tag_last_pulled": "2023-07-08T00:35:07.095727Z",
-		"tag_last_pushed": "2023-06-12T14:26:50.778529Z",
-		"media_type": "application/vnd.docker.container.image.v1+json",
-		"content_type": "image",
-		"digest": "sha256:319712361ccc35d07510aef5f84e0578877f6f59cbfb3f3c76d552275faeadb3",
-		"latest_docker_image": "liferaycloud/jenkins:2.356-jdk8-5.0.4"
-	},
-	{
-		"creator": 8198517,
-		"id": 442099128,
-		"images": [
-			{
-				"architecture": "amd64",
-				"features": "",
-				"variant": null,
-				"digest": "sha256:70eb7fcea1dde0904ac3326015fb4c462eaea3aa9c24ea96db45b76cdde7e965",
-				"os": "linux",
-				"os_features": "",
-				"os_version": null,
-				"size": 182421561,
-				"status": "active",
-				"last_pulled": "2023-07-08T01:31:08.830793Z",
-				"last_pushed": "2023-05-19T16:57:09.829048Z"
-			}
-		],
-		"last_updated": "2023-05-19T16:57:09.946492Z",
-		"last_updater": 8198517,
-		"last_updater_username": "ciliferaycloud",
-		"name": "5.1.2",
-		"repository": 7077466,
-		"full_size": 182421561,
-		"v2": true,
-		"tag_status": "active",
-		"tag_last_pulled": "2023-07-08T01:31:08.830793Z",
-		"tag_last_pushed": "2023-05-19T16:57:09.946492Z",
-		"media_type": "application/vnd.docker.container.image.v1+json",
-		"content_type": "image",
-		"digest": "sha256:70eb7fcea1dde0904ac3326015fb4c462eaea3aa9c24ea96db45b76cdde7e965",
-		"latest_docker_image": "liferaycloud/database:5.1.2"
-	},
+	null,
+	null,
 	null,
 	null,
 	null
