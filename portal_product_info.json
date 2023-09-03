@@ -1242,9 +1242,45 @@
 		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.89-ga89/liferay-ce-portal-tomcat-7.4.3.89-ga89-20230809092213693.tar.gz.MD5",
 		"liferayDockerImage": "liferay/portal:7.4.3.89-ga89",
 		"liferayProductVersion": "Portal 7.4 GA89",
-		"promoted": "true",
+		"promoted": "false",
 		"releaseDate": "08/11/2023",
 		"targetPlatformVersion": "7.4.3.89",
 		"name": "portal-7.4-ga89"
+	},
+	{
+		"appServerTomcatVersion": "9.0.75",
+		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.4.3.90-ga90/liferay-ce-portal-tomcat-7.4.3.90-ga90-20230816115455869.tar.gz",
+		"bundleChecksumMD5": "bc2ecd91d8db225294fb3666ed8e571c",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.90-ga90/liferay-ce-portal-tomcat-7.4.3.90-ga90-20230816115455869.tar.gz.MD5",
+		"liferayDockerImage": "liferay/portal:7.4.3.90-ga90",
+		"liferayProductVersion": "Portal 7.4 GA90",
+		"promoted": "false",
+		"releaseDate": "08/18/2023",
+		"targetPlatformVersion": "7.4.3.90",
+		"name": "portal-7.4-ga90"
+	},
+	{
+		"appServerTomcatVersion": "9.0.75",
+		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.4.3.91-ga91/liferay-ce-portal-tomcat-7.4.3.91-ga91-20230823121425150.tar.gz",
+		"bundleChecksumMD5": "cbd48ebdd4282cc2d5727e28d2f34374",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.91-ga91/liferay-ce-portal-tomcat-7.4.3.91-ga91-20230823121425150.tar.gz.MD5",
+		"liferayDockerImage": "liferay/portal:7.4.3.91-ga91",
+		"liferayProductVersion": "Portal 7.4 GA91",
+		"promoted": "false",
+		"releaseDate": "08/25/2023",
+		"targetPlatformVersion": "7.4.3.91",
+		"name": "portal-7.4-ga91"
+	},
+	{
+		"appServerTomcatVersion": "9.0.75",
+		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.4.3.92-ga92/liferay-ce-portal-tomcat-7.4.3.92-ga92-20230831132112456.tar.gz",
+		"bundleChecksumMD5": "a0c5a72766f80d672ee7f6ebbf1b15e7",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.92-ga92/liferay-ce-portal-tomcat-7.4.3.92-ga92-20230831132112456.tar.gz.MD5",
+		"liferayDockerImage": "liferay/portal:7.4.3.92-ga92",
+		"liferayProductVersion": "Portal 7.4 GA92",
+		"promoted": "true",
+		"releaseDate": "09/01/2023",
+		"targetPlatformVersion": "7.4.3.92",
+		"name": "portal-7.4-ga92"
 	}
 ]
