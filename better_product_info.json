@@ -3498,7 +3498,7 @@
 		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u93/liferay-dxp-tomcat-7.4.13.u93-20230907113258942.tar.gz.MD5",
 		"liferayDockerImage": "liferay/dxp:7.4.13-u93",
 		"liferayProductVersion": "DXP 7.4 U93",
-		"promoted": "true",
+		"promoted": "false",
 		"releaseDate": "09/08/2023",
 		"targetPlatformVersion": "7.4.13.u93",
 		"name": "dxp-7.4-u93"
@@ -3510,7 +3510,7 @@
 		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.93-ga93/liferay-ce-portal-tomcat-7.4.3.93-ga93-20230907122939567.tar.gz.MD5",
 		"liferayDockerImage": "liferay/portal:7.4.3.93-ga93",
 		"liferayProductVersion": "Portal 7.4 GA93",
-		"promoted": "true",
+		"promoted": "false",
 		"releaseDate": "09/11/2023",
 		"targetPlatformVersion": "7.4.3.93",
 		"name": "portal-7.4-ga93"
@@ -3526,5 +3526,29 @@
 		"releaseDate": "09/06/2023",
 		"targetPlatformVersion": "7.3.10.u32",
 		"name": "dxp-7.3-u32"
+	},
+	{
+		"appServerTomcatVersion": "9.0.80",
+		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u94/liferay-dxp-tomcat-7.4.13.u94-20230913160210550.tar.gz",
+		"bundleChecksumMD5": "a4008aa303faf2cc30220720ab5962a8",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u94/liferay-dxp-tomcat-7.4.13.u94-20230913160210550.tar.gz.MD5",
+		"liferayDockerImage": "liferay/dxp:7.4.13-u94",
+		"liferayProductVersion": "DXP 7.4 U94",
+		"promoted": "true",
+		"releaseDate": "09/15/2023",
+		"targetPlatformVersion": "7.4.13.u94",
+		"name": "dxp-7.4-u94"
+	},
+	{
+		"appServerTomcatVersion": "9.0.80",
+		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.4.3.94-ga94/liferay-ce-portal-tomcat-7.4.3.94-ga94-20230913165938453.tar.gz",
+		"bundleChecksumMD5": "d4383e002ed32c0964ce8b0f1493e7f2",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.94-ga94/liferay-ce-portal-tomcat-7.4.3.94-ga94-20230913165938453.tar.gz.MD5",
+		"liferayDockerImage": "liferay/portal:7.4.3.94-ga94",
+		"liferayProductVersion": "Portal 7.4 GA94",
+		"promoted": "true",
+		"releaseDate": "09/15/2023",
+		"targetPlatformVersion": "7.4.3.94",
+		"name": "portal-7.4-ga94"
 	}
 ]
