@@ -256,7 +256,7 @@
 		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.2.10.8/liferay-dxp-tomcat-7.2.10.8-sp8-slim-20220912234451782.tar.gz",
 		"bundleChecksumMD5": "48ed4f6aad55752bc331a14aef64889e",
 		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.2.10.8/liferay-dxp-tomcat-7.2.10.8-sp8-slim-20220912234451782.tar.gz.MD5",
-		"liferayDockerImage": "liferay/dxp-7.2-fp20",
+		"liferayDockerImage": "liferay/dxp:7.2.10-dxp-20",
 		"liferayProductVersion": "DXP 7.2 FP20",
 		"promoted": "false",
 		"releaseDate": "09/30/2022",
