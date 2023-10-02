@@ -3584,7 +3584,7 @@
 		"liferayProductVersion": "Portal 7.4 GA95",
 		"promoted": "true",
 		"releaseDate": "09/25/2023",
-		"targetPlatformVersion": "7.4.3.95",
+		"targetPlatformVersion": "7.4.3.95-1",
 		"name": "portal-7.4-ga95"
 	}
 ]
