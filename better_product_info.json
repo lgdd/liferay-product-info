@@ -3570,7 +3570,7 @@
 		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u95/liferay-dxp-tomcat-7.4.13.u95-20230920131848597.tar.gz.MD5",
 		"liferayDockerImage": "liferay/dxp:7.4.13-u95",
 		"liferayProductVersion": "DXP 7.4 U95",
-		"promoted": "true",
+		"promoted": "false",
 		"releaseDate": "09/25/2023",
 		"targetPlatformVersion": "7.4.13.u95",
 		"name": "dxp-7.4-u95"
@@ -3582,9 +3582,33 @@
 		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.95-ga95/liferay-ce-portal-tomcat-7.4.3.95-ga95-20230920141737428.tar.gz.MD5",
 		"liferayDockerImage": "liferay/portal:7.4.3.95-ga95",
 		"liferayProductVersion": "Portal 7.4 GA95",
-		"promoted": "true",
+		"promoted": "false",
 		"releaseDate": "09/25/2023",
 		"targetPlatformVersion": "7.4.3.95-1",
 		"name": "portal-7.4-ga95"
+	},
+	{
+		"appServerTomcatVersion": "9.0.80",
+		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u96/liferay-dxp-tomcat-7.4.13.u96-20230927164052594.tar.gz",
+		"bundleChecksumMD5": "1c81b7445ec3aecf5d7087298875134e",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u96/liferay-dxp-tomcat-7.4.13.u96-20230927164052594.tar.gz.MD5",
+		"liferayDockerImage": " liferay/dxp:7.4.13-u96",
+		"liferayProductVersion": "DXP 7.4 U96",
+		"promoted": "true",
+		"releaseDate": "10/02/2023",
+		"targetPlatformVersion": "7.4.13.u96",
+		"name": "dxp-7.4-u96"
+	},
+	{
+		"appServerTomcatVersion": "9.0.80",
+		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.4.3.96-ga96/liferay-ce-portal-tomcat-7.4.3.96-ga96-20230927174043017.tar.gz",
+		"bundleChecksumMD5": "9cf774e5114d5e621a40bb943a55844c",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.96-ga96/liferay-ce-portal-tomcat-7.4.3.96-ga96-20230927174043017.tar.gz.MD5",
+		"liferayDockerImage": "liferay/portal:7.4.3.96-ga96",
+		"liferayProductVersion": "Portal 7.4 GA96",
+		"promoted": "true",
+		"releaseDate": "10/02/2023",
+		"targetPlatformVersion": "7.4.3.96",
+		"name": "portal-7.4-ga96"
 	}
 ]
