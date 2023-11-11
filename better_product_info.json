@@ -3690,7 +3690,7 @@
 		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u100/liferay-dxp-tomcat-7.4.13.u100-20231028025714686.tar.gz.MD5",
 		"liferayDockerImage": "liferay/dxp:7.4.13-u100",
 		"liferayProductVersion": "DXP 7.4 U100",
-		"promoted": "true",
+		"promoted": "false",
 		"releaseDate": "10/30/2023",
 		"targetPlatformVersion": "7.4.13.u100",
 		"name": "dxp-7.4-u100"
@@ -3702,7 +3702,7 @@
 		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.100-ga100/liferay-ce-portal-tomcat-7.4.3.100-ga100-20231028043213993.tar.gz.MD5",
 		"liferayDockerImage": "liferay/portal:7.4.3.100-ga100",
 		"liferayProductVersion": "Portal 7.4 GA100",
-		"promoted": "true",
+		"promoted": "false",
 		"releaseDate": "10/30/2023",
 		"targetPlatformVersion": "7.4.3.100",
 		"name": "portal-7.4-ga100"
@@ -3718,5 +3718,29 @@
 		"releaseDate": "11/03/2023",
 		"targetPlatformVersion": "7.3.10.u34",
 		"name": "dxp-7.3-u34"
+	},
+	{
+		"appServerTomcatVersion": "9.0.82",
+		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u101/liferay-dxp-tomcat-7.4.13.u101-20231102190806754.tar.gz",
+		"bundleChecksumMD5": "6dc156465ef683e86724b4354601e236",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u101/liferay-dxp-tomcat-7.4.13.u101-20231102190806754.tar.gz.MD5",
+		"liferayDockerImage": "liferay/dxp:7.4.13-u101",
+		"liferayProductVersion": "DXP 7.4 U101",
+		"promoted": "true",
+		"releaseDate": "11/03/2023",
+		"targetPlatformVersion": "7.4.13.u101",
+		"name": "dxp-7.4-u101"
+	},
+	{
+		"appServerTomcatVersion": "9.0.82",
+		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.4.3.101-ga101/liferay-ce-portal-tomcat-7.4.3.101-ga101-20231102201111554.tar.gz",
+		"bundleChecksumMD5": "ebd63a24338ab3c044521544bc9c7c78",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.101-ga101/liferay-ce-portal-tomcat-7.4.3.101-ga101-20231102201111554.tar.gz.MD5",
+		"liferayDockerImage": "liferay/portal:7.4.3.101-ga101",
+		"liferayProductVersion": "Portal 7.4 GA101",
+		"promoted": "true",
+		"releaseDate": "11/03/2023",
+		"targetPlatformVersion": "7.4.3.101",
+		"name": "portal-7.4-ga101"
 	}
 ]
