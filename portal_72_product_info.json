@@ -4,7 +4,7 @@
 		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.2.1-ga2/liferay-ce-portal-tomcat-7.2.1-ga2-20191111141448326.tar.gz",
 		"liferayDockerImage": "liferay/portal:7.2.1-ga2",
 		"liferayProductVersion": "Portal 7.2 GA2",
-		"promoted": "true",
+		"promoted": "false",
 		"releaseDate": "11/18/2019",
 		"targetPlatformVersion": "7.2.1-1",
 		"bundleChecksumMD5": "ce6baa9ae3590df46760443e80c09831",
