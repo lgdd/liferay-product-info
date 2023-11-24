@@ -162,7 +162,7 @@
 		"bundleChecksumMD5Url": "https://api.liferay.com/downloads/portal/7.1.10-dxp-27/liferay-dxp-tomcat-7.1.10-dxp-27-slim-20220701154333275.tar.gz.MD5",
 		"liferayDockerImage": "liferay/dxp:7.1.10-dxp-27",
 		"liferayProductVersion": "DXP 7.1 FP27",
-		"promoted": "false",
+		"promoted": "true",
 		"releaseDate": "07/27/2022",
 		"targetPlatformVersion": "7.1.10.fp27",
 		"name": "dxp-7.1-fp27"
