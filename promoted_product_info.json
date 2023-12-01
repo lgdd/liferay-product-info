@@ -70,5 +70,17 @@
 		"releaseDate": "11/03/2023",
 		"targetPlatformVersion": "7.4.3.101",
 		"name": "portal-7.4-ga101"
+	},
+	{
+		"appServerTomcatVersion": "9.0.82",
+		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u102/liferay-dxp-tomcat-7.4.13.u102-20231109153600206.tar.gz",
+		"bundleChecksumMD5": "9c89732eae91a95f8d115dd25847ad28",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u102/liferay-dxp-tomcat-7.4.13.u102-20231109153600206.tar.gz.MD5",
+		"liferayDockerImage": "liferay/dxp:7.4.13-u102",
+		"liferayProductVersion": "DXP 7.4 U102",
+		"promoted": "true",
+		"releaseDate": "11/10/2023",
+		"targetPlatformVersion": "7.4.13.u102",
+		"name": "dxp-7.4-u102"
 	}
 ]
