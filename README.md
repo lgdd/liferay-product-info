@@ -9,6 +9,7 @@ This repository offers a better format for this JSON (i.e. root is an array and 
 
 These files are automatically updated on a daily basis:
 
+- [.product_info.json](https://raw.githubusercontent.com/lgdd/liferay-product-info/main/.product_info.json) (original)
 - [better_product_info.json](https://raw.githubusercontent.com/lgdd/liferay-product-info/main/better_product_info.json)
 - [promoted_product_info.json](https://raw.githubusercontent.com/lgdd/liferay-product-info/main/promoted_product_info.json)
 - [dxp_product_info.json](https://raw.githubusercontent.com/lgdd/liferay-product-info/main/dxp_product_info.json)
