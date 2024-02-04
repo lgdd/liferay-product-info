@@ -109,7 +109,7 @@ const writeTypedProductsJson = (betterJson, productType, version) => {
     version === ''
       ? productType
       : `${productType}_${version.replaceAll('.', '')}`;
-  const specificProducts = [];
+  let specificProducts = [];
   betterJson.forEach((product) => {
     if (product.name.startsWith(`${productType}-${version}`)) {
       specificProducts.push(product);
