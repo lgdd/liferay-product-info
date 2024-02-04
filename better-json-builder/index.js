@@ -116,6 +116,14 @@ const writeTypedProductsJson = (betterJson, productType, version) => {
     }
   });
 
+  if(productType === "portal" && version === "7.2") {
+    specificProducts = specificProducts.reverse()
+  }
+
+  if(productType === "portal" && version === "7.1") {
+    specificProducts = specificProducts.reverse()
+  }
+
   fs.writeFile(
     `../${prefix}_product_info.json`,
     JSON.stringify(specificProducts, null, '\t'),
