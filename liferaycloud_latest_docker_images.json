@@ -13,7 +13,7 @@
 				"os_version": null,
 				"size": 378895713,
 				"status": "active",
-				"last_pulled": "2024-02-14T23:16:40.348269Z",
+				"last_pulled": "2024-02-15T23:08:18.541899Z",
 				"last_pushed": "2024-02-13T19:37:43.281562Z"
 			}
 		],
@@ -25,7 +25,7 @@
 		"full_size": 378895713,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-02-14T23:16:40.348269Z",
+		"tag_last_pulled": "2024-02-15T23:08:18.541899Z",
 		"tag_last_pushed": "2024-02-13T19:37:43.545437Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -34,36 +34,36 @@
 	},
 	{
 		"creator": 8198517,
-		"id": 595472634,
+		"id": 603865029,
 		"images": [
 			{
 				"architecture": "amd64",
 				"features": "",
 				"variant": null,
-				"digest": "sha256:953ab02cff1a65e03a34ec91be4eb3c766983870adf39d958dd759e417d3e6b5",
+				"digest": "sha256:7cabf83fcfd3923a07f54601e0ac5c7ebfca3ab1296c0eba579c5326a2f9e8d1",
 				"os": "linux",
 				"os_features": "",
 				"os_version": null,
-				"size": 826831666,
+				"size": 842071011,
 				"status": "active",
-				"last_pulled": "2024-02-15T01:01:33.51248Z",
-				"last_pushed": "2024-02-01T23:28:08.950631Z"
+				"last_pulled": "2024-02-15T20:30:55.49019Z",
+				"last_pushed": "2024-02-15T09:11:38.959813Z"
 			}
 		],
-		"last_updated": "2024-02-01T23:28:09.241092Z",
+		"last_updated": "2024-02-15T09:11:39.560496Z",
 		"last_updater": 8198517,
 		"last_updater_username": "ciliferaycloud",
-		"name": "2.356-jdk8-5.2.1",
+		"name": "2.356-jdk8-5.2.2",
 		"repository": 7077473,
-		"full_size": 826831666,
+		"full_size": 842071011,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-02-15T01:01:33.51248Z",
-		"tag_last_pushed": "2024-02-01T23:28:09.241092Z",
+		"tag_last_pulled": "2024-02-15T20:30:55.49019Z",
+		"tag_last_pushed": "2024-02-15T09:11:39.560496Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
-		"digest": "sha256:953ab02cff1a65e03a34ec91be4eb3c766983870adf39d958dd759e417d3e6b5",
-		"latest_docker_image": "liferaycloud/jenkins:2.356-jdk8-5.2.1"
+		"digest": "sha256:7cabf83fcfd3923a07f54601e0ac5c7ebfca3ab1296c0eba579c5326a2f9e8d1",
+		"latest_docker_image": "liferaycloud/jenkins:2.356-jdk8-5.2.2"
 	},
 	{
 		"creator": 8198517,
@@ -79,7 +79,7 @@
 				"os_version": null,
 				"size": 111709269,
 				"status": "active",
-				"last_pulled": "2024-02-14T23:16:41.036155Z",
+				"last_pulled": "2024-02-15T23:08:18.717953Z",
 				"last_pushed": "2024-01-03T18:30:42.586767Z"
 			}
 		],
@@ -91,7 +91,7 @@
 		"full_size": 111709269,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-02-14T23:16:41.036155Z",
+		"tag_last_pulled": "2024-02-15T23:08:18.717953Z",
 		"tag_last_pushed": "2024-01-03T18:30:42.722453Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -145,7 +145,7 @@
 				"os_version": null,
 				"size": 732219852,
 				"status": "active",
-				"last_pulled": "2024-02-14T23:16:40.872149Z",
+				"last_pulled": "2024-02-15T23:08:20.741592Z",
 				"last_pushed": "2024-02-06T18:08:04.543201Z"
 			}
 		],
@@ -157,7 +157,7 @@
 		"full_size": 732219852,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-02-14T23:16:40.872149Z",
+		"tag_last_pulled": "2024-02-15T23:08:20.741592Z",
 		"tag_last_pushed": "2024-02-06T18:08:05.597075Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -178,7 +178,7 @@
 				"os_version": null,
 				"size": 258054821,
 				"status": "active",
-				"last_pulled": "2024-02-14T23:16:44.621256Z",
+				"last_pulled": "2024-02-15T23:01:42.260148Z",
 				"last_pushed": "2023-10-25T21:39:33.330212Z"
 			}
 		],
@@ -190,7 +190,7 @@
 		"full_size": 258054821,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-02-14T23:16:44.621256Z",
+		"tag_last_pulled": "2024-02-15T23:01:42.260148Z",
 		"tag_last_pushed": "2023-10-25T21:39:33.435138Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
