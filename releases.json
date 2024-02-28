@@ -1,0 +1,1721 @@
+[
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "Portal 7.0 GA7",
+    "promoted": "false",
+    "releaseKey": "portal-7.0.6-ga7",
+    "targetPlatformVersion": "7.0.6-2",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.6-ga7"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 SP1",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10.1",
+    "targetPlatformVersion": "7.1.10.1",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10.1"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 SP2",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10.2",
+    "targetPlatformVersion": "7.1.10.fp10",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10.2"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.1",
+    "productVersion": "Portal 7.1 GA4",
+    "promoted": "false",
+    "releaseKey": "portal-7.1.3-ga4",
+    "targetPlatformVersion": "7.1.3-1",
+    "url": "https://releases-cdn.liferay.com/portal/7.1.3-ga4"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.2 GA1",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10",
+    "targetPlatformVersion": "7.2.10",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 GA1",
+    "promoted": "true",
+    "releaseKey": "dxp-7.2.10",
+    "targetPlatformVersion": "7.2.10",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 SP1",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10.1",
+    "targetPlatformVersion": "7.2.10.1",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10.1"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 SP3",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10.3",
+    "targetPlatformVersion": "7.1.10.3",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10.3"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.2",
+    "productVersion": "Portal 7.2 GA2",
+    "promoted": "true",
+    "releaseKey": "portal-7.2.1-ga2",
+    "targetPlatformVersion": "7.2.1-1",
+    "url": "https://releases-cdn.liferay.com/portal/7.2.1-ga2"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.0",
+    "productVersion": "DXP 7.0 SP13",
+    "promoted": "false",
+    "releaseKey": "dxp-7.0.10.13",
+    "targetPlatformVersion": "7.0.10.13",
+    "url": "https://releases-cdn.liferay.com/dxp/7.0.10.13"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 SP4",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10.4",
+    "targetPlatformVersion": "7.1.10.4",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10.4"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 FP5",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10-dxp-5",
+    "targetPlatformVersion": "7.2.10.fp5",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-5"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 SP6",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10.6",
+    "targetPlatformVersion": "7.1.10.6",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10.6"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 FP6",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10-dxp-6",
+    "targetPlatformVersion": "7.2.10.fp6",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-6"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.0",
+    "productVersion": "DXP 7.0 SP14",
+    "promoted": "false",
+    "releaseKey": "dxp-7.0.10.14",
+    "targetPlatformVersion": "7.0.10.14-1",
+    "url": "https://releases-cdn.liferay.com/dxp/7.0.10.14"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 FP19",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10-dxp-19",
+    "targetPlatformVersion": "7.1.10.fp19",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10-dxp-19"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 SP3",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10.3",
+    "targetPlatformVersion": "7.2.10.3",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10.3"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 GA1",
+    "promoted": "true",
+    "releaseKey": "dxp-7.3.10",
+    "targetPlatformVersion": "7.3.10.0-2",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.0",
+    "productVersion": "DXP 7.0 SP15",
+    "promoted": "false",
+    "releaseKey": "dxp-7.0.10.15",
+    "targetPlatformVersion": "7.0.10.14-1",
+    "url": "https://releases-cdn.liferay.com/dxp/7.0.10.15"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 SP5",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10.5",
+    "targetPlatformVersion": "7.1.10.5",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10.5"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 FP9",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10-dxp-9",
+    "targetPlatformVersion": "7.2.10.fp9",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-9"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 FP7",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10-dxp-7",
+    "targetPlatformVersion": "7.2.10.fp7",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-7"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 FP10",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10-dxp-10",
+    "targetPlatformVersion": "7.2.10.fp10",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-10"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 FP21",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10-dxp-21",
+    "targetPlatformVersion": "7.1.10.fp20",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10-dxp-21"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.0",
+    "productVersion": "DXP 7.0 DE97",
+    "promoted": "false",
+    "releaseKey": "dxp-7.0.10-de-97",
+    "targetPlatformVersion": "7.0.10.fp97",
+    "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-97"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 FP11",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10-dxp-11",
+    "targetPlatformVersion": "7.2.10.fp11",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-11"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 SP1",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10.1",
+    "targetPlatformVersion": "7.3.10.1",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10.1"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 FP22",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10-dxp-22",
+    "targetPlatformVersion": "7.1.10.fp22",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10-dxp-22"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.0",
+    "productVersion": "DXP 7.0 DE98",
+    "promoted": "false",
+    "releaseKey": "dxp-7.0.10-de-98",
+    "targetPlatformVersion": "7.0.10.fp98",
+    "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-98"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 SP6",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10.6",
+    "targetPlatformVersion": "7.2.10.6",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10.6"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 FP12",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10-dxp-12",
+    "targetPlatformVersion": "7.2.10.fp12",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-12"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.0",
+    "productVersion": "DXP 7.0 SP16",
+    "promoted": "false",
+    "releaseKey": "dxp-7.0.10.16",
+    "targetPlatformVersion": "7.0.10.16",
+    "url": "https://releases-cdn.liferay.com/dxp/7.0.10.16"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 FP13",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10-dxp-13",
+    "targetPlatformVersion": "7.2.10.fp13",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-13"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.0",
+    "productVersion": "DXP 7.0 DE100",
+    "promoted": "false",
+    "releaseKey": "dxp-7.0.10-de-100",
+    "targetPlatformVersion": "7.0.10.fp100",
+    "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-100"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 FP24",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10-dxp-24",
+    "targetPlatformVersion": "7.1.10.fp24",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10-dxp-24"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.3",
+    "productVersion": "Portal 7.3 GA8",
+    "promoted": "true",
+    "releaseKey": "portal-7.3.7-ga8",
+    "targetPlatformVersion": "7.3.7",
+    "url": "https://releases-cdn.liferay.com/portal/7.3.7-ga8"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 FP2",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-dxp-2",
+    "targetPlatformVersion": "7.3.10.fp2",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-dxp-2"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.0",
+    "productVersion": "DXP 7.0 DE101",
+    "promoted": "false",
+    "releaseKey": "dxp-7.0.10-de-101",
+    "targetPlatformVersion": "7.0.10.fp101",
+    "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-101"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 SP5",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10.5",
+    "targetPlatformVersion": "7.2.10.5",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10.5"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 FP25",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10-dxp-25",
+    "targetPlatformVersion": "7.1.10.fp25",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10-dxp-25"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 FP15",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10-dxp-15",
+    "targetPlatformVersion": "7.2.10.fp15",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-15"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.0",
+    "productVersion": "DXP 7.0 SP17",
+    "promoted": "false",
+    "releaseKey": "dxp-7.0.10.17",
+    "targetPlatformVersion": "7.0.10.17",
+    "url": "https://releases-cdn.liferay.com/dxp/7.0.10.17"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 SP7",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10.7",
+    "targetPlatformVersion": "7.1.10.7",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10.7"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 FP16",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10-dxp-16",
+    "targetPlatformVersion": "7.2.10.fp16",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-16"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 SP3",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10.3",
+    "targetPlatformVersion": "7.3.10.3",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10.3"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U1",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u1",
+    "targetPlatformVersion": "7.4.13.u1",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u1"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U2",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u2",
+    "targetPlatformVersion": "7.4.13.u2",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u2"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U3",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u3",
+    "targetPlatformVersion": "7.4.13.u3",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u3"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U4",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u4",
+    "targetPlatformVersion": "7.4.13.u4",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u4"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U5",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u5",
+    "targetPlatformVersion": "7.4.13.u5",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u5"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U6",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u6",
+    "targetPlatformVersion": "7.4.13.u6",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u6"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U7",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u7",
+    "targetPlatformVersion": "7.4.13.u7",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u7"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U8",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u8",
+    "targetPlatformVersion": "7.4.13.u8",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u8"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U9",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u9",
+    "targetPlatformVersion": "7.4.13.u9",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u9"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U15",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u15",
+    "targetPlatformVersion": "7.4.13.u15",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u15"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U16",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u16",
+    "targetPlatformVersion": "7.4.13.u16",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u16"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U17",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u17",
+    "targetPlatformVersion": "7.4.13.u17",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u17"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U18",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u18",
+    "targetPlatformVersion": "7.4.13.u18",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u18"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U19",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u19",
+    "targetPlatformVersion": "7.4.13.u19",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u19"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U20",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u20",
+    "targetPlatformVersion": "7.4.13.u20",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u20"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U21",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u21",
+    "targetPlatformVersion": "7.4.13.u21",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u21"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U22",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u22",
+    "targetPlatformVersion": "7.4.13.u22",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u22"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U23",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u23",
+    "targetPlatformVersion": "7.4.13.u23",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u23"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U24",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u24",
+    "targetPlatformVersion": "7.4.13.u24",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u24"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 FP18",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10-dxp-18",
+    "targetPlatformVersion": "7.2.10.fp18",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-18"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U4",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u4",
+    "targetPlatformVersion": "7.3.10.u4",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u4"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U25",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u25",
+    "targetPlatformVersion": "7.4.13.u25",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u25"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U26",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u26",
+    "targetPlatformVersion": "7.4.13.u26",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u26"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U27",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u27",
+    "targetPlatformVersion": "7.4.13.u27",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u27"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U5",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u5",
+    "targetPlatformVersion": "7.3.10.u5",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u5"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U28",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u28",
+    "targetPlatformVersion": "7.4.13.u28",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u28"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U29",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u29",
+    "targetPlatformVersion": "7.4.13.u29",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u29"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U6",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u6",
+    "targetPlatformVersion": "7.3.10.u6",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u6"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U30",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u30",
+    "targetPlatformVersion": "7.4.13.u30",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u30"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U7",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u7",
+    "targetPlatformVersion": "7.3.10.u7",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u7"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U31",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u31",
+    "targetPlatformVersion": "7.4.13.u31",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u31"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U32",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u32",
+    "targetPlatformVersion": "7.4.13.u32",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u32"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U33",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u33",
+    "targetPlatformVersion": "7.4.13.u33",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u33"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 SP7",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10.7",
+    "targetPlatformVersion": "7.2.10.7",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10.7"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U34",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u34",
+    "targetPlatformVersion": "7.4.13.u34",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u34"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 FP27",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10-dxp-27",
+    "targetPlatformVersion": "7.1.10.fp27",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10-dxp-27"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U8",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u8",
+    "targetPlatformVersion": "7.3.10.u7",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u8"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U35",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u35",
+    "targetPlatformVersion": "7.4.13.u35",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u35"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": " DXP 7.3 U9",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u9",
+    "targetPlatformVersion": "7.3.10.u9",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u9"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U36",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u36",
+    "targetPlatformVersion": "7.4.13.u36",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u36"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U37",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u37",
+    "targetPlatformVersion": "7.4.13.u37",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u37"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U10",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u10",
+    "targetPlatformVersion": "7.3.10.u10",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u10"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U38",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u38",
+    "targetPlatformVersion": "7.4.13.u38",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u38"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U39",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u39",
+    "targetPlatformVersion": "7.4.13.u39",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u39"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U11",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u11",
+    "targetPlatformVersion": "7.3.10.u11",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u11"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U40",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u40",
+    "targetPlatformVersion": "7.4.13.u40",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u40"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U41",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u41",
+    "targetPlatformVersion": "7.4.13.u41",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u41"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U12",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u12",
+    "targetPlatformVersion": "7.3.10.u12",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u12"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U42",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u42",
+    "targetPlatformVersion": "7.4.13.u42",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u42"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U43",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u43",
+    "targetPlatformVersion": "7.4.13.u43",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u43"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.1",
+    "productVersion": "DXP 7.1 FP28",
+    "promoted": "false",
+    "releaseKey": "dxp-7.1.10-dxp-28",
+    "targetPlatformVersion": "7.1.10.fp28",
+    "url": "https://releases-cdn.liferay.com/dxp/7.1.10-dxp-28"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.2",
+    "productVersion": "DXP 7.2 SP8",
+    "promoted": "false",
+    "releaseKey": "dxp-7.2.10.8",
+    "targetPlatformVersion": "7.2.10.8",
+    "url": "https://releases-cdn.liferay.com/dxp/7.2.10.8"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U44",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u44",
+    "targetPlatformVersion": "7.4.13.u44",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u44"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U13",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u13",
+    "targetPlatformVersion": "7.3.10.u13",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u13"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U45",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u45",
+    "targetPlatformVersion": "7.4.13.u45",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u45"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U46",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u46",
+    "targetPlatformVersion": "7.4.13.u46",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u46"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U14",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u14",
+    "targetPlatformVersion": "7.3.10.u14",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u14"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U47",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u47",
+    "targetPlatformVersion": "7.4.13.u47",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u47"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U48",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u48",
+    "targetPlatformVersion": "7.4.13.u48",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u48"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U15",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u15",
+    "targetPlatformVersion": "7.3.10.u15",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u15"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U49",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u49",
+    "targetPlatformVersion": "7.4.13.u49",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u49"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U50",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u50",
+    "targetPlatformVersion": "7.4.13.u50",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u50"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U16",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u16",
+    "targetPlatformVersion": "7.3.10.u16",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u16"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U51",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u51",
+    "targetPlatformVersion": "7.4.13.u51",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u51"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U52",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u52",
+    "targetPlatformVersion": "7.4.13.u52",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u52"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U17",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u17",
+    "targetPlatformVersion": "7.3.10.u17",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u17"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U53",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u53",
+    "targetPlatformVersion": "7.4.13.u53",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u53"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U54",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u54",
+    "targetPlatformVersion": "7.4.13.u54",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u54"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U18",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u18",
+    "targetPlatformVersion": "7.3.10.u18",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u18"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U55",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u55",
+    "targetPlatformVersion": "7.4.13.u55",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u55"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U56",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u56",
+    "targetPlatformVersion": "7.4.13.u56",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u56"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U57",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u57",
+    "targetPlatformVersion": "7.4.13.u57",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u57"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U58",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u58",
+    "targetPlatformVersion": "7.4.13.u58",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u58"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U19",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u19",
+    "targetPlatformVersion": "7.3.10.u19-1",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u19"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U59",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u59",
+    "targetPlatformVersion": "7.4.13.u59",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u59"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U60",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u60",
+    "targetPlatformVersion": "7.4.13.u60",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u60"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U61",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u61",
+    "targetPlatformVersion": "7.4.13.u61",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u61"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U20",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u20",
+    "targetPlatformVersion": "7.3.10.u20-1",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u20"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U62",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u62",
+    "targetPlatformVersion": "7.4.13.u62",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u62"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U63",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u63",
+    "targetPlatformVersion": "7.4.13.u63",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u63"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U21",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u21",
+    "targetPlatformVersion": "7.3.10.u21-1",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u21"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U64",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u64",
+    "targetPlatformVersion": "7.4.13.u64",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u64"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U65",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u65",
+    "targetPlatformVersion": "7.4.13.u65",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u65"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U66",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u66",
+    "targetPlatformVersion": "7.4.13.u66",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u66"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U22",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u22",
+    "targetPlatformVersion": "7.3.10.u22-1",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u22"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U67",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u67",
+    "targetPlatformVersion": "7.4.13.u67",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u67"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U68",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u68",
+    "targetPlatformVersion": "7.4.13.u68",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u68"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U23",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u23",
+    "targetPlatformVersion": "7.3.10.u23",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u23"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U69",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u69",
+    "targetPlatformVersion": "7.4.13.u69",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u69"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U70",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u70",
+    "targetPlatformVersion": "7.4.13.u70",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u70"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U71",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u71",
+    "targetPlatformVersion": "7.4.13.u71",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u71"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U72",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u72",
+    "targetPlatformVersion": "7.4.13.u72",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u72"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U73",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u73",
+    "targetPlatformVersion": "7.4.13.u73",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u73"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U24",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u24",
+    "targetPlatformVersion": "7.3.10.u24",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u24"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U74",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u74",
+    "targetPlatformVersion": "7.4.13.u74",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u74"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U75",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u75",
+    "targetPlatformVersion": "7.4.13.u75",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u75"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U25",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u25",
+    "targetPlatformVersion": "7.3.10.u25",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u25"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U76",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u76",
+    "targetPlatformVersion": "7.4.13.u76",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u76"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U77",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u77",
+    "targetPlatformVersion": "7.4.13.u77",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u77"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U26",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u26",
+    "targetPlatformVersion": "7.3.10.u26",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u26"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U78",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u78",
+    "targetPlatformVersion": "7.4.13.u78",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u78"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U79",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u79",
+    "targetPlatformVersion": "7.4.13.u79",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u79"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U27",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u27",
+    "targetPlatformVersion": "7.3.10.u27",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u27"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U80",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u80",
+    "targetPlatformVersion": "7.4.13.u80",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u80"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U81",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u81",
+    "targetPlatformVersion": "7.4.13.u81",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u81"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U28",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u28",
+    "targetPlatformVersion": "7.3.10.u28",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u28"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U83",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u83",
+    "targetPlatformVersion": "7.4.13.u83",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u83"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U29",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u29",
+    "targetPlatformVersion": "7.3.10.u29",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u29"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U84",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u84",
+    "targetPlatformVersion": "7.4.13.u84",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u84"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U85",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u85",
+    "targetPlatformVersion": "7.4.13.u85",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u85"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U86",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u86",
+    "targetPlatformVersion": "7.4.13.u86",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u86"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U87",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u87",
+    "targetPlatformVersion": "7.4.13.u87",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u87"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U88",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u88",
+    "targetPlatformVersion": "7.4.13.u88",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u88"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U30",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u30",
+    "targetPlatformVersion": "7.3.10.u30",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u30"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U89",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u89",
+    "targetPlatformVersion": "7.4.13.u89",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u89"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U90",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u90",
+    "targetPlatformVersion": "7.4.13.u90",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u90"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U31",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u31",
+    "targetPlatformVersion": "7.3.10.u31",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u31"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U91",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u91",
+    "targetPlatformVersion": "7.4.13.u91",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u91"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U92",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u92",
+    "targetPlatformVersion": "7.4.13.u92",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u92"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U32",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u32",
+    "targetPlatformVersion": "7.3.10.u32",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u32"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U93",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u93",
+    "targetPlatformVersion": "7.4.13.u93",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u93"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U94",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u94",
+    "targetPlatformVersion": "7.4.13.u94",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u94"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U33",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u33",
+    "targetPlatformVersion": "7.3.10.u33",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u33"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U95",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u95",
+    "targetPlatformVersion": "7.4.13.u95",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u95"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U97",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u97",
+    "targetPlatformVersion": "7.4.13.u97",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u97"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U98",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u98",
+    "targetPlatformVersion": "7.4.13.u98",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u98"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U99",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u99",
+    "targetPlatformVersion": "7.4.13.u99",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u99"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U100",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u100",
+    "targetPlatformVersion": "7.4.13.u100",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u100"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U34",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u34",
+    "targetPlatformVersion": "7.3.10.u34",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u34"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U101",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u101",
+    "targetPlatformVersion": "7.4.13.u101",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u101"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4 U102",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u102",
+    "targetPlatformVersion": "7.4.13.u102",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u102"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.3",
+    "productVersion": "DXP 7.3 U35",
+    "promoted": "false",
+    "releaseKey": "dxp-7.3.10-u35",
+    "targetPlatformVersion": "7.3.10.u35",
+    "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u35"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q4",
+    "productVersion": "DXP 2023.Q4.1",
+    "promoted": "true",
+    "releaseKey": "dxp-2023.q4.1",
+    "targetPlatformVersion": "2023.q4.1",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q4.1"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q4",
+    "productVersion": "DXP 2023.Q4.2",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q4.2",
+    "targetPlatformVersion": "2023.q4.2",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q4.2"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q3",
+    "productVersion": "DXP 2023.Q3.5",
+    "promoted": "true",
+    "releaseKey": "dxp-2023.q3.5",
+    "targetPlatformVersion": "2023.q3.5",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q3.5"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4.13 U110",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u110",
+    "targetPlatformVersion": "7.4.13-u110",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u110"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q3",
+    "productVersion": "DXP 2023.Q3.6",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q3.6",
+    "targetPlatformVersion": "2023.q3.6",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q3.6"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q4",
+    "productVersion": "DXP 2023.Q4.3",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q4.3",
+    "targetPlatformVersion": "2023.q4.3",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q4.3"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q3",
+    "productVersion": "DXP 2023.Q3.7",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q3.7",
+    "targetPlatformVersion": "2023.q3.7",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q3.7"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q4",
+    "productVersion": "DXP 2023.Q4.4",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q4.4",
+    "targetPlatformVersion": "2023.q4.4",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q4.4"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4.13 U111",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u111",
+    "targetPlatformVersion": "7.4.13-u111",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u111"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q3",
+    "productVersion": "DXP 2023.Q3.8",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q3.8",
+    "targetPlatformVersion": "2023.q3.8",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q3.8"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q4",
+    "productVersion": "DXP 2023.Q4.5",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q4.5",
+    "targetPlatformVersion": "2023.q4.5",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q4.5"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q3",
+    "productVersion": "DXP 2023.Q3.9",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q3.9",
+    "targetPlatformVersion": "2023.q3.9",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q3.9"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q4",
+    "productVersion": "DXP 2023.Q4.6",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q4.6",
+    "targetPlatformVersion": "2023.q4.6",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q4.6"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4.13 U112",
+    "promoted": "false",
+    "releaseKey": "dxp-7.4.13-u112",
+    "targetPlatformVersion": "7.4.13-u112",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u112"
+  }
+]

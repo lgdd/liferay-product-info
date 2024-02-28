@@ -13,7 +13,7 @@
 				"os_version": null,
 				"size": 378895713,
 				"status": "active",
-				"last_pulled": "2024-02-28T00:02:24.375735Z",
+				"last_pulled": "2024-02-28T10:30:05.166363Z",
 				"last_pushed": "2024-02-13T19:37:43.281562Z"
 			}
 		],
@@ -25,7 +25,7 @@
 		"full_size": 378895713,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-02-28T00:02:24.375735Z",
+		"tag_last_pulled": "2024-02-28T10:30:05.166363Z",
 		"tag_last_pushed": "2024-02-13T19:37:43.545437Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -46,7 +46,7 @@
 				"os_version": null,
 				"size": 842099998,
 				"status": "active",
-				"last_pulled": null,
+				"last_pulled": "2024-02-28T09:18:39.89914Z",
 				"last_pushed": "2024-02-27T14:35:17.219096Z"
 			}
 		],
@@ -58,7 +58,7 @@
 		"full_size": 842099998,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": null,
+		"tag_last_pulled": "2024-02-28T09:18:39.89914Z",
 		"tag_last_pushed": "2024-02-27T14:35:18.071252Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -145,7 +145,7 @@
 				"os_version": null,
 				"size": 732219852,
 				"status": "active",
-				"last_pulled": "2024-02-28T00:04:19.090598Z",
+				"last_pulled": "2024-02-28T07:23:30.432498Z",
 				"last_pushed": "2024-02-06T18:08:04.543201Z"
 			}
 		],
@@ -157,7 +157,7 @@
 		"full_size": 732219852,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-02-28T00:04:19.090598Z",
+		"tag_last_pulled": "2024-02-28T07:23:30.432498Z",
 		"tag_last_pushed": "2024-02-06T18:08:05.597075Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -178,7 +178,7 @@
 				"os_version": null,
 				"size": 258054821,
 				"status": "active",
-				"last_pulled": "2024-02-27T23:30:20.544419Z",
+				"last_pulled": "2024-02-28T10:50:58.725005Z",
 				"last_pushed": "2023-10-25T21:39:33.330212Z"
 			}
 		],
@@ -190,7 +190,7 @@
 		"full_size": 258054821,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-02-27T23:30:20.544419Z",
+		"tag_last_pulled": "2024-02-28T10:50:58.725005Z",
 		"tag_last_pushed": "2023-10-25T21:39:33.435138Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
