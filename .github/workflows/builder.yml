@@ -36,6 +36,8 @@ jobs:
           npm start
       - name: Download default product info
         run: curl -O https://releases-cdn.liferay.com/tools/workspace/.product_info.json
+      - name: Download releases info
+        run: curl -O https://releases.liferay.com/releases.json
       - name: Commit JSON Files
         run: |
           git config --global user.name 'github-actions[bot]'
