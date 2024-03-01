@@ -1,8 +1,200 @@
 [
-	null,
-	null,
-	null,
-	null,
-	null,
-	null
+	{
+		"creator": 8198517,
+		"id": 602810018,
+		"images": [
+			{
+				"architecture": "amd64",
+				"features": "",
+				"variant": null,
+				"digest": "sha256:1b3051ed1d02b3c6dfe985b7c38bf8aee1b1c0281f082d4b8ae37bc49d298a3f",
+				"os": "linux",
+				"os_features": "",
+				"os_version": null,
+				"size": 378895713,
+				"status": "active",
+				"last_pulled": "2024-03-01T00:17:42.238863Z",
+				"last_pushed": "2024-02-13T19:37:43.281562Z"
+			}
+		],
+		"last_updated": "2024-02-13T19:37:43.545437Z",
+		"last_updater": 8198517,
+		"last_updater_username": "ciliferaycloud",
+		"name": "5.14.1",
+		"repository": 7077464,
+		"full_size": 378895713,
+		"v2": true,
+		"tag_status": "active",
+		"tag_last_pulled": "2024-03-01T00:17:42.238863Z",
+		"tag_last_pushed": "2024-02-13T19:37:43.545437Z",
+		"media_type": "application/vnd.docker.container.image.v1+json",
+		"content_type": "image",
+		"digest": "sha256:1b3051ed1d02b3c6dfe985b7c38bf8aee1b1c0281f082d4b8ae37bc49d298a3f",
+		"latest_docker_image": "liferaycloud/backup:5.14.1"
+	},
+	{
+		"creator": 8198517,
+		"id": 611810303,
+		"images": [
+			{
+				"architecture": "amd64",
+				"features": "",
+				"variant": null,
+				"digest": "sha256:014a952f05ce5a0000c77d3f90bb5775dbccc90a7bc3fdb654ef07598657e339",
+				"os": "linux",
+				"os_features": "",
+				"os_version": null,
+				"size": 842091860,
+				"status": "active",
+				"last_pulled": "2024-03-01T00:58:18.523604Z",
+				"last_pushed": "2024-02-29T09:05:56.026328Z"
+			}
+		],
+		"last_updated": "2024-02-29T09:05:56.563372Z",
+		"last_updater": 8198517,
+		"last_updater_username": "ciliferaycloud",
+		"name": "2.356-jdk8-5.2.1",
+		"repository": 7077473,
+		"full_size": 842091860,
+		"v2": true,
+		"tag_status": "active",
+		"tag_last_pulled": "2024-03-01T00:58:18.523604Z",
+		"tag_last_pushed": "2024-02-29T09:05:56.563372Z",
+		"media_type": "application/vnd.docker.container.image.v1+json",
+		"content_type": "image",
+		"digest": "sha256:014a952f05ce5a0000c77d3f90bb5775dbccc90a7bc3fdb654ef07598657e339",
+		"latest_docker_image": "liferaycloud/jenkins:2.356-jdk8-5.2.1"
+	},
+	{
+		"creator": 8198517,
+		"id": 610670989,
+		"images": [
+			{
+				"architecture": "amd64",
+				"features": "",
+				"variant": null,
+				"digest": "sha256:e079b56a074c0cb6fea1ee7e551159bca5839d8aced56e393110df97f5d44c17",
+				"os": "linux",
+				"os_features": "",
+				"os_version": null,
+				"size": 116071009,
+				"status": "active",
+				"last_pulled": "2024-03-01T00:17:40.374368Z",
+				"last_pushed": "2024-02-27T16:15:22.43381Z"
+			}
+		],
+		"last_updated": "2024-02-27T16:15:23.370824Z",
+		"last_updater": 8198517,
+		"last_updater_username": "ciliferaycloud",
+		"name": "5.3.0",
+		"repository": 7077466,
+		"full_size": 116071009,
+		"v2": true,
+		"tag_status": "active",
+		"tag_last_pulled": "2024-03-01T00:17:40.374368Z",
+		"tag_last_pushed": "2024-02-27T16:15:23.370824Z",
+		"media_type": "application/vnd.docker.container.image.v1+json",
+		"content_type": "image",
+		"digest": "sha256:e079b56a074c0cb6fea1ee7e551159bca5839d8aced56e393110df97f5d44c17",
+		"latest_docker_image": "liferaycloud/database:5.3.0"
+	},
+	{
+		"creator": 8198517,
+		"id": 578224173,
+		"images": [
+			{
+				"architecture": "amd64",
+				"features": "",
+				"variant": null,
+				"digest": "sha256:990e32530b319430f40ea7f2a0c7253f300ac7d8c0526b8f8f6b206c6fdc3122",
+				"os": "linux",
+				"os_features": "",
+				"os_version": null,
+				"size": 6008496,
+				"status": "active",
+				"last_pulled": "2024-02-16T21:09:28.136695Z",
+				"last_pushed": "2024-01-03T18:40:52.411568Z"
+			}
+		],
+		"last_updated": "2024-01-03T18:40:52.552731Z",
+		"last_updater": 8198517,
+		"last_updater_username": "ciliferaycloud",
+		"name": "7.0-5.5.0",
+		"repository": 7077475,
+		"full_size": 6008496,
+		"v2": true,
+		"tag_status": "active",
+		"tag_last_pulled": "2024-02-16T21:09:28.136695Z",
+		"tag_last_pushed": "2024-01-03T18:40:52.552731Z",
+		"media_type": "application/vnd.docker.container.image.v1+json",
+		"content_type": "image",
+		"digest": "sha256:990e32530b319430f40ea7f2a0c7253f300ac7d8c0526b8f8f6b206c6fdc3122",
+		"latest_docker_image": "liferaycloud/liferay-dxp:7.0-5.5.0"
+	},
+	{
+		"creator": 8198517,
+		"id": 598778247,
+		"images": [
+			{
+				"architecture": "amd64",
+				"features": "",
+				"variant": null,
+				"digest": "sha256:66cd9e914d4fa48622291cc1cd88fe06f4ea39c835ec585cf478d7f008890d81",
+				"os": "linux",
+				"os_features": "",
+				"os_version": null,
+				"size": 732219852,
+				"status": "active",
+				"last_pulled": "2024-03-01T00:58:20.970125Z",
+				"last_pushed": "2024-02-06T18:08:04.543201Z"
+			}
+		],
+		"last_updated": "2024-02-06T18:08:05.597075Z",
+		"last_updater": 8198517,
+		"last_updater_username": "ciliferaycloud",
+		"name": "8.11.4-5.2.1",
+		"repository": 7077485,
+		"full_size": 732219852,
+		"v2": true,
+		"tag_status": "active",
+		"tag_last_pulled": "2024-03-01T00:58:20.970125Z",
+		"tag_last_pushed": "2024-02-06T18:08:05.597075Z",
+		"media_type": "application/vnd.docker.container.image.v1+json",
+		"content_type": "image",
+		"digest": "sha256:66cd9e914d4fa48622291cc1cd88fe06f4ea39c835ec585cf478d7f008890d81",
+		"latest_docker_image": "liferaycloud/elasticsearch:8.11.4-5.2.1"
+	},
+	{
+		"creator": 8198517,
+		"id": 536697933,
+		"images": [
+			{
+				"architecture": "amd64",
+				"features": "",
+				"variant": null,
+				"digest": "sha256:eb12ec8777120495f1ec7c2cdea5f39872c180e1b27e1b0ec21c907ababb9da3",
+				"os": "linux",
+				"os_features": "",
+				"os_version": null,
+				"size": 258054821,
+				"status": "active",
+				"last_pulled": "2024-03-01T00:17:47.742122Z",
+				"last_pushed": "2023-10-25T21:39:33.330212Z"
+			}
+		],
+		"last_updated": "2023-10-25T21:39:33.435138Z",
+		"last_updater": 8198517,
+		"last_updater_username": "ciliferaycloud",
+		"name": "1.21.6-5.4.0",
+		"repository": 7077488,
+		"full_size": 258054821,
+		"v2": true,
+		"tag_status": "active",
+		"tag_last_pulled": "2024-03-01T00:17:47.742122Z",
+		"tag_last_pushed": "2023-10-25T21:39:33.435138Z",
+		"media_type": "application/vnd.docker.container.image.v1+json",
+		"content_type": "image",
+		"digest": "sha256:eb12ec8777120495f1ec7c2cdea5f39872c180e1b27e1b0ec21c907ababb9da3",
+		"latest_docker_image": "liferaycloud/nginx:1.21.6-5.4.0"
+	}
 ]
