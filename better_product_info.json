@@ -3838,17 +3838,5 @@
 		"releaseDate": "12/15/2023",
 		"targetPlatformVersion": "7.3.10.u35",
 		"name": "dxp-7.3-u35"
-	},
-	{
-		"appServerTomcatVersion": "9.0.83",
-		"bundleChecksumMD5": "d11c224bf2f2986bc96090a2c0795891",
-		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u112/liferay-dxp-tomcat-7.4.13-u112-1708955019.7z.MD5",
-		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u112/liferay-dxp-tomcat-7.4.13-u112-1708955019.7z",
-		"liferayDockerImage": "liferay/dxp:7.4.13-u112",
-		"liferayProductVersion": "DXP 7.4 U112",
-		"promoted": "true",
-		"releaseDate": "02/26/2024",
-		"targetPlatformVersion": "7.4.13.u112",
-		"name": "dxp-7.4-u112"
 	}
 ]
