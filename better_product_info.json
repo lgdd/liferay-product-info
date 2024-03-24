@@ -3841,14 +3841,14 @@
 	},
 	{
 		"appServerTomcatVersion": "9.0.83",
-		"bundleChecksumMD5": "d11c224bf2f2986bc96090a2c0795891",
-		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/dxp/7.4.13-u112/liferay-dxp-tomcat-7.4.13-u112-1708955019.7z.MD5",
-		"bundleUrl": "https://releases-cdn.liferay.com/dxp/7.4.13-u112/liferay-dxp-tomcat-7.4.13-u112-1708955019.7z",
-		"liferayDockerImage": "liferay/dxp:7.4.13-u112",
-		"liferayProductVersion": "DXP 7.4 U112",
+		"bundleUrl": "https://releases-cdn.liferay.com/portal/7.4.3.112-ga112/liferay-ce-portal-tomcat-7.4.3.112-ga112-20240226061339195.tar.gz",
+		"bundleChecksumMD5": "3bb8a2daeb80e32a515404e840d161b3",
+		"bundleChecksumMD5Url": "https://releases-cdn.liferay.com/portal/7.4.3.112-ga112/liferay-ce-portal-tomcat-7.4.3.112-ga112-20240226061339195.tar.gz.MD5",
+		"liferayDockerImage": "liferay/portal:7.4.3.112-ga112",
+		"liferayProductVersion": "Portal 7.4 GA112",
 		"promoted": "true",
-		"releaseDate": "02/26/2024",
-		"targetPlatformVersion": "7.4.13.u112",
-		"name": "dxp-7.4-u112"
+		"releaseDate": "02/16/2023",
+		"targetPlatformVersion": "7.4.3.112",
+		"name": "portal-7.4-ga112"
 	}
 ]
