@@ -2,8 +2,35 @@
   {
     "product": "dxp",
     "productGroupVersion": "2024.q1",
-    "productVersion": "2024.Q1.1",
+    "productVersion": "DXP 2024.Q1.4",
     "promoted": "true",
+    "releaseKey": "dxp-2024.q1.4",
+    "targetPlatformVersion": "2024.q1.4",
+    "url": "https://releases-cdn.liferay.com/dxp/2024.q1.4"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2024.q1",
+    "productVersion": "DXP 2024.Q1.3",
+    "promoted": "false",
+    "releaseKey": "dxp-2024.q1.3",
+    "targetPlatformVersion": "2024.q1.3",
+    "url": "https://releases-cdn.liferay.com/dxp/2024.q1.3"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2024.q1",
+    "productVersion": "DXP 2024.Q1.2",
+    "promoted": "false",
+    "releaseKey": "dxp-2024.q1.2",
+    "targetPlatformVersion": "2024.q1.2",
+    "url": "https://releases-cdn.liferay.com/dxp/2024.q1.2"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2024.q1",
+    "productVersion": "DXP 2024.Q1.1",
+    "promoted": "false",
     "releaseKey": "dxp-2024.q1.1",
     "targetPlatformVersion": "2024.q1.1",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.1"
@@ -11,11 +38,29 @@
   {
     "product": "dxp",
     "productGroupVersion": "2023.q4",
-    "productVersion": "DXP 2023.Q4.7",
+    "productVersion": "DXP 2023.Q4.8",
     "promoted": "true",
+    "releaseKey": "dxp-2023.q4.8",
+    "targetPlatformVersion": "2023.q4.8",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q4.8"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q4",
+    "productVersion": "DXP 2023.Q4.7",
+    "promoted": "false",
     "releaseKey": "dxp-2023.q4.7",
     "targetPlatformVersion": "2023.q4.7",
     "url": "https://releases-cdn.liferay.com/dxp/2023.q4.7"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.4",
+    "productVersion": "Portal 7.4 GA112",
+    "promoted": "true",
+    "releaseKey": "portal-7.4-ga112",
+    "targetPlatformVersion": "7.4.3.112",
+    "url": "https://releases-cdn.liferay.com/portal/7.4.3.112-ga112"
   },
   {
     "product": "dxp",
@@ -127,6 +172,51 @@
   },
   {
     "product": "dxp",
+    "productGroupVersion": "2023.q3",
+    "productVersion": "DXP 2023.Q3.4",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q3.4",
+    "targetPlatformVersion": "2023.q3.4",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q3.4"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q3",
+    "productVersion": "DXP 2023.Q3.3",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q3.3",
+    "targetPlatformVersion": "2023.q3.3",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q3.3"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q3",
+    "productVersion": "DXP 2023.Q3.2",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q3.2",
+    "targetPlatformVersion": "2023.q3.2",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q3.2"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q3",
+    "productVersion": "DXP 2023.Q3.1",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q3.1",
+    "targetPlatformVersion": "2023.q3.1",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q3.1"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q3",
+    "productVersion": "DXP 2023.Q3.0",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q3.0",
+    "targetPlatformVersion": "2023.q3.0",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q3.0"
+  },
+  {
+    "product": "dxp",
     "productGroupVersion": "2023.q4",
     "productVersion": "DXP 2023.Q4.2",
     "promoted": "false",
@@ -142,6 +232,15 @@
     "releaseKey": "dxp-2023.q4.1",
     "targetPlatformVersion": "2023.q4.1",
     "url": "https://releases-cdn.liferay.com/dxp/2023.q4.1"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2023.q4",
+    "productVersion": "DXP 2023.Q4.0",
+    "promoted": "false",
+    "releaseKey": "dxp-2023.q4.0",
+    "targetPlatformVersion": "2023.q4.0",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q4.0"
   },
   {
     "product": "portal",
