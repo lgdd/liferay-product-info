@@ -3196,7 +3196,7 @@
         "bundleChecksumMD5Url": "ANDo6ODmdF5e5MrYysLmyuZaxsjcXNjSzMrkwvJcxt7aXsjw4F5uXGhcYmZa6nJkXtjSzMrkwvJayPDgWuje2sbC6FpuXGhcYmZc6nJkWmRgZGZgcGZiYmRkamZkanBmXOjC5FzO9FyaiGo=",
         "liferayDockerImage": "liferay/dxp:7.4.13-u92",
         "liferayProductVersion": "DXP 7.4 U92",
-        "promoted": "true",
+        "promoted": "false",
         "releaseDate": "09/01/2023",
         "targetPlatformVersion": "7.4.13.u92"
     },
@@ -3438,7 +3438,7 @@
         "bundleChecksumMD5Url": "AaHR0cHM6Ly9yZWxlYXNlcy1jZG4ubGlmZXJheS5jb20vZHhwLzcuNC4xMy11MTAyL2xpZmVyYXktZHhwLXRvbWNhdC03LjQuMTMudTEwMi0yMDIzMTEwOTE1MzYwMDIwNi50YXIuZ3ouTUQ1AA=",
         "liferayDockerImage": "liferay/dxp:7.4.13-u102",
         "liferayProductVersion": "DXP 7.4 U102",
-        "promoted": "true",
+        "promoted": "false",
         "releaseDate": "11/10/2023",
         "targetPlatformVersion": "7.4.13.u102"
     },
@@ -3504,7 +3504,7 @@
         "bundleChecksumMD5Url": "NDo6ODmdF5e5MrYysLmyuZaxsjcXNjSzMrkwvJcxt7aXuDe5OjC2F5uXGhcZlxiYG5azsJiYG5e2NLMyuTC8lrGylrg3uTowtha6N7axsLoWm5caFxmXGJgblrOwmJgblpkYGRmYmRiaGBoZmRkcmBoclzowuRczvRcmohqAAA==",
         "liferayDockerImage": "liferay/portal:7.4.3.107-ga107",
         "liferayProductVersion": "Portal 7.4 GA107",
-        "promoted": "true",
+        "promoted": "false",
         "releaseDate": "12/15/2023",
         "targetPlatformVersion": "7.4.3.107"
     },
@@ -3518,5 +3518,27 @@
         "promoted": "true",
         "releaseDate": "12/15/2023",
         "targetPlatformVersion": "7.3.10.u35"
+    },
+    "portal-7.4-ga112": {
+        "appServerTomcatVersion": "9.0.83",
+        "bundleUrl": "aHR0cHM6Ly9yZWxlYXNlcy1jZG4ubGlmZXJheS5jb20vcG9ydGFsLzcuNC4zLjExMi1nYTExMi9saWZlcmF5LWNlLXBvcnRhbC10b21jYXQtNy40LjMuMTEyLWdhMTEyLTIwMjQwMjI2MDYxMzM5MTk1LnRhci5negAA",
+        "bundleChecksumMD5": "3bb8a2daeb80e32a515404e840d161b3",
+        "bundleChecksumMD5Url": "aHR0cHM6Ly9yZWxlYXNlcy1jZG4ubGlmZXJheS5jb20vcG9ydGFsLzcuNC4zLjExMi1nYTExMi9saWZlcmF5LWNlLXBvcnRhbC10b21jYXQtNy40LjMuMTEyLWdhMTEyLTIwMjQwMjI2MDYxMzM5MTk1LnRhci5nei5NRDUAAA==",
+        "liferayDockerImage": "liferay/portal:7.4.3.112-ga112",
+        "liferayProductVersion": "Portal 7.4 GA112",
+        "promoted": "true",
+        "releaseDate": "02/16/2023",
+        "targetPlatformVersion": "7.4.3.112"
+    },
+    "dxp-7.4-u112": {
+        "appServerTomcatVersion": "9.0.83",
+        "bundleUrl": "AaHR0cHM6Ly9yZWxlYXNlcy1jZG4ubGlmZXJheS5jb20vZHhwLzcuNC4xMy11MTEyL2xpZmVyYXktZHhwLXRvbWNhdC03LjQuMTMtdTExMi0xNzA4OTU1MDE5LnRhci5negAAAA=",
+        "bundleChecksumMD5": "4f6d2ea467fa36ba4df706b4c871696a",
+        "bundleChecksumMD5Url": "AaHR0cHM6Ly9yZWxlYXNlcy1jZG4ubGlmZXJheS5jb20vZHhwLzcuNC4xMy11MTEyL2xpZmVyYXktZHhwLXRvbWNhdC03LjQuMTMtdTExMi0xNzA4OTU1MDE5LnRhci5nei5NRDUAAAA",
+        "liferayDockerImage": "liferay/dxp:7.4.13-u112",
+        "liferayProductVersion": "DXP 7.4 U112",
+        "promoted": "true",
+        "releaseDate": "02/26/2024",
+        "targetPlatformVersion": "7.4.13.u112"
     }
 }
