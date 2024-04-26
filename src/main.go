@@ -256,7 +256,7 @@ func getHttpClient() http.Client {
 			}).Dial,
 			TLSHandshakeTimeout: 60 * time.Second,
 		},
-		Timeout: 120 * time.Second,
+		Timeout: 240 * time.Second,
 	}
 }
 
