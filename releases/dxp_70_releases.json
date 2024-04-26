@@ -1,0 +1,200 @@
+[
+ {
+  "product": "dxp",
+  "productGroupVersion": "7.0",
+  "productVersion": "DXP 7.0 SP17",
+  "promoted": "false",
+  "releaseKey": "dxp-7.0.17",
+  "targetPlatformVersion": "7.0.10.17",
+  "url": "https://releases-cdn.liferay.com/dxp/7.0.10.17",
+  "releaseProperties": {
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
+  }
+ },
+ {
+  "product": "dxp",
+  "productGroupVersion": "7.0",
+  "productVersion": "DXP 7.0 DE101",
+  "promoted": "false",
+  "releaseKey": "dxp-7.0-de-101",
+  "targetPlatformVersion": "7.0.10.fp101",
+  "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-101",
+  "releaseProperties": {
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
+  }
+ },
+ {
+  "product": "dxp",
+  "productGroupVersion": "7.0",
+  "productVersion": "DXP 7.0 DE100",
+  "promoted": "false",
+  "releaseKey": "dxp-7.0-de-100",
+  "targetPlatformVersion": "7.0.10.fp100",
+  "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-100",
+  "releaseProperties": {
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
+  }
+ },
+ {
+  "product": "dxp",
+  "productGroupVersion": "7.0",
+  "productVersion": "DXP 7.0 SP16",
+  "promoted": "false",
+  "releaseKey": "dxp-7.0.16",
+  "targetPlatformVersion": "7.0.10.16",
+  "url": "https://releases-cdn.liferay.com/dxp/7.0.10.16",
+  "releaseProperties": {
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
+  }
+ },
+ {
+  "product": "dxp",
+  "productGroupVersion": "7.0",
+  "productVersion": "DXP 7.0 DE98",
+  "promoted": "false",
+  "releaseKey": "dxp-7.0-de-98",
+  "targetPlatformVersion": "7.0.10.fp98",
+  "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-98",
+  "releaseProperties": {
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
+  }
+ },
+ {
+  "product": "dxp",
+  "productGroupVersion": "7.0",
+  "productVersion": "DXP 7.0 DE97",
+  "promoted": "false",
+  "releaseKey": "dxp-7.0-de-97",
+  "targetPlatformVersion": "7.0.10.fp97",
+  "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-97",
+  "releaseProperties": {
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
+  }
+ },
+ {
+  "product": "dxp",
+  "productGroupVersion": "7.0",
+  "productVersion": "DXP 7.0 SP15",
+  "promoted": "false",
+  "releaseKey": "dxp-7.0.15",
+  "targetPlatformVersion": "7.0.10.14-1",
+  "url": "https://releases-cdn.liferay.com/dxp/7.0.10.15",
+  "releaseProperties": {
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
+  }
+ },
+ {
+  "product": "dxp",
+  "productGroupVersion": "7.0",
+  "productVersion": "DXP 7.0 SP14",
+  "promoted": "false",
+  "releaseKey": "dxp-7.0.14",
+  "targetPlatformVersion": "7.0.10.14-1",
+  "url": "https://releases-cdn.liferay.com/dxp/7.0.10.14",
+  "releaseProperties": {
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
+  }
+ },
+ {
+  "product": "dxp",
+  "productGroupVersion": "7.0",
+  "productVersion": "DXP 7.0 SP13",
+  "promoted": "false",
+  "releaseKey": "dxp-7.0.13",
+  "targetPlatformVersion": "7.0.10.13",
+  "url": "https://releases-cdn.liferay.com/dxp/7.0.10.13",
+  "releaseProperties": {
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
+  }
+ }
+]

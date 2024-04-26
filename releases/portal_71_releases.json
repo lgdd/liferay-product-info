@@ -1,0 +1,90 @@
+[
+ {
+  "product": "portal",
+  "productGroupVersion": "7.1",
+  "productVersion": "Portal 7.1 GA1",
+  "promoted": "false",
+  "releaseKey": "portal-7.1-ga1",
+  "targetPlatformVersion": "7.1.0",
+  "url": "https://releases-cdn.liferay.com/portal/7.1.0-ga1",
+  "releaseProperties": {
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
+  }
+ },
+ {
+  "product": "portal",
+  "productGroupVersion": "7.1",
+  "productVersion": "Portal 7.1 GA4",
+  "promoted": "false",
+  "releaseKey": "portal-7.1-ga4",
+  "targetPlatformVersion": "7.1.3-1",
+  "url": "https://releases-cdn.liferay.com/portal/7.1.3-ga4",
+  "releaseProperties": {
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
+  }
+ },
+ {
+  "product": "portal",
+  "productGroupVersion": "7.1",
+  "productVersion": "Portal 7.1 GA3",
+  "promoted": "false",
+  "releaseKey": "portal-7.1-ga3",
+  "targetPlatformVersion": "7.1.2",
+  "url": "https://releases-cdn.liferay.com/portal/7.1.2-ga3",
+  "releaseProperties": {
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
+  }
+ },
+ {
+  "product": "portal",
+  "productGroupVersion": "7.1",
+  "productVersion": "Portal 7.1 GA2",
+  "promoted": "false",
+  "releaseKey": "portal-7.1-ga2",
+  "targetPlatformVersion": "7.1.1",
+  "url": "https://releases-cdn.liferay.com/portal/7.1.1-ga2",
+  "releaseProperties": {
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
+  }
+ }
+]
