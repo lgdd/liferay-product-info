@@ -26,11 +26,11 @@ jobs:
         with:
           node-version: 18
       - name: Get Liferay Lib
-        working-directory: ./better-json-builder
+        working-directory: ./src/better-json-builder
         run: |
           curl -LJO https://github.com/liferay/liferay-portal/raw/master/modules/sdk/gradle-plugins-workspace/lib/com.liferay.workspace.bundle.url.codec-1.0.0.jar
       - name: Build JSON files
-        working-directory: ./better-json-builder
+        working-directory: ./src/better-json-builder
         run: |
           npm i
           npm start
@@ -57,12 +57,11 @@ jobs:
         with:
           go-version: '1.22'
       - name: Fetch Latest Versions
-        run: go run deps.go
+        run: go run src/main.go
       - name: Commit JSON Files
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -f .product_info.json
           git add com.liferay.gradle.plugins.workspace
           git commit -am "chore: auto update deps files" || echo "We're good for now. See you next time!"
           git pull --rebase

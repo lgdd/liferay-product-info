@@ -74,7 +74,7 @@ const buildBetterJson = (productJson) => {
   }
 
   fs.writeFile(
-    '../better_product_info.json',
+    '../../better_product_info.json',
     JSON.stringify(betterJson, null, '\t'),
     function (err) {
       if (err) throw err;
@@ -94,7 +94,7 @@ const writePromotedProductsJson = (betterJson) => {
   });
 
   fs.writeFile(
-    '../promoted_product_info.json',
+    '../../promoted_product_info.json',
     JSON.stringify(promotedProducts, null, '\t'),
     function (err) {
       if (err) throw err;
@@ -125,7 +125,7 @@ const writeTypedProductsJson = (betterJson, productType, version) => {
   }
 
   fs.writeFile(
-    `../${prefix}_product_info.json`,
+    `../../${prefix}_product_info.json`,
     JSON.stringify(specificProducts, null, '\t'),
     function (err) {
       if (err) throw err;
@@ -195,7 +195,7 @@ const fetchLatestTagPromises = liferayCloudImages.map(
 const writeLatestLiferayCloudImages = async () => {
   const latestDockerImages = await Promise.all(fetchLatestTagPromises);
   fs.writeFile(
-    '../liferaycloud_latest_docker_images.json',
+    '../../liferaycloud_latest_docker_images.json',
     JSON.stringify(latestDockerImages, null, '\t'),
     function (err) {
       if (err) throw err;
