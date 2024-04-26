@@ -189,7 +189,7 @@ func (release *Release) FetchProperties() {
 
 	if err != nil {
 		fmt.Printf(" ❌ (%.2f s)\n", time.Since(start).Seconds())
-		panic(err)
+		return
 	}
 
 	fmt.Printf(" ✅ (%.2f s)\n", time.Since(start).Seconds())
@@ -256,7 +256,7 @@ func getHttpClient() http.Client {
 			}).Dial,
 			TLSHandshakeTimeout: 60 * time.Second,
 		},
-		Timeout: 240 * time.Second,
+		Timeout: 120 * time.Second,
 	}
 }
 
