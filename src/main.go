@@ -215,6 +215,7 @@ func (release *Release) FetchProperties() {
 	config, err := ReadPropertiesFile(releasePropertiesPath)
 
 	release.ReleaseProperties = ReleaseProperties{
+		URL:                    releasePropertiesURL,
 		AppServerTomcatVersion: config["app.server.tomcat.version"],
 		BuildTimestamp:         config["build.timestamp"],
 		BundleChecksumSha512:   config["bundle.checksum.sha512"],
@@ -324,6 +325,7 @@ type Release struct {
 }
 
 type ReleaseProperties struct {
+	URL                    string `json:"url"`
 	AppServerTomcatVersion string `json:"appServerTomcatVersion"`
 	BuildTimestamp         string `json:"buildTimestamp"`
 	BundleChecksumSha512   string `json:"bundleChecksumSha512"`
