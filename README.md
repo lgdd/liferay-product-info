@@ -12,9 +12,11 @@ This repository offers a better format for this JSON (i.e. root is an array and 
 > 
 > Each release in the [original releases.json](https://releases.liferay.com/releases.json) contains a URL where you can find a list of artifacts, including a `release.properties` file. This repository also mirror them under the [releases](releases) directory. This repository also create a set of new files where each release json entry contains the information from the `release.properties` file.
 
-## Releases
 
-These files are automatically updated on a daily basis:
+> [!NOTE]
+> **All the files are automatically updated on a daily basis.**
+
+## Releases
 
 - [releases.json](https://raw.githubusercontent.com/lgdd/liferay-product-info/main/releases.json)
 - [dxp_releases.json](https://raw.githubusercontent.com/lgdd/liferay-product-info/main/releases/dxp_releases.json)
