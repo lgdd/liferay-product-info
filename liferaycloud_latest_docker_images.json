@@ -79,7 +79,7 @@
 				"os_version": null,
 				"size": 73063772,
 				"status": "active",
-				"last_pulled": "2024-04-26T14:05:38.661343Z",
+				"last_pulled": "2024-04-26T16:03:01.011072Z",
 				"last_pushed": "2024-04-22T14:27:00.743797Z"
 			}
 		],
@@ -91,7 +91,7 @@
 		"full_size": 73063772,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-04-26T14:05:38.661343Z",
+		"tag_last_pulled": "2024-04-26T16:03:01.011072Z",
 		"tag_last_pushed": "2024-04-22T14:27:01.389193Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -145,7 +145,7 @@
 				"os_version": null,
 				"size": 725698149,
 				"status": "active",
-				"last_pulled": "2024-04-26T15:19:29.243021Z",
+				"last_pulled": "2024-04-26T16:23:03.875963Z",
 				"last_pushed": "2024-03-13T18:13:49.909131Z"
 			}
 		],
@@ -157,7 +157,7 @@
 		"full_size": 725698149,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-04-26T15:19:29.243021Z",
+		"tag_last_pulled": "2024-04-26T16:23:03.875963Z",
 		"tag_last_pushed": "2024-03-13T18:13:50.842503Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -178,7 +178,7 @@
 				"os_version": null,
 				"size": 275563684,
 				"status": "active",
-				"last_pulled": "2024-04-26T14:56:23.47342Z",
+				"last_pulled": "2024-04-26T16:03:01.846037Z",
 				"last_pushed": "2024-03-25T15:37:14.536984Z"
 			}
 		],
@@ -190,7 +190,7 @@
 		"full_size": 275563684,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-04-26T14:56:23.47342Z",
+		"tag_last_pulled": "2024-04-26T16:03:01.846037Z",
 		"tag_last_pushed": "2024-03-25T15:37:14.696515Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
