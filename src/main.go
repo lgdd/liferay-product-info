@@ -9,6 +9,7 @@ import (
 	"net"
 	"net/http"
 	"os"
+	"path/filepath"
 	"strings"
 	"time"
 )
@@ -182,8 +183,9 @@ func updatePortalReleases(release Release, portal74, portal73, portal72, portal7
 func (release *Release) FetchProperties() {
 	httpClient := getHttpClient()
 	start := time.Now()
-	fmt.Print("Get " + release.URL + "/release.properties")
-	resp, err := httpClient.Get(release.URL + "/release.properties")
+	releasePropertiesURL := release.URL + "/release.properties"
+	fmt.Print("Get " + releasePropertiesURL)
+	resp, err := httpClient.Get(releasePropertiesURL)
 
 	if err != nil {
 		fmt.Printf(" ❌ (%.2f s)\n", time.Since(start).Seconds())
@@ -193,7 +195,25 @@ func (release *Release) FetchProperties() {
 	fmt.Printf(" ✅ (%.2f s)\n", time.Since(start).Seconds())
 
 	defer resp.Body.Close()
+
+	bodyBytes, _ := io.ReadAll(resp.Body)
+	releasePropertiesDirPath := getPathFromURL(releasePropertiesURL)
+	releasePropertiesPath := filepath.Join(releasePropertiesDirPath, "release.properties")
+
+	err = os.MkdirAll(releasePropertiesDirPath, os.ModePerm)
+
+	if err != nil {
+		panic(err)
+	}
+
+	err = os.WriteFile(releasePropertiesPath, bodyBytes, 0644)
+
+	if err != nil {
+		panic(err)
+	}
+
 	config, err := ReadPropertiesFile(resp.Body)
+
 	release.ReleaseProperties = ReleaseProperties{
 		AppServerTomcatVersion: config["app.server.tomcat.version"],
 		BuildTimestamp:         config["build.timestamp"],
@@ -211,6 +231,20 @@ func (release *Release) FetchProperties() {
 	if err != nil {
 		panic(err)
 	}
+}
+
+func getPathFromURL(url string) string {
+	var pathBuilder strings.Builder
+	urlArray := strings.Split(url, "/")
+	urlArray = urlArray[3 : len(urlArray)-1]
+
+	pathBuilder.WriteString("releases")
+	for _, part := range urlArray {
+		pathBuilder.WriteString("/")
+		pathBuilder.WriteString(part)
+	}
+
+	return pathBuilder.String()
 }
 
 func getHttpClient() http.Client {
