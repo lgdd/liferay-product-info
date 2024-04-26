@@ -212,7 +212,7 @@ func (release *Release) FetchProperties() {
 		panic(err)
 	}
 
-	config, err := ReadPropertiesFile(resp.Body)
+	config, err := ReadPropertiesFile(releasePropertiesPath)
 
 	release.ReleaseProperties = ReleaseProperties{
 		AppServerTomcatVersion: config["app.server.tomcat.version"],
@@ -277,10 +277,20 @@ type MavenCentralSearchResponse struct {
 	} `json:"spellcheck"`
 }
 
-func ReadPropertiesFile(filecontent io.Reader) (AppConfigProperties, error) {
+func ReadPropertiesFile(filename string) (AppConfigProperties, error) {
 	config := AppConfigProperties{}
 
-	scanner := bufio.NewScanner(filecontent)
+	if len(filename) == 0 {
+		return config, nil
+	}
+	file, err := os.Open(filename)
+	if err != nil {
+		log.Fatal(err)
+		return nil, err
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
 		line := scanner.Text()
 		if equal := strings.Index(line, "="); equal >= 0 {
