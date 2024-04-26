@@ -8,6 +8,7 @@
   "targetPlatformVersion": "7.0.6-2",
   "url": "https://releases-cdn.liferay.com/portal/7.0.6-ga7",
   "releaseProperties": {
+   "url": "",
    "appServerTomcatVersion": "",
    "buildTimestamp": "",
    "bundleChecksumSha512": "",

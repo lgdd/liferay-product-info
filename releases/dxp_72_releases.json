@@ -8,6 +8,7 @@
   "targetPlatformVersion": "7.2.10.8",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10.8",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10.8/release.properties",
    "appServerTomcatVersion": "9.0.65",
    "buildTimestamp": "20220912234451782",
    "bundleChecksumSha512": "d27246cf9f80496002ad9c5cd486978451c3037f8b275e9536cb92b242d4bab8111af0da0f380d11b594b07039184cf2cffca8bed3babc77834dd79c4b3bd98f",
@@ -30,6 +31,7 @@
   "targetPlatformVersion": "7.2.10.7",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10.7",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10.7/release.properties",
    "appServerTomcatVersion": "9.0.56",
    "buildTimestamp": "20220627032045494",
    "bundleChecksumSha512": "2f9327df8867e46510298bdc288fd361e4ecde267d68c8c28691668275bb229291fc1b434d6ac60af9450c8a1aa6b506e04bf0c0e67f26c292c943c3a5a847b4",
@@ -52,6 +54,7 @@
   "targetPlatformVersion": "7.2.10.fp18",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-18",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-18/release.properties",
    "appServerTomcatVersion": "9.0.56",
    "buildTimestamp": "20220506062749778",
    "bundleChecksumSha512": "f99c42834a704f2c8c8b61071846a86be8d842fed97ad8ea5e9b9be7d6e0f2affc6df8750fcc1db8660ad5f93ae8dcc27caf5336620ff786460cb9dfaa35775f",
@@ -74,6 +77,7 @@
   "targetPlatformVersion": "7.2.10.fp16",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-16",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-16/release.properties",
    "appServerTomcatVersion": "9.0.53",
    "buildTimestamp": "20211111033058210",
    "bundleChecksumSha512": "3d635a784a7b358e5e7d5e1fc275816f8e453cd5308209ba79237b2b26a6ff73116bb9042e521d6c584ea93259747bd150ea676f2c30976e72081b931518e2d5",
@@ -96,6 +100,7 @@
   "targetPlatformVersion": "7.2.10.fp15",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-15",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-15/release.properties",
    "appServerTomcatVersion": "9.0.43",
    "buildTimestamp": "20211011153401541",
    "bundleChecksumSha512": "69aef6ef5963e26c70b4be530a8afa8cb038b55c7a3e6cf9c5de7b2f2dc1581b76e16d57cdb2804299a5eefccf55814ef04a0b7fbd671cc52ad8ea0e5aadfbb0",
@@ -118,6 +123,7 @@
   "targetPlatformVersion": "7.2.10.5",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10.5",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10.5/release.properties",
    "appServerTomcatVersion": "9.0.43",
    "buildTimestamp": "20210716110942552",
    "bundleChecksumSha512": "d865caa7ff26f6c18a7523164cf4eb18771de65a366ef31eb48ef8ca99ad95696852922af5d2bfc6a274f0a2db9f8f49e542bf8b9701b6e628a83370b666d19f",
@@ -140,6 +146,7 @@
   "targetPlatformVersion": "7.2.10.fp13",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-13",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-13/release.properties",
    "appServerTomcatVersion": "9.0.43",
    "buildTimestamp": "20210511104400086",
    "bundleChecksumSha512": "73cd0047f34e298851b09ec382de8b066081d5d0a16a7df48719801e267654b9c6f97001f826c52bcbd07cef529f741a0c6b7046cc8bc3ea6a4929eb04e37331",
@@ -162,6 +169,7 @@
   "targetPlatformVersion": "7.2.10.fp12",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-12",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-12/release.properties",
    "appServerTomcatVersion": "9.0.43",
    "buildTimestamp": "20210402105245543",
    "bundleChecksumSha512": "3c4054f050bba3eea6400e397db0553b55504c774761a6485d21dc8849f96d0e40006e70cae227d04ba69008ae9cd58ed66913a8877dd9cbae469459e6b97d9a",
@@ -184,6 +192,7 @@
   "targetPlatformVersion": "7.2.10.6",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10.6",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10.6/release.properties",
    "appServerTomcatVersion": "9.0.56",
    "buildTimestamp": "20220317203828855",
    "bundleChecksumSha512": "b710a940b1e31353a692c6d533d03b322697da888e46a2ea67fd2b4419686a3613fa2d61818499d2079002c2038b6934dbfed27f57bdbc682259ecf71851596e",
@@ -206,6 +215,7 @@
   "targetPlatformVersion": "7.2.10.fp11",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-11",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-11/release.properties",
    "appServerTomcatVersion": "9.0.40",
    "buildTimestamp": "20210302164507253",
    "bundleChecksumSha512": "f6e850c14d9ab7cbd59b8208a7b56100dfca2adc2282a30b29dfe8e9704570d6a6563c6ac7464c327503cc0c4023743fa5b5600376ec31216eb40771662f3a0c",
@@ -228,6 +238,7 @@
   "targetPlatformVersion": "7.2.10.fp10",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-10",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-10/release.properties",
    "appServerTomcatVersion": "9.0.37",
    "buildTimestamp": "20210112204850440",
    "bundleChecksumSha512": "f08f350cb1fc2dbd1590950f2d0464e231402806e9b173e5967837acca6a37a72d74f30f5bd0d9f5167bf96cc1de12e129454636c92e2082b8c5362ac3a6a407",
@@ -250,6 +261,7 @@
   "targetPlatformVersion": "7.2.10.fp7",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-7",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-7/release.properties",
    "appServerTomcatVersion": "9.0.33",
    "buildTimestamp": "20200727205713822",
    "bundleChecksumSha512": "1890f7e033d1637e917f29de38d82d846b04519a670e3d32e815630d14a0a42dfa20bc0ca35a8a22df5d919a3f70c410a039b56ce33494d7551a527a5f83e756",
@@ -272,6 +284,7 @@
   "targetPlatformVersion": "7.2.10.fp9",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-9",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-9/release.properties",
    "appServerTomcatVersion": "9.0.37",
    "buildTimestamp": "20201208192626082",
    "bundleChecksumSha512": "e8d663f5afd3b83101ab2cafbd2d1a5e7dd9cb6b34dbac4570f8e31f23e10110efff5afab751adcf676e21cd7fed65b0f00a51f29968a663a9458721b0cec8f0",
@@ -294,6 +307,7 @@
   "targetPlatformVersion": "7.2.10.3",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10.3",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10.3/release.properties",
    "appServerTomcatVersion": "9.0.33",
    "buildTimestamp": "20200910120006703",
    "bundleChecksumSha512": "f1e59934246eb97c94e8dccadfa22183aa0c4ad6ff98d3655971518665db123ac516a381aea7dc826e6db72cf95632c7cc21ce1d136309a829e7636356872805",
@@ -316,6 +330,7 @@
   "targetPlatformVersion": "7.2.10.fp6",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-6",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-6/release.properties",
    "appServerTomcatVersion": "9.0.33",
    "buildTimestamp": "20200611120504742",
    "bundleChecksumSha512": "e68b413e8fa542df9310d8176184d7108e5e48c47706cfac8c3cfeb7a0812daf6c3beec0c8015eeba23bbfe854f5e70c5b27bb54f2635a472437afd6383bbd6c",
@@ -338,6 +353,7 @@
   "targetPlatformVersion": "7.2.10.fp5",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-5",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-5/release.properties",
    "appServerTomcatVersion": "9.0.33",
    "buildTimestamp": "20200505191324118",
    "bundleChecksumSha512": "cf4f0b37f2f2eccb723953d39d89e52f7a11b3804f7a2745034fa8b8ac0a18dcc145847a8360be112df2ab345d10e1e9615bcc56dfa097fd2d941640dab00277",
@@ -360,6 +376,7 @@
   "targetPlatformVersion": "7.2.10.1",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10.1",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10.1/release.properties",
    "appServerTomcatVersion": "9.0.17",
    "buildTimestamp": "20191009103614075",
    "bundleChecksumSha512": "fd107f55d5dde8a71b887040ee0bbded8ca3d8f58147171db46a6bd08ed1ff82611ae62a0466f2dcf79b457e65c43b89e35bcf83fe79df1ee3009f965e10b2d1",
@@ -382,6 +399,7 @@
   "targetPlatformVersion": "7.2.10",
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10/release.properties",
    "appServerTomcatVersion": "9.0.17",
    "buildTimestamp": "20190531140450482",
    "bundleChecksumSha512": "85ce724122f22f6c5b30b82552e9fbb27a7cdffd765fe10760ea5bdccc5bd55241d9bbbb810405ec0f4ba4673c5a0873ec26661ad1fed09a74f616b47238ec93",

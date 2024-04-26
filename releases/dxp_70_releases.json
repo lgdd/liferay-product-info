@@ -8,6 +8,7 @@
   "targetPlatformVersion": "7.0.10.17",
   "url": "https://releases-cdn.liferay.com/dxp/7.0.10.17",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.0.10.17/release.properties",
    "appServerTomcatVersion": "8.5.63",
    "buildTimestamp": "20211014075354439",
    "bundleChecksumSha512": "ec7af323b02e4f8c7f56c7252a3e59ffd2b6f03afcb212ca2335b190e21ad3314a980636532ab4f90a42e5e25ccdb4f5fba332e24775f3e2686c3cb667b60942",
@@ -30,6 +31,7 @@
   "targetPlatformVersion": "7.0.10.fp101",
   "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-101",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-101/release.properties",
    "appServerTomcatVersion": "8.5.63",
    "buildTimestamp": "20210713081427192",
    "bundleChecksumSha512": "b312ad89749f81d06768448afb271c3d1b9384bb9da61bbe2043fe505b42f5f2f7d01ecfbe71a53d8bd71420444adb00dddefd1615aa4ddaca26cb4036d02225",
@@ -52,6 +54,7 @@
   "targetPlatformVersion": "7.0.10.fp100",
   "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-100",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-100/release.properties",
    "appServerTomcatVersion": "8.5.63",
    "buildTimestamp": "20210602170649068",
    "bundleChecksumSha512": "54e303a3461b9131650da160d0d63c512741d730203eefa529e84aa2b147e18ab4f6ae0b72df05523f91ff00191e5ec32f8c767092a04c33c9997f8ca3b34ec0",
@@ -74,6 +77,7 @@
   "targetPlatformVersion": "7.0.10.16",
   "url": "https://releases-cdn.liferay.com/dxp/7.0.10.16",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.0.10.16/release.properties",
    "appServerTomcatVersion": "8.5.63",
    "buildTimestamp": "20210422121811252",
    "bundleChecksumSha512": "c6ddb04d0806b05f3de7212ed531fcb48f250bfab2061db0b453922814bbffb586f1550eb251b04e9b4b297cacfa3aa0cb038759c51100a10ace3f5f707177a5",
@@ -96,6 +100,7 @@
   "targetPlatformVersion": "7.0.10.fp98",
   "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-98",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-98/release.properties",
    "appServerTomcatVersion": "8.5.60",
    "buildTimestamp": "20210310205342362",
    "bundleChecksumSha512": "dd3fe3fe1c317b46d7929c9860ad0a58ee21506c84a9ff59f94dfb70f7c9f488c9fbd36b566c240d873ecd1fa24c3dfc0281334e64558d9f5a7b71aff96b9d53",
@@ -118,6 +123,7 @@
   "targetPlatformVersion": "7.0.10.fp97",
   "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-97",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.0.10-de-97/release.properties",
    "appServerTomcatVersion": "8.5.57",
    "buildTimestamp": "20210204052206153",
    "bundleChecksumSha512": "aebec1c506e2dc06025d63c361fda3058fa54f64f571cf9c6bff41e32c707d03adddb498191348534fdbb18893eabc69b7d88f0124c7984774068ca439803c3b",
@@ -140,6 +146,7 @@
   "targetPlatformVersion": "7.0.10.14-1",
   "url": "https://releases-cdn.liferay.com/dxp/7.0.10.15",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.0.10.15/release.properties",
    "appServerTomcatVersion": "8.0.53",
    "buildTimestamp": "20201027133245711",
    "bundleChecksumSha512": "b69afea1a2898afbd7d83cc7eee1f0eb125139c63d762fde45334734624196788e924bede5b9e1be6cbc7e4ddce31183bdabe5b5d186352449353ad4ea4c9a95",
@@ -162,6 +169,7 @@
   "targetPlatformVersion": "7.0.10.14-1",
   "url": "https://releases-cdn.liferay.com/dxp/7.0.10.14",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.0.10.14/release.properties",
    "appServerTomcatVersion": "8.0.53",
    "buildTimestamp": "20200708121519436",
    "bundleChecksumSha512": "0ba3d06977d6234a1ba89f4eaefe9a8fbc5fe8f876961d1452411803c342b767a37e2e0aca89f34cdba22e5fa97120ee59db5a3681f6dc2908f6b1c1e680abef",
@@ -184,6 +192,7 @@
   "targetPlatformVersion": "7.0.10.13",
   "url": "https://releases-cdn.liferay.com/dxp/7.0.10.13",
   "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.0.10.13/release.properties",
    "appServerTomcatVersion": "8.0.53",
    "buildTimestamp": "20200310164407389",
    "bundleChecksumSha512": "561b4667b4ef843669b1b27b078f4e45e15288e83b48ab3c6b021ebc85ad2773f792c6ece04806ae3429bbc359e52891fdc4c66ef71dcafc5987d09b46ad676e",
