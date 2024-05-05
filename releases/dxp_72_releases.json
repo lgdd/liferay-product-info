@@ -124,17 +124,17 @@
   "url": "https://releases-cdn.liferay.com/dxp/7.2.10.5",
   "releaseProperties": {
    "url": "https://releases-cdn.liferay.com/dxp/7.2.10.5/release.properties",
-   "appServerTomcatVersion": "9.0.43",
-   "buildTimestamp": "20210716110942552",
-   "bundleChecksumSha512": "d865caa7ff26f6c18a7523164cf4eb18771de65a366ef31eb48ef8ca99ad95696852922af5d2bfc6a274f0a2db9f8f49e542bf8b9701b6e628a83370b666d19f",
-   "bundleURL": "https://releases-cdn.liferay.com/dxp/7.2.10.5/liferay-dxp-tomcat-7.2.10.5-sp5-slim-20210716110942552.7z",
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
    "gitHashLiferayDocker": "",
-   "gitHashLiferayPortalEE": "b1654254e752813d1b69e54ed4ba691d8da0b1ae",
-   "liferayDockerImage": "liferay/dxp:7.2.10-sp5",
-   "liferayDockerTags": "liferay/dxp:7.2.10-sp5/7.2.10-dxp-14",
-   "liferayProductVersion": "DXP 7.2 SP5",
-   "releaseDate": "2021-07-26",
-   "targetPlatformVersion": "7.2.10.5"
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
   }
  },
  {
