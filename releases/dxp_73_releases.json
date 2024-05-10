@@ -19,7 +19,7 @@
    "liferayDockerTags": "7.3.10-u36",
    "liferayProductVersion": "DXP 7.3.10 U36",
    "releaseDate": "2024-01-30",
-   "targetPlatformVersion": "7.3.10-u36"
+   "targetPlatformVersion": "7.3.10.u36"
   }
  },
  {
