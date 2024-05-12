@@ -18,8 +18,8 @@
    "liferayDockerImage": "liferay/portal:7.4.3.112-ga112",
    "liferayDockerTags": "liferay/portal:7.4.3.112-ga112",
    "liferayProductVersion": "PORTAL 7.4.3 GA112",
-   "releaseDate": "2023-02-16",
-   "targetPlatformVersion": "7.4.3.112"
+   "releaseDate": "",
+   "targetPlatformVersion": ""
   }
  },
  {
