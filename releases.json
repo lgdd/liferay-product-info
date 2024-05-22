@@ -2,8 +2,17 @@
   {
     "product": "dxp",
     "productGroupVersion": "2024.q1",
-    "productVersion": "DXP 2024.Q1.8",
+    "productVersion": "DXP 2024.Q1.9",
     "promoted": "true",
+    "releaseKey": "dxp-2024.q1.9",
+    "targetPlatformVersion": "2024.q1.9",
+    "url": "https://releases-cdn.liferay.com/dxp/2024.q1.9"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2024.q1",
+    "productVersion": "DXP 2024.Q1.8",
+    "promoted": "false",
     "releaseKey": "dxp-2024.q1.8",
     "targetPlatformVersion": "2024.q1.8",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.8"
@@ -2952,5 +2961,3 @@
     "url": "https://releases-cdn.liferay.com/portal/7.0.6-ga7"
   }
 ]
-
-
