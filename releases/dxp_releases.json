@@ -325,7 +325,7 @@
   "product": "dxp",
   "productGroupVersion": "7.4",
   "productVersion": "DXP 7.4.13 U112",
-  "promoted": "false",
+  "promoted": "true",
   "releaseKey": "dxp-7.4-u112",
   "targetPlatformVersion": "7.4.13.u112",
   "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u112",
