@@ -1,6 +1,52 @@
 [
  {
   "product": "dxp",
+  "productGroupVersion": "7.4",
+  "productVersion": "DXP 7.4.3.120 GA120",
+  "promoted": "true",
+  "releaseKey": "dxp-7.4.120-ga120",
+  "targetPlatformVersion": "7.4.3.120",
+  "url": "https://releases-cdn.liferay.com/dxp/7.4.3.120-ga120",
+  "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.4.3.120-ga120/release.properties",
+   "appServerTomcatVersion": "9.0.87",
+   "buildTimestamp": "1718225443",
+   "bundleChecksumSha512": "ef1f88bddf8ee7bb0ff5ab1466a4a591d3035091e88dfc026946bfc51a810268b2d5de57e53222be66a3e333c9ae29bb1484741db7fb57a07053feb8f138ddb5",
+   "bundleURL": "https://releases-cdn.liferay.com/portal/7.4.3.120-ga120/liferay-portal-tomcat-7.4.3.120-ga120-1718225443.7z",
+   "gitHashLiferayDocker": "4c30966f179acdd50a5468126685d058ee23629d",
+   "gitHashLiferayPortalEE": "d490ee1c4ab31706af8a50227eb597428025751b",
+   "liferayDockerImage": "liferay/portal:7.4.3.120-ga120",
+   "liferayDockerTags": "7.4.3.120-ga120",
+   "liferayProductVersion": "DXP 7.4.3.120 GA120",
+   "releaseDate": "2024-06-12",
+   "targetPlatformVersion": "7.4.3.120"
+  }
+ },
+ {
+  "product": "dxp",
+  "productGroupVersion": "2024.q2",
+  "productVersion": "DXP 2024.Q2.0",
+  "promoted": "true",
+  "releaseKey": "dxp-2024.q2.0",
+  "targetPlatformVersion": "2024.q2.0",
+  "url": "https://releases-cdn.liferay.com/dxp/2024.q2.0",
+  "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/2024.q2.0/release.properties",
+   "appServerTomcatVersion": "9.0.87",
+   "buildTimestamp": "1717784502",
+   "bundleChecksumSha512": "5ad2a209439563df03a911c50d85718eb433f81883ceff700663a1c917a2aa8aa5900a390d138c1f40797c96595cc8d82815981e1b0f6cbfe8a22361d62ea53e",
+   "bundleURL": "https://releases-cdn.liferay.com/dxp/2024.q2.0/liferay-dxp-tomcat-2024.q2.0-1717784502.7z",
+   "gitHashLiferayDocker": "5c08376f4654e2b819f9fcd06c0f15b1e3d8fffc",
+   "gitHashLiferayPortalEE": "d4e20d5ccbd8dd3ca5d9a9e03f80e293256b5560",
+   "liferayDockerImage": "liferay/dxp:2024.q2.0",
+   "liferayDockerTags": "2024.q2.0",
+   "liferayProductVersion": "DXP 2024.Q2.0",
+   "releaseDate": "2024-06-07",
+   "targetPlatformVersion": "2024.q2.0"
+  }
+ },
+ {
+  "product": "dxp",
   "productGroupVersion": "2024.q1",
   "productVersion": "DXP 2024.Q1.12",
   "promoted": "true",
@@ -348,7 +394,7 @@
   "product": "dxp",
   "productGroupVersion": "7.4",
   "productVersion": "DXP 7.4.13 U112",
-  "promoted": "true",
+  "promoted": "false",
   "releaseKey": "dxp-7.4-u112",
   "targetPlatformVersion": "7.4.13.u112",
   "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u112",
