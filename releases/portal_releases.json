@@ -2,8 +2,31 @@
  {
   "product": "portal",
   "productGroupVersion": "7.4",
-  "productVersion": "Portal 7.4 GA107",
+  "productVersion": "DXP 7.4.3.120 GA120",
   "promoted": "true",
+  "releaseKey": "portal-7.4-ga120",
+  "targetPlatformVersion": "7.4.3.120",
+  "url": "https://releases-cdn.liferay.com/portal/7.4.3.120-ga120",
+  "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/portal/7.4.3.120-ga120/release.properties",
+   "appServerTomcatVersion": "9.0.87",
+   "buildTimestamp": "1718225443",
+   "bundleChecksumSha512": "ef1f88bddf8ee7bb0ff5ab1466a4a591d3035091e88dfc026946bfc51a810268b2d5de57e53222be66a3e333c9ae29bb1484741db7fb57a07053feb8f138ddb5",
+   "bundleURL": "https://releases-cdn.liferay.com/portal/7.4.3.120-ga120/liferay-portal-tomcat-7.4.3.120-ga120-1718225443.7z",
+   "gitHashLiferayDocker": "4c30966f179acdd50a5468126685d058ee23629d",
+   "gitHashLiferayPortalEE": "d490ee1c4ab31706af8a50227eb597428025751b",
+   "liferayDockerImage": "liferay/portal:7.4.3.120-ga120",
+   "liferayDockerTags": "7.4.3.120-ga120",
+   "liferayProductVersion": "DXP 7.4.3.120 GA120",
+   "releaseDate": "2024-06-12",
+   "targetPlatformVersion": "7.4.3.120"
+  }
+ },
+ {
+  "product": "portal",
+  "productGroupVersion": "7.4",
+  "productVersion": "Portal 7.4 GA107",
+  "promoted": "false",
   "releaseKey": "portal-7.4-ga107",
   "targetPlatformVersion": "7.4.3.107",
   "url": "https://releases-cdn.liferay.com/portal/7.4.3.107-ga107",
@@ -998,17 +1021,17 @@
   "url": "https://releases-cdn.liferay.com/portal/7.4.3.61-ga61",
   "releaseProperties": {
    "url": "https://releases-cdn.liferay.com/portal/7.4.3.61-ga61/release.properties",
-   "appServerTomcatVersion": "",
-   "buildTimestamp": "",
-   "bundleChecksumSha512": "",
-   "bundleURL": "",
+   "appServerTomcatVersion": "9.0.68",
+   "buildTimestamp": "20230126114009163",
+   "bundleChecksumSha512": "28cc18e125e8a7b46e8f24ada89c563fc0e295e56b3afcf31d4233232127c543e90364b56d4400defedbc76a72f4b1ed2bb56d1763a81ceb8a692121b952ab63",
+   "bundleURL": "https://releases-cdn.liferay.com/portal/7.4.3.61-ga61/liferay-ce-portal-tomcat-7.4.3.61-ga61-20230126114009163.7z",
    "gitHashLiferayDocker": "",
-   "gitHashLiferayPortalEE": "",
-   "liferayDockerImage": "",
-   "liferayDockerTags": "",
-   "liferayProductVersion": "",
-   "releaseDate": "",
-   "targetPlatformVersion": ""
+   "gitHashLiferayPortalEE": "2dbb47c01fa3a56555a154d38e3e40c062dfdacb",
+   "liferayDockerImage": "liferay/portal:7.4.3.61-ga61",
+   "liferayDockerTags": "liferay/portal:7.4.3.61-ga61",
+   "liferayProductVersion": "Portal 7.4 GA61",
+   "releaseDate": "2023-01-27",
+   "targetPlatformVersion": "7.4.3.61"
   }
  },
  {
