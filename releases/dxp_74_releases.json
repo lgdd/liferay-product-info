@@ -9,17 +9,17 @@
   "url": "https://releases-cdn.liferay.com/dxp/7.4.3.120-ga120",
   "releaseProperties": {
    "url": "https://releases-cdn.liferay.com/dxp/7.4.3.120-ga120/release.properties",
-   "appServerTomcatVersion": "9.0.87",
-   "buildTimestamp": "1718225443",
-   "bundleChecksumSha512": "ef1f88bddf8ee7bb0ff5ab1466a4a591d3035091e88dfc026946bfc51a810268b2d5de57e53222be66a3e333c9ae29bb1484741db7fb57a07053feb8f138ddb5",
-   "bundleURL": "https://releases-cdn.liferay.com/portal/7.4.3.120-ga120/liferay-portal-tomcat-7.4.3.120-ga120-1718225443.7z",
-   "gitHashLiferayDocker": "4c30966f179acdd50a5468126685d058ee23629d",
-   "gitHashLiferayPortalEE": "d490ee1c4ab31706af8a50227eb597428025751b",
-   "liferayDockerImage": "liferay/portal:7.4.3.120-ga120",
-   "liferayDockerTags": "7.4.3.120-ga120",
-   "liferayProductVersion": "DXP 7.4.3.120 GA120",
-   "releaseDate": "2024-06-12",
-   "targetPlatformVersion": "7.4.3.120"
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
   }
  },
  {
