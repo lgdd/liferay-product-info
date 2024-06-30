@@ -34,36 +34,36 @@
 	},
 	{
 		"creator": 8198517,
-		"id": 646761241,
+		"id": 710835148,
 		"images": [
 			{
 				"architecture": "amd64",
 				"features": "",
 				"variant": null,
-				"digest": "sha256:1217b3999226d55fc3aa04c7847796016873237583ff8ac65e89f856429e30be",
+				"digest": "sha256:7db6c51508e89ebfb9a570e766d0ef0fb63fe07054731fd51c241f095016605a",
 				"os": "linux",
 				"os_features": "",
 				"os_version": null,
-				"size": 845836745,
+				"size": 848064053,
 				"status": "active",
-				"last_pulled": "2024-06-28T23:25:17.809609Z",
-				"last_pushed": "2024-04-22T17:34:53.838079Z"
+				"last_pulled": null,
+				"last_pushed": "2024-06-29T19:28:40.852083Z"
 			}
 		],
-		"last_updated": "2024-04-22T17:34:54.686937Z",
+		"last_updated": "2024-06-29T19:28:40.852084Z",
 		"last_updater": 8198517,
 		"last_updater_username": "ciliferaycloud",
-		"name": "2.356-jdk8-5.2.6",
+		"name": "2.356-jdk8-5.2.7",
 		"repository": 7077473,
-		"full_size": 845836745,
+		"full_size": 848064053,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-06-28T23:25:17.809609Z",
-		"tag_last_pushed": "2024-04-22T17:34:54.686937Z",
+		"tag_last_pulled": null,
+		"tag_last_pushed": "2024-06-29T19:28:40.852084Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
-		"digest": "sha256:1217b3999226d55fc3aa04c7847796016873237583ff8ac65e89f856429e30be",
-		"latest_docker_image": "liferaycloud/jenkins:2.356-jdk8-5.2.6"
+		"digest": "sha256:7db6c51508e89ebfb9a570e766d0ef0fb63fe07054731fd51c241f095016605a",
+		"latest_docker_image": "liferaycloud/jenkins:2.356-jdk8-5.2.7"
 	},
 	{
 		"creator": 8198517,
@@ -145,7 +145,7 @@
 				"os_version": null,
 				"size": 725698149,
 				"status": "active",
-				"last_pulled": "2024-06-29T00:17:47.883954Z",
+				"last_pulled": "2024-06-29T17:28:11.874267Z",
 				"last_pushed": "2024-03-13T18:13:49.909131Z"
 			}
 		],
@@ -157,7 +157,7 @@
 		"full_size": 725698149,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-06-29T00:17:47.883954Z",
+		"tag_last_pulled": "2024-06-29T17:28:11.874267Z",
 		"tag_last_pushed": "2024-03-13T18:13:50.842503Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
