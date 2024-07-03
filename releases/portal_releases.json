@@ -17,7 +17,7 @@
    "gitHashLiferayPortalEE": "d490ee1c4ab31706af8a50227eb597428025751b",
    "liferayDockerImage": "liferay/portal:7.4.3.120-ga120",
    "liferayDockerTags": "7.4.3.120-ga120",
-   "liferayProductVersion": "DXP 7.4.3.120 GA120",
+   "liferayProductVersion": "Portal 7.4.3.120 GA120",
    "releaseDate": "2024-06-12",
    "targetPlatformVersion": "7.4.3.120"
   }
