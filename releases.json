@@ -1,6 +1,15 @@
 [
   {
     "product": "dxp",
+    "productGroupVersion": "7.4",
+    "productVersion": "DXP 7.4.13 U124",
+    "promoted": "true",
+    "releaseKey": "dxp-7.4-u124",
+    "targetPlatformVersion": "7.4.13.u124",
+    "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u124"
+  },
+  {
+    "product": "dxp",
     "productGroupVersion": "2024.q2",
     "productVersion": "DXP 2024.Q2.4",
     "promoted": "true",
