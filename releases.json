@@ -12,7 +12,7 @@
     "product": "dxp",
     "productGroupVersion": "2024.q2",
     "productVersion": "DXP 2024.Q2.5",
-    "promoted": "true",
+    "promoted": "false",
     "releaseKey": "dxp-2024.q2.5",
     "targetPlatformVersion": "2024.q2.5",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q2.5"
@@ -21,7 +21,7 @@
     "product": "dxp",
     "productGroupVersion": "2024.q2",
     "productVersion": "DXP 2024.Q2.4",
-    "promoted": "true",
+    "promoted": "false",
     "releaseKey": "dxp-2024.q2.4",
     "targetPlatformVersion": "2024.q2.4",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q2.4"
@@ -56,7 +56,7 @@
   {
     "product": "portal",
     "productGroupVersion": "7.4",
-    "productVersion": "DXP 7.4.3.120 GA120",
+    "productVersion": "Portal 7.4.3.120 GA120",
     "promoted": "true",
     "releaseKey": "portal-7.4-ga120",
     "targetPlatformVersion": "7.4.3.120",
@@ -340,6 +340,24 @@
     "releaseKey": "dxp-2023.q4.1",
     "targetPlatformVersion": "2023.q4.1",
     "url": "https://releases-cdn.liferay.com/dxp/2023.q4.1"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.4",
+    "productVersion": "PORTAL 7.4.3 GA109",
+    "promoted": "false",
+    "releaseKey": "portal-7.4-ga109",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.4.3.109-ga109"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.4",
+    "productVersion": "PORTAL 7.4.3 GA108",
+    "promoted": "false",
+    "releaseKey": "portal-7.4-ga108",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.4.3.108-ga108"
   },
   {
     "product": "portal",
@@ -2899,12 +2917,48 @@
   },
   {
     "product": "portal",
+    "productGroupVersion": "7.2",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.2-rc3",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.2.0-rc3"
+  },
+  {
+    "product": "portal",
     "productGroupVersion": "7.1",
     "productVersion": "Portal 7.1 GA4",
     "promoted": "false",
     "releaseKey": "portal-7.1-ga4",
     "targetPlatformVersion": "7.1.3-1",
     "url": "https://releases-cdn.liferay.com/portal/7.1.3-ga4"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.2",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.2-rc2",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.2.0-rc2"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.2",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.2-b3",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.2.0-b3"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.2",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.2-b2",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.2.0-b2"
   },
   {
     "product": "dxp",
@@ -2914,6 +2968,24 @@
     "releaseKey": "dxp-7.1.2",
     "targetPlatformVersion": "7.1.10.fp10",
     "url": "https://releases-cdn.liferay.com/dxp/7.1.10.2"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.2",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.2-b1",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.2.0-b1"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.2",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.2-m2",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.2.0-m2"
   },
   {
     "product": "portal",
@@ -2941,5 +3013,293 @@
     "releaseKey": "portal-7.1-ga2",
     "targetPlatformVersion": "7.1.1",
     "url": "https://releases-cdn.liferay.com/portal/7.1.1-ga2"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.2",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.2-a1",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.2.0-a1"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.1",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.1-rc1",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.1.0-rc1"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.1",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.1-b3",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.1.0-b3"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.1",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.1-b2",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.1.0-b2"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.1",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.1-b1",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.1.0-b1"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.1",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.1-a2",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.1.0-a2"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.1",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.1-a1",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.1.0-a1"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.1",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.1-m2",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.1.0-m2"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.1",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.1-m1",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.1.0-m1"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "PORTAL 7.0 GA5",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-ga5",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.4-ga5"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "PORTAL 7.0 GA4",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-ga4",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.3-ga4"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "PORTAL 7.0 GA3",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-ga3",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.2-ga3"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "PORTAL 7.0 GA2",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-ga2",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.1-ga2"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "PORTAL 7.0 GA1",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-ga1",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-ga1"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-rc1",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-rc1"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-b8",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-b8"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-b7",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-b7"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-b6",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-b6"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-b5",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-b5"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-b4",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-b4"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-b3",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-b3"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-b2",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-b2"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-b1",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-b1"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-a5",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-a5"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-a3",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-a3"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-a2",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-a2"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-m7",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-m7"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-m6",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-m6"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-m4",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-m4"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-m3",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-m3"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-m2",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-m2"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-m1",
+    "targetPlatformVersion": "",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.0-m1"
   }
 ]
