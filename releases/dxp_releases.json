@@ -1,25 +1,25 @@
 [
  {
   "product": "dxp",
-  "productGroupVersion": "2024.q2",
-  "productVersion": "DXP 2024.Q2.7",
+  "productGroupVersion": "7.4",
+  "productVersion": "DXP 7.4.13 U125",
   "promoted": "true",
-  "releaseKey": "dxp-2024.q2.7",
-  "targetPlatformVersion": "2024.q2.7",
-  "url": "https://releases-cdn.liferay.com/dxp/2024.q2.7",
+  "releaseKey": "dxp-7.4-u125",
+  "targetPlatformVersion": "7.4.13.u125",
+  "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u125",
   "releaseProperties": {
-   "url": "https://releases-cdn.liferay.com/dxp/2024.q2.7/release.properties",
-   "appServerTomcatVersion": "9.0.87",
-   "buildTimestamp": "1722238523",
-   "bundleChecksumSha512": "bb0f329902682f303f4f158d38ccc9a14be4353ed79909282a68b4fb021198bd221f0cca49f0d896be81761da250880505243883f2d7b178c83fb7d9013f6c8e",
-   "bundleURL": "https://releases-cdn.liferay.com/dxp/2024.q2.7/liferay-dxp-tomcat-2024.q2.7-1722238523.7z",
-   "gitHashLiferayDocker": "3436c45c2c23730d4f2c40e9cdba303b74eba640",
-   "gitHashLiferayPortalEE": "c9733da430c066208728df960555a37956e90582",
-   "liferayDockerImage": "liferay/dxp:2024.q2.7",
-   "liferayDockerTags": "2024.q2.7",
-   "liferayProductVersion": "DXP 2024.Q2.7",
-   "releaseDate": "2024-07-29",
-   "targetPlatformVersion": "2024.q2.7"
+   "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u125/release.properties",
+   "appServerTomcatVersion": "9.0.90",
+   "buildTimestamp": "1722884664",
+   "bundleChecksumSha512": "33f87ed300cf866a1bb2808e8b7d5fb68ee0fbd85fb3f87687e0bbf519853b2b6ce505033f6c1a4b26be323a9445fdafb37e5046cc70e6c273af225cbefe657b",
+   "bundleURL": "https://releases-cdn.liferay.com/dxp/7.4.13-u125/liferay-dxp-tomcat-7.4.13-u125-1722884664.7z",
+   "gitHashLiferayDocker": "1418bc0a04b7c411eadcbd58057e48616bb58391",
+   "gitHashLiferayPortalEE": "83a76c250ad0b00a6d961e7b37fe0959b32b03de",
+   "liferayDockerImage": "liferay/dxp:7.4.13-u125",
+   "liferayDockerTags": "7.4.13-u125",
+   "liferayProductVersion": "DXP 7.4.13 U125",
+   "releaseDate": "2024-08-05",
+   "targetPlatformVersion": "7.4.13.u125"
   }
  },
  {
