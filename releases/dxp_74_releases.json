@@ -126,7 +126,7 @@
    "url": "https://releases-cdn.liferay.com/dxp/2024.q2.3/release.properties",
    "appServerTomcatVersion": "9.0.87",
    "buildTimestamp": "1719817712",
-   "bundleChecksumSha512": "b44d270f156e93d35bda66f656b3cb17db09475a552427fd51aeea67d47406e5ff1823da53fdcda91e255da94168f4ab420351443e37cbe1bb9dbc7b4887cd13",
+   "bundleChecksumSha512": "bee38c76030af729ecea37eed483259aafe1e80c3e81aef8cd13d12ddb82ad53652d94655884d11106eb863b660aaa2182afa23eebdd24dd5154275887b4f701",
    "bundleURL": "https://releases-cdn.liferay.com/dxp/2024.q2.3/liferay-dxp-tomcat-2024.q2.3-1719817712.7z",
    "gitHashLiferayDocker": "a6dc8fe5e9bbb838435d7f54c47cb5c0b1162ab0",
    "gitHashLiferayPortalEE": "eea963ea05f1b25e45873b6a3f84104baa85c07a",
