@@ -13,7 +13,7 @@
 				"os_version": null,
 				"size": 408584699,
 				"status": "active",
-				"last_pulled": "2024-09-03T23:11:39.750512Z",
+				"last_pulled": "2024-09-05T01:04:23.758075Z",
 				"last_pushed": "2024-09-03T14:04:11.010606Z"
 			}
 		],
@@ -25,7 +25,7 @@
 		"full_size": 408584699,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-09-03T23:11:39.750512Z",
+		"tag_last_pulled": "2024-09-05T01:04:23.758075Z",
 		"tag_last_pushed": "2024-09-03T14:04:11.010606Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -46,7 +46,7 @@
 				"os_version": null,
 				"size": 848064053,
 				"status": "active",
-				"last_pulled": "2024-09-04T00:15:12.201829Z",
+				"last_pulled": "2024-09-05T00:56:57.761148Z",
 				"last_pushed": "2024-06-29T19:28:40.852083Z"
 			}
 		],
@@ -58,7 +58,7 @@
 		"full_size": 848064053,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-09-04T00:15:12.201829Z",
+		"tag_last_pulled": "2024-09-05T00:56:57.761148Z",
 		"tag_last_pushed": "2024-06-29T19:28:40.852084Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -79,7 +79,7 @@
 				"os_version": null,
 				"size": 75315053,
 				"status": "active",
-				"last_pulled": "2024-09-03T23:11:39.993154Z",
+				"last_pulled": "2024-09-05T00:39:53.92738Z",
 				"last_pushed": "2024-09-03T14:03:25.491169Z"
 			}
 		],
@@ -91,46 +91,14 @@
 		"full_size": 75315053,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-09-03T23:11:39.993154Z",
+		"tag_last_pulled": "2024-09-05T00:39:53.92738Z",
 		"tag_last_pushed": "2024-09-03T14:03:25.49117Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
 		"digest": "sha256:7e09c96550118aa07a207c83dd5d2ecbc5505e9bcb4d26176579ff5e532d1bea",
 		"latest_docker_image": "liferaycloud/database:5.6.0"
 	},
-	{
-		"creator": 8198517,
-		"id": 691640946,
-		"images": [
-			{
-				"architecture": "amd64",
-				"features": "",
-				"variant": null,
-				"digest": "sha256:310ed19cb539316e372fb9f88a14f7cf8d8c809acab812c0935db006877baf51",
-				"os": "linux",
-				"os_features": "",
-				"os_version": null,
-				"size": 6221754,
-				"status": "active",
-				"last_pulled": "2024-08-31T18:47:06.150836Z",
-				"last_pushed": "2024-06-07T20:44:49.074205Z"
-			}
-		],
-		"last_updated": "2024-06-07T20:44:49.074205Z",
-		"last_updater": 8198517,
-		"last_updater_username": "ciliferaycloud",
-		"name": "7.1-5.8.1",
-		"repository": 7077475,
-		"full_size": 6221754,
-		"v2": true,
-		"tag_status": "active",
-		"tag_last_pulled": "2024-08-31T18:47:06.150836Z",
-		"tag_last_pushed": "2024-06-07T20:44:49.074205Z",
-		"media_type": "application/vnd.docker.container.image.v1+json",
-		"content_type": "image",
-		"digest": "sha256:310ed19cb539316e372fb9f88a14f7cf8d8c809acab812c0935db006877baf51",
-		"latest_docker_image": "liferaycloud/liferay-dxp:7.1-5.8.1"
-	},
+	null,
 	{
 		"creator": 8198517,
 		"id": 714711998,
@@ -145,7 +113,7 @@
 				"os_version": null,
 				"size": 682351030,
 				"status": "active",
-				"last_pulled": "2024-09-04T00:15:14.958827Z",
+				"last_pulled": "2024-09-05T00:57:05.378775Z",
 				"last_pushed": "2024-07-05T20:19:31.358635Z"
 			}
 		],
@@ -157,7 +125,7 @@
 		"full_size": 682351030,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-09-04T00:15:14.958827Z",
+		"tag_last_pulled": "2024-09-05T00:57:05.378775Z",
 		"tag_last_pushed": "2024-07-05T20:19:31.358635Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -178,7 +146,7 @@
 				"os_version": null,
 				"size": 265576734,
 				"status": "active",
-				"last_pulled": "2024-09-03T20:08:37.882147Z",
+				"last_pulled": "2024-09-04T23:31:48.852302Z",
 				"last_pushed": "2024-09-03T14:06:20.343927Z"
 			}
 		],
@@ -190,7 +158,7 @@
 		"full_size": 265576734,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2024-09-03T20:08:37.882147Z",
+		"tag_last_pulled": "2024-09-04T23:31:48.852302Z",
 		"tag_last_pushed": "2024-09-03T14:06:20.343928Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
