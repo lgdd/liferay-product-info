@@ -1,5 +1,14 @@
 [
   {
+    "product": "portal",
+    "productGroupVersion": "7.4",
+    "productVersion": "Portal 7.4.3.125 GA125",
+    "promoted": "true",
+    "releaseKey": "portal-7.4-ga125",
+    "targetPlatformVersion": "7.4.3.125-ga125",
+    "url": "https://releases-cdn.liferay.com/portal/7.4.3.125-ga125"
+  },
+  {
     "product": "dxp",
     "productGroupVersion": "2024.q3",
     "productVersion": "DXP 2024.Q3.0",
@@ -120,7 +129,7 @@
     "product": "portal",
     "productGroupVersion": "7.4",
     "productVersion": "Portal 7.4.3.120 GA120",
-    "promoted": "true",
+    "promoted": "false",
     "releaseKey": "portal-7.4-ga120",
     "targetPlatformVersion": "7.4.3.120",
     "url": "https://releases-cdn.liferay.com/portal/7.4.3.120-ga120"
