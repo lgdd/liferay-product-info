@@ -66,5 +66,7 @@ jobs:
           git commit -am "chore: auto update deps files" || echo "We're good for now. See you next time!"
           git add releases
           git commit -am "chore: auto update releases" || echo "We're good for now. See you next time!"
+          git add quarterly_releases_dates.json
+          git commit -am "chore: auto update quarterly releases dates" || echo "We're good for now. See you next time!"
           git pull --rebase
           git push

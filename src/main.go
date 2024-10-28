@@ -10,13 +10,116 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strings"
 	"time"
 )
 
+const (
+	DockerHubAPIBaseURL = "https://registry.hub.docker.com/v2/repositories"
+	FirstQuarterlyRegex = "^[0-9]{4}\\.q[0-9]{1}\\.0$"
+)
+
 func main() {
-	fetchLatestWorkspaceGradlePlugin()
-	buidReleaseFiles()
+	// fetchLatestWorkspaceGradlePlugin()
+	// buidReleaseFiles()
+	buildQuarterlyReleasesDatesFile()
+}
+
+func buildQuarterlyReleasesDatesFile() {
+	var quarterlyReleases []QuarterlyRelease
+	dockerTags, err := fetchDockerTags("https://registry.hub.docker.com/v2/repositories/liferay/dxp/tags?page=1&page_size=100")
+	var releaseDockerImageMetadata []DockerImageMetadata
+
+	if err != nil {
+		panic(err)
+	}
+
+	nextPage := dockerTags.Next
+	var firstQuarterlyReleases []DockerImageMetadata
+
+	for nextPage != "" {
+		firstQuarterlyReleases = filterFirstQuarterlyReleases(dockerTags.Results)
+		releaseDockerImageMetadata = append(releaseDockerImageMetadata, firstQuarterlyReleases...)
+		dockerTags, err = fetchDockerTags(nextPage)
+		if err != nil {
+			panic(err)
+		}
+		nextPage = dockerTags.Next
+	}
+
+	for _, release := range releaseDockerImageMetadata {
+		releaseNameSplit := strings.Split(release.Name, ".")
+		releaseYear := releaseNameSplit[0]
+		releaseQuarter := releaseNameSplit[1]
+		releaseName := strings.Join([]string{releaseYear, releaseQuarter}, ".")
+		releaseFirstShipDate := release.TagLastPushed.Format(time.DateOnly)
+		releaseEndOfPremiumSupportDate := release.TagLastPushed.AddDate(1, 0, -1).Format(time.DateOnly)
+		releaseEndOfLimitedSupportDate := "N/A"
+
+		if strings.ToLower(releaseQuarter) == "q1" {
+			releaseEndOfPremiumSupportDate = release.TagLastPushed.AddDate(2, 0, -1).Format(time.DateOnly)
+			releaseEndOfLimitedSupportDate = release.TagLastPushed.AddDate(5, 0, -1).Format(time.DateOnly)
+		}
+
+		quarterlyRelease := QuarterlyRelease{
+			Name:                releaseName,
+			FirstShipDate:       releaseFirstShipDate,
+			EndOfPremiumSupport: releaseEndOfPremiumSupportDate,
+			EndOfLimitedSupport: releaseEndOfLimitedSupportDate,
+		}
+		quarterlyReleases = append(quarterlyReleases, quarterlyRelease)
+	}
+
+	bytes, err := json.Marshal(quarterlyReleases)
+
+	if err != nil {
+		panic(err)
+	}
+
+	err = os.WriteFile("quarterly_releases_dates.json", bytes, 0644)
+	if err != nil {
+		panic(err)
+	}
+}
+
+func fetchDockerTags(url string) (DockerTags, error) {
+	resp, err := http.Get(url)
+
+	if err != nil {
+		panic(err)
+	}
+
+	defer resp.Body.Close()
+
+	var dockerTags DockerTags
+	body, err := io.ReadAll(resp.Body)
+
+	if err != nil {
+		return DockerTags{}, err
+	}
+
+	err = json.Unmarshal(body, &dockerTags)
+
+	if err != nil {
+		return DockerTags{}, err
+	}
+
+	return dockerTags, nil
+}
+
+func filterFirstQuarterlyReleases(dockerImageMetadata []DockerImageMetadata) []DockerImageMetadata {
+	var firstQuarterlyReleases []DockerImageMetadata
+	for _, metadata := range dockerImageMetadata {
+		if match, _ := regexp.MatchString(FirstQuarterlyRegex, metadata.Name); match {
+			firstQuarterlyReleases = append(firstQuarterlyReleases, metadata)
+		}
+		// 2024.q1 exception
+		if metadata.Name == "2024.q1.1" {
+			firstQuarterlyReleases = append(firstQuarterlyReleases, metadata)
+		}
+	}
+	return firstQuarterlyReleases
 }
 
 func fetchLatestWorkspaceGradlePlugin() {
@@ -337,6 +440,27 @@ type ReleaseProperties struct {
 	LiferayProductVersion  string `json:"liferayProductVersion"`
 	ReleaseDate            string `json:"releaseDate"`
 	TargetPlatformVersion  string `json:"targetPlatformVersion"`
+}
+
+type DockerTags struct {
+	Count    int                   `json:"count"`
+	Next     string                `json:"next"`
+	Previous string                `json:"previous"`
+	Results  []DockerImageMetadata `json:"results"`
+}
+
+type DockerImageMetadata struct {
+	LastUpdated   time.Time `json:"last_updated"`
+	Name          string    `json:"name"`
+	TagStatus     string    `json:"tag_status"`
+	TagLastPushed time.Time `json:"tag_last_pushed"`
+}
+
+type QuarterlyRelease struct {
+	Name                string `json:"name"`
+	FirstShipDate       string `json:"firstShipDate"`
+	EndOfPremiumSupport string `json:"endOfPremiumSupport"`
+	EndOfLimitedSupport string `json:"endOfLimitedSupport"`
 }
 
 type AppConfigProperties map[string]string
