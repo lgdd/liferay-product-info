@@ -21,8 +21,8 @@ const (
 )
 
 func main() {
-	// fetchLatestWorkspaceGradlePlugin()
-	// buidReleaseFiles()
+	fetchLatestWorkspaceGradlePlugin()
+	buidReleaseFiles()
 	buildQuarterlyReleasesDatesFile()
 }
 
