@@ -290,7 +290,7 @@ func (release *Release) FetchProperties() {
 	fmt.Print("Get " + releasePropertiesURL)
 	resp, err := httpClient.Get(releasePropertiesURL)
 
-	if err != nil {
+	if err != nil || resp.StatusCode != 200 {
 		fmt.Printf(" ❌ (%.2f s)\n", time.Since(start).Seconds())
 		return
 	}
@@ -303,37 +303,39 @@ func (release *Release) FetchProperties() {
 	releasePropertiesDirPath := getPathFromURL(releasePropertiesURL)
 	releasePropertiesPath := filepath.Join(releasePropertiesDirPath, "release.properties")
 
-	err = os.MkdirAll(releasePropertiesDirPath, os.ModePerm)
+	if resp.StatusCode == 200 {
+		err = os.MkdirAll(releasePropertiesDirPath, os.ModePerm)
 
-	if err != nil {
-		panic(err)
-	}
+		if err != nil {
+			panic(err)
+		}
 
-	err = os.WriteFile(releasePropertiesPath, bodyBytes, 0644)
+		err = os.WriteFile(releasePropertiesPath, bodyBytes, 0644)
 
-	if err != nil {
-		panic(err)
-	}
+		if err != nil {
+			panic(err)
+		}
 
-	config, err := ReadPropertiesFile(releasePropertiesPath)
+		config, err := ReadPropertiesFile(releasePropertiesPath)
 
-	release.ReleaseProperties = ReleaseProperties{
-		URL:                    releasePropertiesURL,
-		AppServerTomcatVersion: config["app.server.tomcat.version"],
-		BuildTimestamp:         config["build.timestamp"],
-		BundleChecksumSha512:   config["bundle.checksum.sha512"],
-		BundleURL:              config["bundle.url"],
-		GitHashLiferayDocker:   config["git.hash.liferay-docker"],
-		GitHasLiferayPortalEE:  config["git.hash.liferay-portal-ee"],
-		LiferayDockerImage:     config["liferay.docker.image"],
-		LiferayDockerTags:      config["liferay.docker.tags"],
-		LiferayProductVersion:  config["liferay.product.version"],
-		ReleaseDate:            config["release.date"],
-		TargetPlatformVersion:  config["target.platform.version"],
-	}
+		release.ReleaseProperties = ReleaseProperties{
+			URL:                    releasePropertiesURL,
+			AppServerTomcatVersion: config["app.server.tomcat.version"],
+			BuildTimestamp:         config["build.timestamp"],
+			BundleChecksumSha512:   config["bundle.checksum.sha512"],
+			BundleURL:              config["bundle.url"],
+			GitHashLiferayDocker:   config["git.hash.liferay-docker"],
+			GitHasLiferayPortalEE:  config["git.hash.liferay-portal-ee"],
+			LiferayDockerImage:     config["liferay.docker.image"],
+			LiferayDockerTags:      config["liferay.docker.tags"],
+			LiferayProductVersion:  config["liferay.product.version"],
+			ReleaseDate:            config["release.date"],
+			TargetPlatformVersion:  config["target.platform.version"],
+		}
 
-	if err != nil {
-		panic(err)
+		if err != nil {
+			panic(err)
+		}
 	}
 }
 
