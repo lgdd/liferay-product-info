@@ -550,7 +550,7 @@ type DockerImageMetadata struct {
 
 type QuarterlyRelease struct {
 	Name                string `json:"name"`
-	FirstShipDateOrigin string `json:firstShipDateOrigin`
+	FirstShipDateOrigin string `json:"firstShipDateOrigin"`
 	FirstShipDate       string `json:"firstShipDate"`
 	EndOfPremiumSupport string `json:"endOfPremiumSupport"`
 	EndOfLimitedSupport string `json:"endOfLimitedSupport"`
