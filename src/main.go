@@ -11,6 +11,8 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"slices"
+	"sort"
 	"strings"
 	"time"
 )
@@ -18,6 +20,11 @@ import (
 const (
 	DockerHubAPIBaseURL = "https://registry.hub.docker.com/v2/repositories"
 	FirstQuarterlyRegex = "^[0-9]{4}\\.q[0-9]{1}\\.0$"
+)
+
+var (
+	ReleaseExceptionToInclude = []string{"2024.q1.1", "2023.q3.1"}
+	ReleaseExceptionToExclude = []string{"2024.q1.0", "2023.q3.0"}
 )
 
 func main() {
@@ -49,27 +56,60 @@ func buildQuarterlyReleasesDatesFile() {
 	}
 
 	for _, release := range releaseDockerImageMetadata {
+		var sb strings.Builder
+
 		releaseNameSplit := strings.Split(release.Name, ".")
 		releaseYear := releaseNameSplit[0]
 		releaseQuarter := releaseNameSplit[1]
 		releaseName := strings.Join([]string{releaseYear, releaseQuarter}, ".")
 		releaseFirstShipDate := release.TagLastPushed.Format(time.DateOnly)
-		releaseEndOfPremiumSupportDate := release.TagLastPushed.AddDate(1, 0, -1).Format(time.DateOnly)
+		sb.WriteString("https://hub.docker.com/r/liferay/dxp/tags?name=")
+		sb.WriteString(release.Name)
+		releaseFirstShipDateOrigin := sb.String()
+
+		releaseDateFound, releaseDatePropValue, err := findReleaseDate(release.Name)
+
+		if err != nil {
+			panic(err)
+		}
+
+		if releaseDateFound {
+			releaseFirstShipDate = releaseDatePropValue
+			var sb strings.Builder
+			sb.WriteString("https://releases-cdn.liferay.com/dxp/")
+			sb.WriteString(release.Name)
+			sb.WriteString("/release.properties")
+			releaseFirstShipDateOrigin = sb.String()
+		}
+
+		releaseFirstShipDateTime, err := time.Parse("2006-01-02", releaseFirstShipDate)
+
+		if err != nil {
+			panic(err)
+		}
+
+		releaseEndOfPremiumSupportDate := releaseFirstShipDateTime.AddDate(1, 0, -1).Format(time.DateOnly)
 		releaseEndOfLimitedSupportDate := "N/A"
 
 		if strings.ToLower(releaseQuarter) == "q1" {
-			releaseEndOfPremiumSupportDate = release.TagLastPushed.AddDate(2, 0, -1).Format(time.DateOnly)
-			releaseEndOfLimitedSupportDate = release.TagLastPushed.AddDate(5, 0, -1).Format(time.DateOnly)
+			releaseEndOfPremiumSupportDate = releaseFirstShipDateTime.AddDate(2, 0, -1).Format(time.DateOnly)
+			releaseEndOfLimitedSupportDate = releaseFirstShipDateTime.AddDate(5, 0, -1).Format(time.DateOnly)
 		}
 
 		quarterlyRelease := QuarterlyRelease{
 			Name:                releaseName,
+			FirstShipDateOrigin: releaseFirstShipDateOrigin,
 			FirstShipDate:       releaseFirstShipDate,
 			EndOfPremiumSupport: releaseEndOfPremiumSupportDate,
 			EndOfLimitedSupport: releaseEndOfLimitedSupportDate,
 		}
 		quarterlyReleases = append(quarterlyReleases, quarterlyRelease)
 	}
+
+	// Sort from latest to olders making latest release first in the list
+	sort.Slice(quarterlyReleases, func(i, j int) bool {
+		return quarterlyReleases[i].FirstShipDate > quarterlyReleases[j].FirstShipDate
+	})
 
 	bytes, err := json.Marshal(quarterlyReleases)
 
@@ -81,6 +121,41 @@ func buildQuarterlyReleasesDatesFile() {
 	if err != nil {
 		panic(err)
 	}
+}
+
+func findReleaseDate(release string) (found bool, date string, err error) {
+	var urlBuilder strings.Builder
+	urlBuilder.WriteString("https://releases-cdn.liferay.com/dxp/")
+	urlBuilder.WriteString(release)
+	urlBuilder.WriteString("/release.properties")
+
+	httpClient := getHttpClient()
+	resp, err := httpClient.Get(urlBuilder.String())
+
+	if err != nil {
+		return false, "", err
+	}
+
+	defer resp.Body.Close()
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return false, "", err
+	}
+
+	r := regexp.MustCompile("release\\.date=.*")
+	releaseKeyValue := r.FindString(string(body))
+
+	if len(releaseKeyValue) == 0 {
+		return false, "", nil
+	}
+
+	matchSplit := strings.Split(releaseKeyValue, "=")
+	if len(matchSplit) < 2 {
+		return false, "", nil
+	}
+
+	return true, matchSplit[1], nil
 }
 
 func fetchDockerTags(url string) (DockerTags, error) {
@@ -111,12 +186,13 @@ func fetchDockerTags(url string) (DockerTags, error) {
 func filterFirstQuarterlyReleases(dockerImageMetadata []DockerImageMetadata) []DockerImageMetadata {
 	var firstQuarterlyReleases []DockerImageMetadata
 	for _, metadata := range dockerImageMetadata {
-		if match, _ := regexp.MatchString(FirstQuarterlyRegex, metadata.Name); match {
+		if slices.Contains(ReleaseExceptionToInclude, metadata.Name) {
 			firstQuarterlyReleases = append(firstQuarterlyReleases, metadata)
 		}
-		// 2024.q1 exception
-		if metadata.Name == "2024.q1.1" {
-			firstQuarterlyReleases = append(firstQuarterlyReleases, metadata)
+		if match, _ := regexp.MatchString(FirstQuarterlyRegex, metadata.Name); match {
+			if !slices.Contains(ReleaseExceptionToExclude, metadata.Name) {
+				firstQuarterlyReleases = append(firstQuarterlyReleases, metadata)
+			}
 		}
 	}
 	return firstQuarterlyReleases
@@ -460,6 +536,7 @@ type DockerImageMetadata struct {
 
 type QuarterlyRelease struct {
 	Name                string `json:"name"`
+	FirstShipDateOrigin string `json:firstShipDateOrigin`
 	FirstShipDate       string `json:"firstShipDate"`
 	EndOfPremiumSupport string `json:"endOfPremiumSupport"`
 	EndOfLimitedSupport string `json:"endOfLimitedSupport"`
