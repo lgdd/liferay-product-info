@@ -28,8 +28,8 @@ var (
 )
 
 func main() {
-	fetchLatestWorkspaceGradlePlugin()
-	buidReleaseFiles()
+	// fetchLatestWorkspaceGradlePlugin()
+	// buidReleaseFiles()
 	buildQuarterlyReleasesDatesFile()
 }
 
@@ -110,6 +110,20 @@ func buildQuarterlyReleasesDatesFile() {
 	sort.Slice(quarterlyReleases, func(i, j int) bool {
 		return quarterlyReleases[i].FirstShipDate > quarterlyReleases[j].FirstShipDate
 	})
+
+	var csvStringBuilder strings.Builder
+	csvStringBuilder.WriteString("name,firstShipDateOrigin,firstShipDate,endOfPremiumSupport,endOfLimitedSupport\n")
+	for _, release := range quarterlyReleases {
+		rowSlice := []string{release.Name, release.FirstShipDateOrigin, release.FirstShipDate, release.EndOfPremiumSupport, release.EndOfLimitedSupport}
+		csvStringBuilder.WriteString(strings.Join(rowSlice, ","))
+		csvStringBuilder.WriteString("\n")
+	}
+
+	err = os.WriteFile("quarterly_releases_dates.csv", []byte(csvStringBuilder.String()), 0644)
+
+	if err != nil {
+		panic(err)
+	}
 
 	bytes, err := json.Marshal(quarterlyReleases)
 
