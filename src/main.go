@@ -28,8 +28,8 @@ var (
 )
 
 func main() {
-	// fetchLatestWorkspaceGradlePlugin()
-	// buidReleaseFiles()
+	fetchLatestWorkspaceGradlePlugin()
+	buidReleaseFiles()
 	buildQuarterlyReleasesDatesFile()
 }
 
