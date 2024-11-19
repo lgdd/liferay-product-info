@@ -102,6 +102,7 @@ func buildQuarterlyReleasesDatesFile() {
 			FirstShipDate:       releaseFirstShipDate,
 			EndOfPremiumSupport: releaseEndOfPremiumSupportDate,
 			EndOfLimitedSupport: releaseEndOfLimitedSupportDate,
+			LTS:                 strings.ToLower(releaseQuarter) == "q1",
 		}
 		quarterlyReleases = append(quarterlyReleases, quarterlyRelease)
 	}
@@ -554,6 +555,7 @@ type QuarterlyRelease struct {
 	FirstShipDate       string `json:"firstShipDate"`
 	EndOfPremiumSupport string `json:"endOfPremiumSupport"`
 	EndOfLimitedSupport string `json:"endOfLimitedSupport"`
+	LTS                 bool   `json:"lts"`
 }
 
 type AppConfigProperties map[string]string
