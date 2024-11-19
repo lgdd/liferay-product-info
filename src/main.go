@@ -92,7 +92,7 @@ func buildQuarterlyReleasesDatesFile() {
 		releaseEndOfLimitedSupportDate := "N/A"
 
 		if strings.ToLower(releaseQuarter) == "q1" {
-			releaseEndOfPremiumSupportDate = releaseFirstShipDateTime.AddDate(2, 0, -1).Format(time.DateOnly)
+			releaseEndOfPremiumSupportDate = releaseFirstShipDateTime.AddDate(3, 0, -1).Format(time.DateOnly)
 			releaseEndOfLimitedSupportDate = releaseFirstShipDateTime.AddDate(5, 0, -1).Format(time.DateOnly)
 		}
 
