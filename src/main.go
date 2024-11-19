@@ -13,6 +13,7 @@ import (
 	"regexp"
 	"slices"
 	"sort"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -113,9 +114,9 @@ func buildQuarterlyReleasesDatesFile() {
 	})
 
 	var csvStringBuilder strings.Builder
-	csvStringBuilder.WriteString("name,firstShipDateOrigin,firstShipDate,endOfPremiumSupport,endOfLimitedSupport\n")
+	csvStringBuilder.WriteString("name,firstShipDateOrigin,firstShipDate,endOfPremiumSupport,endOfLimitedSupport,LTS\n")
 	for _, release := range quarterlyReleases {
-		rowSlice := []string{release.Name, release.FirstShipDateOrigin, release.FirstShipDate, release.EndOfPremiumSupport, release.EndOfLimitedSupport}
+		rowSlice := []string{release.Name, release.FirstShipDateOrigin, release.FirstShipDate, release.EndOfPremiumSupport, release.EndOfLimitedSupport, strconv.FormatBool(release.LTS)}
 		csvStringBuilder.WriteString(strings.Join(rowSlice, ","))
 		csvStringBuilder.WriteString("\n")
 	}
