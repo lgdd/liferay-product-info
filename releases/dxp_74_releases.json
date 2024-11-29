@@ -3090,18 +3090,18 @@
   "targetPlatformVersion": "7.4.13.u20",
   "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u20",
   "releaseProperties": {
-   "url": "",
-   "appServerTomcatVersion": "",
-   "buildTimestamp": "",
-   "bundleChecksumSha512": "",
-   "bundleURL": "",
+   "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u20/release.properties",
+   "appServerTomcatVersion": "9.0.56",
+   "buildTimestamp": "20220408150343170",
+   "bundleChecksumSha512": "e0e32a11da7446d8c24a35fece2fd76c4c049e70b08c6df480772173c9290ae90a510535d3f15e358cd90292dc46781248ff6f1d9793445a972cb520abd45542",
+   "bundleURL": "https://releases-cdn.liferay.com/dxp/7.4.13-u20/liferay-dxp-tomcat-7.4.13.u20-20220408150343170.7z",
    "gitHashLiferayDocker": "",
-   "gitHashLiferayPortalEE": "",
-   "liferayDockerImage": "",
-   "liferayDockerTags": "",
-   "liferayProductVersion": "",
-   "releaseDate": "",
-   "targetPlatformVersion": ""
+   "gitHashLiferayPortalEE": "bcabdc3f028b97f166c27169e57697f0b137a907",
+   "liferayDockerImage": "liferay/dxp:7.4.13-u20",
+   "liferayDockerTags": "liferay/dxp:7.4.13-u20",
+   "liferayProductVersion": "DXP 7.4 U20",
+   "releaseDate": "2022-04-15",
+   "targetPlatformVersion": "7.4.13.u20"
   }
  },
  {

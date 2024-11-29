@@ -514,17 +514,17 @@
   "targetPlatformVersion": "",
   "url": "https://releases-cdn.liferay.com/portal/7.0.0-m1",
   "releaseProperties": {
-   "url": "",
-   "appServerTomcatVersion": "",
-   "buildTimestamp": "",
-   "bundleChecksumSha512": "",
-   "bundleURL": "",
+   "url": "https://releases-cdn.liferay.com/portal/7.0.0-m1/release.properties",
+   "appServerTomcatVersion": "2024-02-28T08:20:08+00:00 [ERROR] Failed to retrieve tomcat version",
+   "buildTimestamp": "20140820241612512",
+   "bundleChecksumSha512": "e17d964c3151bebe6137d7eedbf9fdebc3efc3f7827caa33c6f92f563a3f4f2405dc20080261ba088482d1f181355267336836c3cceb43cbcd1b2976303bad0f",
+   "bundleURL": "https://releases-cdn.liferay.com/portal/7.0.0-m1/liferay-portal-tomcat-7.0-ce-m1-20140820241612512.zip",
    "gitHashLiferayDocker": "",
    "gitHashLiferayPortalEE": "",
-   "liferayDockerImage": "",
-   "liferayDockerTags": "",
+   "liferayDockerImage": "liferay/portal:7.0.0-m1",
+   "liferayDockerTags": "liferay/portal:7.0.0-m1",
    "liferayProductVersion": "",
-   "releaseDate": "",
+   "releaseDate": "2014-08-20",
    "targetPlatformVersion": ""
   }
  }
