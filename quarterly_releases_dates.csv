@@ -3,4 +3,4 @@ name,firstShipDateOrigin,firstShipDate,endOfPremiumSupport,endOfLimitedSupport,L
 2024.q2,https://releases-cdn.liferay.com/dxp/2024.q2.0/release.properties,2024-06-07,2025-06-06,N/A,false
 2024.q1,https://releases-cdn.liferay.com/dxp/2024.q1.1/release.properties,2024-03-13,2027-03-12,2029-03-12,true
 2023.q4,https://releases-cdn.liferay.com/dxp/2023.q4.0/release.properties,2023-12-06,2024-12-05,N/A,false
-2023.q3,https://hub.docker.com/r/liferay/dxp/tags?name=2023.q3.1,2023-11-10,2024-11-09,N/A,false
+2023.q3,https://releases-cdn.liferay.com/dxp/2023.q3.1/release.properties,2023-10-18,2024-10-17,N/A,false
