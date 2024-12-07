@@ -2607,18 +2607,18 @@
   "targetPlatformVersion": "7.2.1-1",
   "url": "https://releases-cdn.liferay.com/portal/7.2.1-ga2",
   "releaseProperties": {
-   "url": "",
-   "appServerTomcatVersion": "",
-   "buildTimestamp": "",
-   "bundleChecksumSha512": "",
-   "bundleURL": "",
+   "url": "https://releases-cdn.liferay.com/portal/7.2.1-ga2/release.properties",
+   "appServerTomcatVersion": "9.0.17",
+   "buildTimestamp": "20191111141448326",
+   "bundleChecksumSha512": "39eb48734c2f26e964e1805af4329d1462141bfb20a02378f0e6e8fab4369151e15f0ba30d297fe087ce62fa3fbde9bca6cb39d4187612076d3ff079c777e70c",
+   "bundleURL": "https://releases-cdn.liferay.com/portal/7.2.1-ga2/liferay-ce-portal-tomcat-7.2.1-ga2-20191111141448326.7z",
    "gitHashLiferayDocker": "",
-   "gitHashLiferayPortalEE": "",
-   "liferayDockerImage": "",
-   "liferayDockerTags": "",
-   "liferayProductVersion": "",
-   "releaseDate": "",
-   "targetPlatformVersion": ""
+   "gitHashLiferayPortalEE": "ded0e9390637985231e962e4ad4cfa4639eabb26",
+   "liferayDockerImage": "liferay/portal:7.2.1-ga2",
+   "liferayDockerTags": "liferay/portal:7.2.1-ga2",
+   "liferayProductVersion": "Portal 7.2 GA2",
+   "releaseDate": "2019-11-18",
+   "targetPlatformVersion": "7.2.1-1"
   }
  },
  {

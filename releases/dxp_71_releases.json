@@ -278,29 +278,6 @@
  {
   "product": "dxp",
   "productGroupVersion": "7.1",
-  "productVersion": "DXP 7.2 GA1",
-  "promoted": "false",
-  "releaseKey": "dxp-7.1.10",
-  "targetPlatformVersion": "7.2.10",
-  "url": "https://releases-cdn.liferay.com/dxp/7.1.10",
-  "releaseProperties": {
-   "url": "https://releases-cdn.liferay.com/dxp/7.1.10/release.properties",
-   "appServerTomcatVersion": "9.0.17",
-   "buildTimestamp": "20190531140450482",
-   "bundleChecksumSha512": "85ce724122f22f6c5b30b82552e9fbb27a7cdffd765fe10760ea5bdccc5bd55241d9bbbb810405ec0f4ba4673c5a0873ec26661ad1fed09a74f616b47238ec93",
-   "bundleURL": "https://releases-cdn.liferay.com/dxp/7.2.10/liferay-dxp-tomcat-7.2.10-ga1-20190531140450482.7z",
-   "gitHashLiferayDocker": "",
-   "gitHashLiferayPortalEE": "56033076e70c9f6949c7dd3c8730d3a088364c75",
-   "liferayDockerImage": "liferay/dxp:7.2.10-ga1",
-   "liferayDockerTags": "liferay/dxp:7.2.10-ga1",
-   "liferayProductVersion": "DXP 7.2 GA1",
-   "releaseDate": "2019-05-31",
-   "targetPlatformVersion": "7.2.10"
-  }
- },
- {
-  "product": "dxp",
-  "productGroupVersion": "7.1",
   "productVersion": "DXP 7.1 SP2",
   "promoted": "false",
   "releaseKey": "dxp-7.1.2",
@@ -342,6 +319,29 @@
    "liferayProductVersion": "DXP 7.1 SP1",
    "releaseDate": "2019-01-10",
    "targetPlatformVersion": "7.1.10.1"
+  }
+ },
+ {
+  "product": "dxp",
+  "productGroupVersion": "7.1",
+  "productVersion": "DXP 7.1 GA1",
+  "promoted": "false",
+  "releaseKey": "dxp-7.1.10",
+  "targetPlatformVersion": "7.1.10",
+  "url": "https://releases-cdn.liferay.com/dxp/7.1.10",
+  "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.1.10/release.properties",
+   "appServerTomcatVersion": "9.0.17",
+   "buildTimestamp": "20190531140450482",
+   "bundleChecksumSha512": "85ce724122f22f6c5b30b82552e9fbb27a7cdffd765fe10760ea5bdccc5bd55241d9bbbb810405ec0f4ba4673c5a0873ec26661ad1fed09a74f616b47238ec93",
+   "bundleURL": "https://releases-cdn.liferay.com/dxp/7.2.10/liferay-dxp-tomcat-7.2.10-ga1-20190531140450482.7z",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "56033076e70c9f6949c7dd3c8730d3a088364c75",
+   "liferayDockerImage": "liferay/dxp:7.2.10-ga1",
+   "liferayDockerTags": "liferay/dxp:7.2.10-ga1",
+   "liferayProductVersion": "DXP 7.2 GA1",
+   "releaseDate": "2019-05-31",
+   "targetPlatformVersion": "7.2.10"
   }
  }
 ]
