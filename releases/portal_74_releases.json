@@ -583,18 +583,18 @@
   "targetPlatformVersion": "7.4.3.84",
   "url": "https://releases-cdn.liferay.com/portal/7.4.3.84-ga84",
   "releaseProperties": {
-   "url": "https://releases-cdn.liferay.com/portal/7.4.3.84-ga84/release.properties",
-   "appServerTomcatVersion": "9.0.75",
-   "buildTimestamp": "20230706132729117",
-   "bundleChecksumSha512": "0547bd7c4fc4ad0c3173fde5b6f85e830e9d4d74ed9730f9c21667779facf2090186a56a7e7623d409d0b3abf761446c462795311879a6f8749593aa0837a894",
-   "bundleURL": "https://releases-cdn.liferay.com/portal/7.4.3.84-ga84/liferay-ce-portal-tomcat-7.4.3.84-ga84-20230706132729117.7z",
+   "url": "",
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
    "gitHashLiferayDocker": "",
-   "gitHashLiferayPortalEE": "84a0af70bfbd2eee0f996fd143fa8af3e7c25438",
-   "liferayDockerImage": "liferay/portal:7.4.3.84-ga84",
-   "liferayDockerTags": "liferay/portal:7.4.3.84-ga84",
-   "liferayProductVersion": "Portal 7.4 GA84",
-   "releaseDate": "2023-07-07",
-   "targetPlatformVersion": "7.4.3.84"
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
   }
  },
  {
