@@ -2,8 +2,31 @@
  {
   "product": "dxp",
   "productGroupVersion": "2024.q4",
-  "productVersion": "DXP 2024.Q4.3",
+  "productVersion": "DXP 2024.Q4.4",
   "promoted": "true",
+  "releaseKey": "dxp-2024.q4.4",
+  "targetPlatformVersion": "2024.q4.4",
+  "url": "https://releases-cdn.liferay.com/dxp/2024.q4.4",
+  "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/2024.q4.4/release.properties",
+   "appServerTomcatVersion": "9.0.97",
+   "buildTimestamp": "1737380895",
+   "bundleChecksumSha512": "91d338a2f669a7b4d3b6bd1dd481fa71e315d11ce9e9f839b33317a59b559c0eb2dcbc70b0e1fc03a58c76562fc855f517a1fba22847aa91c7f615fbc7a7ee63",
+   "bundleURL": "https://releases-cdn.liferay.com/dxp/2024.q4.4/liferay-dxp-tomcat-2024.q4.4-1737380895.7z",
+   "gitHashLiferayDocker": "ec4693fc005e85a8be6fc1469ea8b49249b66093",
+   "gitHashLiferayPortalEE": "ab2c70c0737d8a1df10d7af59b527bc7d4394548",
+   "liferayDockerImage": "liferay/dxp:2024.q4.4",
+   "liferayDockerTags": "2024.q4.4",
+   "liferayProductVersion": "DXP 2024.Q4.4",
+   "releaseDate": "2025-01-20",
+   "targetPlatformVersion": "2024.q4.4"
+  }
+ },
+ {
+  "product": "dxp",
+  "productGroupVersion": "2024.q4",
+  "productVersion": "DXP 2024.Q4.3",
+  "promoted": "false",
   "releaseKey": "dxp-2024.q4.3",
   "targetPlatformVersion": "2024.q4.3",
   "url": "https://releases-cdn.liferay.com/dxp/2024.q4.3",
