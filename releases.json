@@ -1,6 +1,15 @@
 [
   {
     "product": "dxp",
+    "productGroupVersion": "2023.q4",
+    "productVersion": "DXP 2023.Q4.10",
+    "promoted": "true",
+    "releaseKey": "dxp-2023.q4.10",
+    "targetPlatformVersion": "2023.q4.10",
+    "url": "https://releases-cdn.liferay.com/dxp/2023.q4.10"
+  },
+  {
+    "product": "dxp",
     "productGroupVersion": "2024.q4",
     "productVersion": "DXP 2024.Q4.4",
     "promoted": "true",
@@ -390,7 +399,7 @@
     "product": "dxp",
     "productGroupVersion": "2023.q4",
     "productVersion": "DXP 2023.Q4.9",
-    "promoted": "true",
+    "promoted": "false",
     "releaseKey": "dxp-2023.q4.9",
     "targetPlatformVersion": "2023.q4.9",
     "url": "https://releases-cdn.liferay.com/dxp/2023.q4.9"
