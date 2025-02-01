@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 container_name=get-dxp-dev-trial
 modules_path=/opt/liferay/osgi/modules
