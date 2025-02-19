@@ -2,8 +2,31 @@
  {
   "product": "portal",
   "productGroupVersion": "7.4",
-  "productVersion": "Portal 7.4.3.129 GA129",
+  "productVersion": "Portal 7.4.3.132 GA132",
   "promoted": "true",
+  "releaseKey": "portal-7.4-ga132",
+  "targetPlatformVersion": "7.4.3.132",
+  "url": "https://releases-cdn.liferay.com/portal/7.4.3.132-ga132",
+  "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/portal/7.4.3.132-ga132/release.properties",
+   "appServerTomcatVersion": "9.0.98",
+   "buildTimestamp": "1739912568",
+   "bundleChecksumSha512": "2da493dc3dadc8cebe19a8a66f579831fb281d818f30ea440bd9366efebcb86a5002aecb36aeb692f94ae3bee5cdaabe01d32adeb2de32181e29f89911cd68f5",
+   "bundleURL": "https://releases-cdn.liferay.com/portal/7.4.3.132-ga132/liferay-portal-tomcat-7.4.3.132-ga132-1739912568.7z",
+   "gitHashLiferayDocker": "87127d59d485b274a4ccfd3270654003f7352ef6",
+   "gitHashLiferayPortalEE": "a9017d1f654503189fcd6eecd59bd501a7015b8c",
+   "liferayDockerImage": "liferay/portal:7.4.3.132-ga132",
+   "liferayDockerTags": "7.4.3.132-ga132",
+   "liferayProductVersion": "Portal 7.4.3.132 GA132",
+   "releaseDate": "2025-02-18",
+   "targetPlatformVersion": "7.4.3.132"
+  }
+ },
+ {
+  "product": "portal",
+  "productGroupVersion": "7.4",
+  "productVersion": "Portal 7.4.3.129 GA129",
+  "promoted": "false",
   "releaseKey": "portal-7.4-ga129",
   "targetPlatformVersion": "7.4.3.129",
   "url": "https://releases-cdn.liferay.com/portal/7.4.3.129-ga129",
