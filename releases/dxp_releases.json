@@ -26,7 +26,7 @@
   "product": "dxp",
   "productGroupVersion": "2025.q1",
   "productVersion": "DXP 2025.Q1.1 LTS",
-  "promoted": "true",
+  "promoted": "false",
   "releaseKey": "dxp-2025.q1.1-lts",
   "targetPlatformVersion": "2025.q1.1",
   "url": "https://releases-cdn.liferay.com/dxp/2025.q1.1-lts",
