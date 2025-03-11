@@ -1,6 +1,15 @@
 [
   {
     "product": "dxp",
+    "productGroupVersion": "2025.q1",
+    "productVersion": "DXP 2025.Q1.2 LTS",
+    "promoted": "true",
+    "releaseKey": "dxp-2025.q1.2-lts",
+    "targetPlatformVersion": "2025.q1.2",
+    "url": "https://releases-cdn.liferay.com/dxp/2025.q1.2-lts"
+  },
+  {
+    "product": "dxp",
     "productGroupVersion": "2024.q1",
     "productVersion": "DXP 2024.Q1.14",
     "promoted": "true",
@@ -27,13 +36,13 @@
     "url": "https://releases-cdn.liferay.com/dxp/2023.q3.10"
   },
   {
-    "product": "dxp",
-    "productGroupVersion": "2024.q2",
-    "productVersion": "DXP 2024.Q2.13",
+    "product": "portal",
+    "productGroupVersion": "7.4",
+    "productVersion": "Portal 7.4.3.132 GA132",
     "promoted": "true",
-    "releaseKey": "dxp-2024.q2.13",
-    "targetPlatformVersion": "2024.q2.13",
-    "url": "https://releases-cdn.liferay.com/dxp/2024.q2.13"
+    "releaseKey": "portal-7.4-ga132",
+    "targetPlatformVersion": "7.4.3.132",
+    "url": "https://releases-cdn.liferay.com/portal/7.4.3.132-ga132"
   },
   {
     "product": "dxp",
@@ -45,13 +54,13 @@
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.0-lts"
   },
   {
-    "product": "portal",
-    "productGroupVersion": "7.4",
-    "productVersion": "Portal 7.4.3.132 GA132",
+    "product": "dxp",
+    "productGroupVersion": "2024.q2",
+    "productVersion": "DXP 2024.Q2.13",
     "promoted": "true",
-    "releaseKey": "portal-7.4-ga132",
-    "targetPlatformVersion": "7.4.3.132",
-    "url": "https://releases-cdn.liferay.com/portal/7.4.3.132-ga132"
+    "releaseKey": "dxp-2024.q2.13",
+    "targetPlatformVersion": "2024.q2.13",
+    "url": "https://releases-cdn.liferay.com/dxp/2024.q2.13"
   },
   {
     "product": "dxp",
@@ -79,6 +88,15 @@
     "releaseKey": "dxp-2024.q1.13",
     "targetPlatformVersion": "2024.q1.13",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.13"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2024.q4",
+    "productVersion": "DXP 2024.Q4.5",
+    "promoted": "false",
+    "releaseKey": "dxp-2024.q4.5",
+    "targetPlatformVersion": "2024.q4.5",
+    "url": "https://releases-cdn.liferay.com/dxp/2024.q4.5"
   },
   {
     "product": "dxp",
@@ -118,21 +136,21 @@
   },
   {
     "product": "dxp",
-    "productGroupVersion": "2024.q3",
-    "productVersion": "DXP 2024.Q3.13",
-    "promoted": "true",
-    "releaseKey": "dxp-2024.q3.13",
-    "targetPlatformVersion": "2024.q3.13",
-    "url": "https://releases-cdn.liferay.com/dxp/2024.q3.13"
-  },
-  {
-    "product": "dxp",
     "productGroupVersion": "2024.q4",
     "productVersion": "DXP 2024.Q4.1",
     "promoted": "false",
     "releaseKey": "dxp-2024.q4.1",
     "targetPlatformVersion": "2024.q4.1",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q4.1"
+  },
+  {
+    "product": "dxp",
+    "productGroupVersion": "2024.q3",
+    "productVersion": "DXP 2024.Q3.13",
+    "promoted": "true",
+    "releaseKey": "dxp-2024.q3.13",
+    "targetPlatformVersion": "2024.q3.13",
+    "url": "https://releases-cdn.liferay.com/dxp/2024.q3.13"
   },
   {
     "product": "portal",
