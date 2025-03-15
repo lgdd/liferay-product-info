@@ -20,7 +20,7 @@ import (
 
 const (
 	DockerHubAPIBaseURL = "https://registry.hub.docker.com/v2/repositories"
-	FirstQuarterlyRegex = "^[0-9]{4}\\.q[0-9]{1}\\.0$"
+	FirstQuarterlyRegex = "^[0-9]{4}\\.q[0-9]{1}\\.0(-lts)?$"
 )
 
 var (
