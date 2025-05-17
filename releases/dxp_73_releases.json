@@ -623,7 +623,7 @@
  {
   "product": "dxp",
   "productGroupVersion": "7.3",
-  "productVersion": " DXP 7.3 U9",
+  "productVersion": "DXP 7.3 U9",
   "promoted": "false",
   "releaseKey": "dxp-7.3-u9",
   "targetPlatformVersion": "7.3.10.u9",
