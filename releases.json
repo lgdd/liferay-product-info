@@ -16,6 +16,9 @@
     "productVersion": "DXP 2025.Q2.0",
     "promoted": "true",
     "releaseKey": "dxp-2025.q2.0",
+    "tags": [
+      "recommended"
+    ],
     "targetPlatformVersion": "2025.q2.0",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.0"
   },
