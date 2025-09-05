@@ -1,36 +1,36 @@
 [
 	{
 		"creator": 8198517,
-		"id": 950210862,
+		"id": 967463734,
 		"images": [
 			{
 				"architecture": "amd64",
 				"features": "",
 				"variant": null,
-				"digest": "sha256:2093b5c5c412d36a6cbffbfaba3555b36020cf2f08cbc7a531cbe37ef59d5c20",
+				"digest": "sha256:62b8e51a08ddfa14acdae3126cd7bb7f302b16db770267e4400b450753932c7d",
 				"os": "linux",
 				"os_features": "",
 				"os_version": null,
-				"size": 431930870,
+				"size": 432887894,
 				"status": "active",
-				"last_pulled": "2025-09-04T00:46:30.520598578Z",
-				"last_pushed": "2025-08-06T16:49:41.59127397Z"
+				"last_pulled": "2025-09-05T00:21:11.325253474Z",
+				"last_pushed": "2025-09-04T16:53:28.305330003Z"
 			}
 		],
-		"last_updated": "2025-08-07T21:26:52.60065Z",
+		"last_updated": "2025-09-04T19:53:51.012565Z",
 		"last_updater": 8198517,
 		"last_updater_username": "ciliferaycloud",
-		"name": "5.25.2",
+		"name": "5.25.3",
 		"repository": 7077464,
-		"full_size": 431930870,
+		"full_size": 432887894,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2025-09-04T00:46:30.520598578Z",
-		"tag_last_pushed": "2025-08-07T21:26:52.60065Z",
+		"tag_last_pulled": "2025-09-05T00:21:11.325253474Z",
+		"tag_last_pushed": "2025-09-04T19:53:51.012565Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
-		"digest": "sha256:2093b5c5c412d36a6cbffbfaba3555b36020cf2f08cbc7a531cbe37ef59d5c20",
-		"latest_docker_image": "liferaycloud/backup:5.25.2"
+		"digest": "sha256:62b8e51a08ddfa14acdae3126cd7bb7f302b16db770267e4400b450753932c7d",
+		"latest_docker_image": "liferaycloud/backup:5.25.3"
 	},
 	{
 		"creator": 8198517,
@@ -46,7 +46,7 @@
 				"os_version": null,
 				"size": 1209028350,
 				"status": "active",
-				"last_pulled": "2025-09-03T19:35:42.271803527Z",
+				"last_pulled": "2025-09-04T20:57:13.210255285Z",
 				"last_pushed": "2024-12-06T14:14:00Z"
 			}
 		],
@@ -58,7 +58,7 @@
 		"full_size": 1209028350,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2025-09-03T19:35:42.271803527Z",
+		"tag_last_pulled": "2025-09-04T20:57:13.210255285Z",
 		"tag_last_pushed": "2024-12-06T14:13:59.738398Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -79,7 +79,7 @@
 				"os_version": null,
 				"size": 82400249,
 				"status": "active",
-				"last_pulled": "2025-09-03T21:22:36.44842389Z",
+				"last_pulled": "2025-09-05T01:00:52.919495756Z",
 				"last_pushed": "2025-08-29T18:49:49.046732297Z"
 			}
 		],
@@ -91,7 +91,7 @@
 		"full_size": 82400249,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2025-09-03T21:22:36.44842389Z",
+		"tag_last_pulled": "2025-09-05T01:00:52.919495756Z",
 		"tag_last_pushed": "2025-09-02T17:22:17.022392Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -145,7 +145,7 @@
 				"os_version": null,
 				"size": 761754747,
 				"status": "active",
-				"last_pulled": "2025-09-03T11:39:53.164149329Z",
+				"last_pulled": "2025-09-05T01:00:53.601777132Z",
 				"last_pushed": "2025-09-02T20:14:53.294612494Z"
 			}
 		],
@@ -157,7 +157,7 @@
 		"full_size": 761754747,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2025-09-03T11:39:53.164149329Z",
+		"tag_last_pulled": "2025-09-05T01:00:53.601777132Z",
 		"tag_last_pushed": "2025-09-02T20:47:16.724572Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -178,7 +178,7 @@
 				"os_version": null,
 				"size": 295477841,
 				"status": "active",
-				"last_pulled": "2025-09-03T11:39:53.515367392Z",
+				"last_pulled": "2025-09-05T01:00:56.338428262Z",
 				"last_pushed": "2025-09-02T20:10:24.84698446Z"
 			}
 		],
@@ -190,7 +190,7 @@
 		"full_size": 295477841,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2025-09-03T11:39:53.515367392Z",
+		"tag_last_pulled": "2025-09-05T01:00:56.338428262Z",
 		"tag_last_pushed": "2025-09-02T20:48:26.956453Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
