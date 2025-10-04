@@ -1,11 +1,21 @@
 [
   {
+    "product": "dxp",
+    "productGroupVersion": "2025.q3",
+    "productMajorVersion": "DXP 2025.Q3",
+    "productVersion": "DXP 2025.Q3.3",
+    "promoted": "true",
+    "releaseKey": "dxp-2025.q3.3",
+    "targetPlatformVersion": "2025.q3.3",
+    "url": "https://releases-cdn.liferay.com/dxp/2025.q3.3"
+  },
+  {
     "databaseSchemaVersion": "33.3.1",
     "product": "dxp",
     "productGroupVersion": "2025.q3",
     "productMajorVersion": "DXP 2025.Q3",
     "productVersion": "DXP 2025.Q3.2",
-    "promoted": "true",
+    "promoted": "false",
     "releaseKey": "dxp-2025.q3.2",
     "targetPlatformVersion": "2025.q3.2",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q3.2"
