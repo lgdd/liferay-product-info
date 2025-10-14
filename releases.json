@@ -11,6 +11,7 @@
     "url": "https://releases-cdn.liferay.com/dxp/2025.q3.4"
   },
   {
+    "databaseSchemaVersion": "33.3.1",
     "product": "dxp",
     "productGroupVersion": "2025.q3",
     "productMajorVersion": "DXP 2025.Q3",
@@ -1418,6 +1419,16 @@
   },
   {
     "databaseSchemaVersion": "29.0.0",
+    "product": "portal",
+    "productGroupVersion": "7.4",
+    "productVersion": "Portal 7.4 GA101",
+    "promoted": "false",
+    "releaseKey": "portal-7.4-ga101",
+    "targetPlatformVersion": "7.4.3.101",
+    "url": "https://releases-cdn.liferay.com/portal/7.4.3.101-ga101"
+  },
+  {
+    "databaseSchemaVersion": "29.0.0",
     "product": "dxp",
     "productGroupVersion": "7.4",
     "productVersion": "DXP 7.4 U101",
@@ -1627,6 +1638,16 @@
     "releaseKey": "dxp-7.3-u32",
     "targetPlatformVersion": "7.3.10.u32",
     "url": "https://releases-cdn.liferay.com/dxp/7.3.10-u32"
+  },
+  {
+    "databaseSchemaVersion": "26.4.0",
+    "product": "portal",
+    "productGroupVersion": "7.4",
+    "productVersion": "Portal 7.4 GA92",
+    "promoted": "false",
+    "releaseKey": "portal-7.4-ga92",
+    "targetPlatformVersion": "7.4.3.92",
+    "url": "https://releases-cdn.liferay.com/portal/7.4.3.92-ga92"
   },
   {
     "databaseSchemaVersion": "26.4.0",
@@ -1980,6 +2001,16 @@
   },
   {
     "databaseSchemaVersion": "26.2.0",
+    "product": "portal",
+    "productGroupVersion": "7.4",
+    "productVersion": "Portal 7.4 GA76",
+    "promoted": "false",
+    "releaseKey": "portal-7.4-ga76",
+    "targetPlatformVersion": "7.4.3.76",
+    "url": "https://releases-cdn.liferay.com/portal/7.4.3.76-ga76"
+  },
+  {
+    "databaseSchemaVersion": "26.2.0",
     "product": "dxp",
     "productGroupVersion": "7.4",
     "productVersion": "DXP 7.4 U76",
@@ -2067,6 +2098,16 @@
     "releaseKey": "dxp-7.4-u73",
     "targetPlatformVersion": "7.4.13.u73",
     "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u73"
+  },
+  {
+    "databaseSchemaVersion": "25.3.1",
+    "product": "portal",
+    "productGroupVersion": "7.4",
+    "productVersion": "Portal 7.4 GA72",
+    "promoted": "false",
+    "releaseKey": "portal-7.4-ga72",
+    "targetPlatformVersion": "7.4.3.72",
+    "url": "https://releases-cdn.liferay.com/portal/7.4.3.72-ga72"
   },
   {
     "databaseSchemaVersion": "25.3.1",
@@ -2570,6 +2611,16 @@
   },
   {
     "databaseSchemaVersion": "25.0.0",
+    "product": "portal",
+    "productGroupVersion": "7.4",
+    "productVersion": "Portal 7.4 GA51",
+    "promoted": "false",
+    "releaseKey": "portal-7.4-ga51",
+    "targetPlatformVersion": "7.4.3.51",
+    "url": "https://releases-cdn.liferay.com/portal/7.4.3.51-ga51"
+  },
+  {
+    "databaseSchemaVersion": "25.0.0",
     "product": "dxp",
     "productGroupVersion": "7.4",
     "productVersion": "DXP 7.4 U51",
@@ -2945,6 +2996,16 @@
     "releaseKey": "dxp-7.4-u37",
     "targetPlatformVersion": "7.4.13.u37",
     "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u37"
+  },
+  {
+    "databaseSchemaVersion": "16.0.0",
+    "product": "portal",
+    "productGroupVersion": "7.4",
+    "productVersion": "Portal 7.4 GA36",
+    "promoted": "false",
+    "releaseKey": "portal-7.4-ga36",
+    "targetPlatformVersion": "7.4.3.36",
+    "url": "https://releases-cdn.liferay.com/portal/7.4.3.36-ga36"
   },
   {
     "databaseSchemaVersion": "16.0.0",
@@ -3402,6 +3463,16 @@
     "releaseKey": "dxp-7.4-u18",
     "targetPlatformVersion": "7.4.13.u18",
     "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u18"
+  },
+  {
+    "databaseSchemaVersion": "13.3.4",
+    "product": "portal",
+    "productGroupVersion": "7.4",
+    "productVersion": "Portal 7.4 GA17",
+    "promoted": "false",
+    "releaseKey": "portal-7.4-ga17",
+    "targetPlatformVersion": "7.4.3.17",
+    "url": "https://releases-cdn.liferay.com/portal/7.4.3.17-ga17"
   },
   {
     "databaseSchemaVersion": "13.3.4",
@@ -4281,6 +4352,15 @@
     "releaseKey": "portal-7.1-b2",
     "targetPlatformVersion": "",
     "url": "https://releases-cdn.liferay.com/portal/7.1.0-b2"
+  },
+  {
+    "product": "portal",
+    "productGroupVersion": "7.0",
+    "productVersion": "Portal 7.0 GA7",
+    "promoted": "false",
+    "releaseKey": "portal-7.0-ga7",
+    "targetPlatformVersion": "7.0.6-2",
+    "url": "https://releases-cdn.liferay.com/portal/7.0.6-ga7"
   },
   {
     "product": "portal",
