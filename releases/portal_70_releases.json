@@ -2,6 +2,29 @@
  {
   "product": "portal",
   "productGroupVersion": "7.0",
+  "productVersion": "Portal 7.0 GA7",
+  "promoted": "false",
+  "releaseKey": "portal-7.0-ga7",
+  "targetPlatformVersion": "7.0.6-2",
+  "url": "https://releases-cdn.liferay.com/portal/7.0.6-ga7",
+  "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/portal/7.0.6-ga7/release.properties",
+   "appServerTomcatVersion": "8.0.32",
+   "buildTimestamp": "20180507111753223",
+   "bundleChecksumSha512": "9ebab7f800f0a371bd56342308b96ece324e574f2aa6266fe3da89f5770f0fd6a96707085a0f427ad8251f64e47444212ced89d46ed2bedf7071fbc899905970",
+   "bundleURL": "https://releases-cdn.liferay.com/portal/7.0.6-ga7/liferay-ce-portal-tomcat-7.0-ga7-20180507111753223.zip",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "liferay/portal:7.0.6-ga7",
+   "liferayDockerTags": "liferay/portal:7.0.6-ga7",
+   "liferayProductVersion": "Portal 7.0 GA7",
+   "releaseDate": "2018-05-23",
+   "targetPlatformVersion": "7.0.6-2"
+  }
+ },
+ {
+  "product": "portal",
+  "productGroupVersion": "7.0",
   "productVersion": "PORTAL 7.0 GA5",
   "promoted": "false",
   "releaseKey": "portal-7.0-ga5",
