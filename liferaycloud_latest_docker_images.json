@@ -145,7 +145,7 @@
 				"os_version": null,
 				"size": 774797449,
 				"status": "active",
-				"last_pulled": "2025-12-27T08:46:51.216298189Z",
+				"last_pulled": "2025-12-28T16:55:30.447205145Z",
 				"last_pushed": "2025-12-19T00:50:48.335428495Z"
 			}
 		],
@@ -157,7 +157,7 @@
 		"full_size": 774797449,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2025-12-27T08:46:51.216298189Z",
+		"tag_last_pulled": "2025-12-28T16:55:30.447205145Z",
 		"tag_last_pushed": "2025-12-19T00:55:37.988164Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
