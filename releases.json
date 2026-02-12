@@ -4,39 +4,29 @@
     "product": "dxp",
     "productGroupVersion": "2025.q4",
     "productMajorVersion": "DXP 2025.Q4",
-    "productVersion": "DXP 2025.Q4.7",
+    "productVersion": "DXP 2025.Q4.8",
     "promoted": "true",
-    "releaseKey": "dxp-2025.q4.7",
+    "releaseKey": "dxp-2025.q4.8",
     "tags": [
       "jakarta"
     ],
+    "targetPlatformVersion": "2025.q4.8",
+    "url": "https://releases-cdn.liferay.com/dxp/2025.q4.8"
+  },
+  {
+    "databaseSchemaVersion": "35.1.0",
+    "product": "dxp",
+    "productGroupVersion": "2025.q4",
+    "productMajorVersion": "DXP 2025.Q4",
+    "productVersion": "DXP 2025.Q4.7",
+    "promoted": "false",
+    "releaseKey": "dxp-2025.q4.7",
+    "tags": [
+      "jakarta",
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q4.7",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q4.7"
-  },
-  {
-    "databaseSchemaVersion": "31.14.4",
-    "product": "dxp",
-    "productGroupVersion": "2025.q1",
-    "productMajorVersion": "DXP 2025.Q1 LTS",
-    "productVersion": "DXP 2025.Q1.21 LTS",
-    "promoted": "true",
-    "releaseKey": "dxp-2025.q1.21-lts",
-    "tags": [
-      "recommended"
-    ],
-    "targetPlatformVersion": "2025.q1.21",
-    "url": "https://releases-cdn.liferay.com/dxp/2025.q1.21-lts"
-  },
-  {
-    "databaseSchemaVersion": "30.1.0",
-    "product": "dxp",
-    "productGroupVersion": "2024.q1",
-    "productMajorVersion": "DXP 2024.Q1",
-    "productVersion": "DXP 2024.Q1.24",
-    "promoted": "true",
-    "releaseKey": "dxp-2024.q1.24",
-    "targetPlatformVersion": "2024.q1.24",
-    "url": "https://releases-cdn.liferay.com/dxp/2024.q1.24"
   },
   {
     "databaseSchemaVersion": "35.1.0",
@@ -47,10 +37,26 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q4.6",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q4.6",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q4.6"
+  },
+  {
+    "databaseSchemaVersion": "31.14.4",
+    "product": "dxp",
+    "productGroupVersion": "2025.q1",
+    "productMajorVersion": "DXP 2025.Q1 LTS",
+    "productVersion": "DXP 2025.Q1.21 LTS",
+    "promoted": "true",
+    "releaseKey": "dxp-2025.q1.21-lts",
+    "tags": [
+      "recommended",
+      "supported"
+    ],
+    "targetPlatformVersion": "2025.q1.21",
+    "url": "https://releases-cdn.liferay.com/dxp/2025.q1.21-lts"
   },
   {
     "databaseSchemaVersion": "35.1.0",
@@ -61,7 +67,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q4.5",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q4.5",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q4.5"
@@ -75,10 +82,25 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q4.4",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q4.4",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q4.4"
+  },
+  {
+    "databaseSchemaVersion": "30.1.0",
+    "product": "dxp",
+    "productGroupVersion": "2024.q1",
+    "productMajorVersion": "DXP 2024.Q1",
+    "productVersion": "DXP 2024.Q1.24",
+    "promoted": "true",
+    "releaseKey": "dxp-2024.q1.24",
+    "tags": [
+      "supported"
+    ],
+    "targetPlatformVersion": "2024.q1.24",
+    "url": "https://releases-cdn.liferay.com/dxp/2024.q1.24"
   },
   {
     "databaseSchemaVersion": "35.1.0",
@@ -89,7 +111,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q4.3",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q4.3",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q4.3"
@@ -102,6 +125,9 @@
     "productVersion": "DXP 2025.Q1.20 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.20-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.20",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.20-lts"
   },
@@ -114,7 +140,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q4.2",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q4.2",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q4.2"
@@ -128,7 +155,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q4.1",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q4.1",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q4.1"
@@ -141,6 +169,9 @@
     "productVersion": "DXP 2024.Q1.23",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.23",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.23",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.23"
   },
@@ -153,7 +184,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q4.0",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q4.0",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q4.0"
@@ -167,7 +199,8 @@
     "promoted": "true",
     "releaseKey": "dxp-2025.q3.10",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q3.10",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q3.10"
@@ -180,6 +213,9 @@
     "productVersion": "DXP 2025.Q1.19 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.19-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.19",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.19-lts"
   },
@@ -192,7 +228,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q3.9",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q3.9",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q3.9"
@@ -206,7 +243,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q3.8",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q3.8",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q3.8"
@@ -220,7 +258,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q3.7",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q3.7",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q3.7"
@@ -233,6 +272,9 @@
     "productVersion": "DXP 2024.Q1.22",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.22",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.22",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.22"
   },
@@ -245,7 +287,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q3.6",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q3.6",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q3.6"
@@ -259,7 +302,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q3.5",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q3.5",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q3.5"
@@ -272,6 +316,9 @@
     "productVersion": "DXP 2025.Q1.18 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.18-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.18",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.18-lts"
   },
@@ -284,7 +331,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q3.4",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q3.4",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q3.4"
@@ -298,7 +346,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q3.3",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q3.3",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q3.3"
@@ -312,7 +361,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q3.2",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q3.2",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q3.2"
@@ -325,6 +375,9 @@
     "productVersion": "DXP 2024.Q1.21",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.21",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.21",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.21"
   },
@@ -337,7 +390,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q3.1",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q3.1",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q3.1"
@@ -350,6 +404,9 @@
     "productVersion": "DXP 2025.Q1.17 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.17-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.17",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.17-lts"
   },
@@ -362,7 +419,8 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q3.0",
     "tags": [
-      "jakarta"
+      "jakarta",
+      "supported"
     ],
     "targetPlatformVersion": "2025.q3.0",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q3.0"
@@ -375,6 +433,9 @@
     "productVersion": "DXP 2025.Q2.12",
     "promoted": "true",
     "releaseKey": "dxp-2025.q2.12",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q2.12",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.12"
   },
@@ -386,6 +447,9 @@
     "productVersion": "DXP 2025.Q2.11",
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.11",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q2.11",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.11"
   },
@@ -397,6 +461,9 @@
     "productVersion": "DXP 2024.Q1.20",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.20",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.20",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.20"
   },
@@ -408,6 +475,9 @@
     "productVersion": "DXP 2025.Q2.10",
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.10",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q2.10",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.10"
   },
@@ -419,6 +489,9 @@
     "productVersion": "DXP 2025.Q2.9",
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.9",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q2.9",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.9"
   },
@@ -430,6 +503,9 @@
     "productVersion": "DXP 2025.Q1.16 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.16-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.16",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.16-lts"
   },
@@ -441,6 +517,9 @@
     "productVersion": "DXP 2025.Q2.8",
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.8",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q2.8",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.8"
   },
@@ -452,6 +531,9 @@
     "productVersion": "DXP 2024.Q1.19",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.19",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.19",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.19"
   },
@@ -463,6 +545,9 @@
     "productVersion": "DXP 2025.Q2.7",
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.7",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q2.7",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.7"
   },
@@ -474,6 +559,9 @@
     "productVersion": "DXP 2025.Q2.6",
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.6",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q2.6",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.6"
   },
@@ -485,6 +573,9 @@
     "productVersion": "DXP 2025.Q2.5",
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.5",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q2.5",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.5"
   },
@@ -496,6 +587,9 @@
     "productVersion": "DXP 2025.Q1.15 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.15-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.15",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.15-lts"
   },
@@ -507,6 +601,9 @@
     "productVersion": "DXP 2025.Q2.4",
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.4",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q2.4",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.4"
   },
@@ -518,6 +615,9 @@
     "productVersion": "DXP 2025.Q2.3",
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.3",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q2.3",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.3"
   },
@@ -529,6 +629,9 @@
     "productVersion": "DXP 2025.Q2.2",
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.2",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q2.2",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.2"
   },
@@ -540,6 +643,9 @@
     "productVersion": "DXP 2024.Q1.18",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.18",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.18",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.18"
   },
@@ -551,6 +657,9 @@
     "productVersion": "DXP 2025.Q2.1",
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.1",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q2.1",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.1"
   },
@@ -562,6 +671,9 @@
     "productVersion": "DXP 2025.Q1.14 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.14-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.14",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.14-lts"
   },
@@ -573,6 +685,9 @@
     "productVersion": "DXP 2025.Q2.0",
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.0",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q2.0",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q2.0"
   },
@@ -584,6 +699,9 @@
     "productVersion": "DXP 2025.Q1.13 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.13-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.13",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.13-lts"
   },
@@ -595,6 +713,9 @@
     "productVersion": "DXP 2024.Q1.17",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.17",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.17",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.17"
   },
@@ -606,6 +727,9 @@
     "productVersion": "DXP 2025.Q1.12 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.12-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.12",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.12-lts"
   },
@@ -617,6 +741,9 @@
     "productVersion": "DXP 2025.Q1.11 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.11-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.11",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.11-lts"
   },
@@ -628,6 +755,9 @@
     "productVersion": "DXP 2025.Q1.10 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.10-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.10",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.10-lts"
   },
@@ -639,6 +769,9 @@
     "productVersion": "DXP 2025.Q1.9 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.9-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.9",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.9-lts"
   },
@@ -650,6 +783,9 @@
     "productVersion": "DXP 2025.Q1.8 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.8-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.8",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.8-lts"
   },
@@ -661,6 +797,9 @@
     "productVersion": "DXP 2024.Q1.16",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.16",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.16",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.16"
   },
@@ -672,6 +811,9 @@
     "productVersion": "DXP 2025.Q1.7 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.7-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.7",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.7-lts"
   },
@@ -683,6 +825,9 @@
     "productVersion": "DXP 2025.Q1.6 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.6-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.6",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.6-lts"
   },
@@ -694,6 +839,9 @@
     "productVersion": "DXP 2025.Q1.5 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.5-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.5",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.5-lts"
   },
@@ -705,6 +853,9 @@
     "productVersion": "DXP 2025.Q1.4 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.4-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.4",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.4-lts"
   },
@@ -716,6 +867,9 @@
     "productVersion": "DXP 2024.Q1.15",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.15",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.15",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.15"
   },
@@ -727,6 +881,9 @@
     "productVersion": "DXP 2025.Q1.3 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.3-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.3",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.3-lts"
   },
@@ -738,6 +895,9 @@
     "productVersion": "DXP 2025.Q1.2 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.2-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.2",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.2-lts"
   },
@@ -749,6 +909,9 @@
     "productVersion": "DXP 2024.Q1.14",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.14",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.14",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.14"
   },
@@ -760,6 +923,9 @@
     "productVersion": "DXP 2025.Q1.1 LTS",
     "promoted": "false",
     "releaseKey": "dxp-2025.q1.1-lts",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2025.q1.1",
     "url": "https://releases-cdn.liferay.com/dxp/2025.q1.1-lts"
   },
@@ -775,6 +941,20 @@
     "url": "https://releases-cdn.liferay.com/dxp/2023.q3.10"
   },
   {
+    "databaseSchemaVersion": "31.14.2",
+    "product": "dxp",
+    "productGroupVersion": "2025.q1",
+    "productMajorVersion": "DXP 2025.Q1 LTS",
+    "productVersion": "DXP 2025.Q1.0 LTS",
+    "promoted": "false",
+    "releaseKey": "dxp-2025.q1.0-lts",
+    "tags": [
+      "supported"
+    ],
+    "targetPlatformVersion": "2025.q1.0",
+    "url": "https://releases-cdn.liferay.com/dxp/2025.q1.0-lts"
+  },
+  {
     "databaseSchemaVersion": "31.14.0",
     "product": "portal",
     "productGroupVersion": "7.4",
@@ -786,17 +966,6 @@
     ],
     "targetPlatformVersion": "7.4.3.132",
     "url": "https://releases-cdn.liferay.com/portal/7.4.3.132-ga132"
-  },
-  {
-    "databaseSchemaVersion": "31.14.2",
-    "product": "dxp",
-    "productGroupVersion": "2025.q1",
-    "productMajorVersion": "DXP 2025.Q1 LTS",
-    "productVersion": "DXP 2025.Q1.0 LTS",
-    "promoted": "false",
-    "releaseKey": "dxp-2025.q1.0-lts",
-    "targetPlatformVersion": "2025.q1.0",
-    "url": "https://releases-cdn.liferay.com/dxp/2025.q1.0-lts"
   },
   {
     "databaseSchemaVersion": "31.1.0",
@@ -839,6 +1008,9 @@
     "productVersion": "DXP 2024.Q1.13",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.13",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.13",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.13"
   },
@@ -1254,6 +1426,9 @@
     "productVersion": "DXP 2024.Q1.12",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.12",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.12",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.12"
   },
@@ -1265,6 +1440,9 @@
     "productVersion": "DXP 2024.Q1.11",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.11",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.11",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.11"
   },
@@ -1276,6 +1454,9 @@
     "productVersion": "DXP 2024.Q1.10",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.10",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.10",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.10"
   },
@@ -1287,6 +1468,9 @@
     "productVersion": "DXP 2024.Q1.9",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.9",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.9",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.9"
   },
@@ -1298,6 +1482,9 @@
     "productVersion": "DXP 2024.Q1.8",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.8",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.8",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.8"
   },
@@ -1309,6 +1496,9 @@
     "productVersion": "DXP 2024.Q1.7",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.7",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.7",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.7"
   },
@@ -1320,6 +1510,9 @@
     "productVersion": "DXP 2024.Q1.6",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.6",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.6",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.6"
   },
@@ -1331,6 +1524,9 @@
     "productVersion": "DXP 2024.Q1.5",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.5",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.5",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.5"
   },
@@ -1353,6 +1549,9 @@
     "productVersion": "DXP 2024.Q1.4",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.4",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.4",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.4"
   },
@@ -1364,6 +1563,9 @@
     "productVersion": "DXP 2024.Q1.3",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.3",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.3",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.3"
   },
@@ -1375,6 +1577,9 @@
     "productVersion": "DXP 2024.Q1.2",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.2",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.2",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.2"
   },
@@ -1386,6 +1591,9 @@
     "productVersion": "DXP 2024.Q1.1",
     "promoted": "false",
     "releaseKey": "dxp-2024.q1.1",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "2024.q1.1",
     "url": "https://releases-cdn.liferay.com/dxp/2024.q1.1"
   },
@@ -1944,6 +2152,9 @@
     "productVersion": "DXP 7.4 U92",
     "promoted": "false",
     "releaseKey": "dxp-7.4-u92",
+    "tags": [
+      "supported"
+    ],
     "targetPlatformVersion": "7.4.13.u92",
     "url": "https://releases-cdn.liferay.com/dxp/7.4.13-u92"
   },
