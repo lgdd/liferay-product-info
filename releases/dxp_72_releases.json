@@ -271,7 +271,7 @@
    "liferayDockerImage": "liferay/dxp:7.2.10-dxp-7",
    "liferayDockerTags": "liferay/dxp:7.2.10-dxp-7",
    "liferayProductVersion": "DXP 7.2 FP7",
-   "releaseDate": "2020-7-27",
+   "releaseDate": "2020-07-27",
    "targetPlatformVersion": "7.2.10.fp7"
   }
  },

@@ -3031,7 +3031,7 @@
    "liferayDockerImage": "liferay/portal:7.1.0-ga1",
    "liferayDockerTags": "liferay/portal:7.1.0-ga1",
    "liferayProductVersion": "Portal 7.1 GA1",
-   "releaseDate": "2019-7-3",
+   "releaseDate": "2019-07-03",
    "targetPlatformVersion": "7.1.0"
   }
  },
