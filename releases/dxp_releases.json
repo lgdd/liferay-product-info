@@ -100,18 +100,18 @@
   "targetPlatformVersion": "2025.q1.21",
   "url": "https://releases-cdn.liferay.com/dxp/2025.q1.21-lts",
   "releaseProperties": {
-   "url": "https://releases-cdn.liferay.com/dxp/2025.q1.21-lts/release.properties",
-   "appServerTomcatVersion": "9.0.112",
-   "buildTimestamp": "1769207491",
-   "bundleChecksumSha512": "e31f45e13f2f7368b3db8c7a7e594742dd12c9f5b5b02aacbf465b70c4f2613b6a69c552d72f323be1998fd8d924de534120dc759a9056d927a88a861f4e3f23",
-   "bundleURL": "https://releases-cdn.liferay.com/dxp/2025.q1.21-lts/liferay-dxp-tomcat-2025.q1.21-lts-1769207491.7z",
-   "gitHashLiferayDocker": "6a5e594ef002caf113f3cd0fb0de95ce3a72a49f",
-   "gitHashLiferayPortalEE": "770053e94b7342b07ce1c412e411cb4ae654deee",
-   "liferayDockerImage": "liferay/dxp:2025.q1.21-lts",
-   "liferayDockerTags": "2025.q1.21-lts",
-   "liferayProductVersion": "DXP 2025.Q1.21 LTS",
-   "releaseDate": "2026-01-23",
-   "targetPlatformVersion": "2025.q1.21"
+   "url": "",
+   "appServerTomcatVersion": "",
+   "buildTimestamp": "",
+   "bundleChecksumSha512": "",
+   "bundleURL": "",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "",
+   "liferayDockerImage": "",
+   "liferayDockerTags": "",
+   "liferayProductVersion": "",
+   "releaseDate": "",
+   "targetPlatformVersion": ""
   }
  },
  {
