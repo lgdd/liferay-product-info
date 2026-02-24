@@ -255,29 +255,6 @@
  {
   "product": "dxp",
   "productGroupVersion": "7.2",
-  "productVersion": "DXP 7.2 FP7",
-  "promoted": "false",
-  "releaseKey": "dxp-7.2-dxp-7",
-  "targetPlatformVersion": "7.2.10.fp7",
-  "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-7",
-  "releaseProperties": {
-   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-7/release.properties",
-   "appServerTomcatVersion": "9.0.33",
-   "buildTimestamp": "20200727205713822",
-   "bundleChecksumSha512": "1890f7e033d1637e917f29de38d82d846b04519a670e3d32e815630d14a0a42dfa20bc0ca35a8a22df5d919a3f70c410a039b56ce33494d7551a527a5f83e756",
-   "bundleURL": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-7/liferay-dxp-tomcat-7.2.10-dxp-7-slim-20200727205713822.7z",
-   "gitHashLiferayDocker": "",
-   "gitHashLiferayPortalEE": "605a0ca86a26df64092d518f3cabfae4baf3dc57",
-   "liferayDockerImage": "liferay/dxp:7.2.10-dxp-7",
-   "liferayDockerTags": "liferay/dxp:7.2.10-dxp-7",
-   "liferayProductVersion": "DXP 7.2 FP7",
-   "releaseDate": "2020-07-27",
-   "targetPlatformVersion": "7.2.10.fp7"
-  }
- },
- {
-  "product": "dxp",
-  "productGroupVersion": "7.2",
   "productVersion": "DXP 7.2 FP9",
   "promoted": "false",
   "releaseKey": "dxp-7.2-dxp-9",
@@ -319,6 +296,29 @@
    "liferayProductVersion": "DXP 7.2 SP3",
    "releaseDate": "2020-09-17",
    "targetPlatformVersion": "7.2.10.3"
+  }
+ },
+ {
+  "product": "dxp",
+  "productGroupVersion": "7.2",
+  "productVersion": "DXP 7.2 FP7",
+  "promoted": "false",
+  "releaseKey": "dxp-7.2-dxp-7",
+  "targetPlatformVersion": "7.2.10.fp7",
+  "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-7",
+  "releaseProperties": {
+   "url": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-7/release.properties",
+   "appServerTomcatVersion": "9.0.33",
+   "buildTimestamp": "20200727205713822",
+   "bundleChecksumSha512": "1890f7e033d1637e917f29de38d82d846b04519a670e3d32e815630d14a0a42dfa20bc0ca35a8a22df5d919a3f70c410a039b56ce33494d7551a527a5f83e756",
+   "bundleURL": "https://releases-cdn.liferay.com/dxp/7.2.10-dxp-7/liferay-dxp-tomcat-7.2.10-dxp-7-slim-20200727205713822.7z",
+   "gitHashLiferayDocker": "",
+   "gitHashLiferayPortalEE": "605a0ca86a26df64092d518f3cabfae4baf3dc57",
+   "liferayDockerImage": "liferay/dxp:7.2.10-dxp-7",
+   "liferayDockerTags": "liferay/dxp:7.2.10-dxp-7",
+   "liferayProductVersion": "DXP 7.2 FP7",
+   "releaseDate": "2020-07-27",
+   "targetPlatformVersion": "7.2.10.fp7"
   }
  },
  {
