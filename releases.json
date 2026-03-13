@@ -4,8 +4,23 @@
     "product": "dxp",
     "productGroupVersion": "2025.q4",
     "productMajorVersion": "DXP 2025.Q4",
-    "productVersion": "DXP 2025.Q4.11",
+    "productVersion": "DXP 2025.Q4.12",
     "promoted": "true",
+    "releaseKey": "dxp-2025.q4.12",
+    "tags": [
+      "jakarta",
+      "supported"
+    ],
+    "targetPlatformVersion": "2025.q4.12",
+    "url": "https://releases-cdn.liferay.com/dxp/2025.q4.12"
+  },
+  {
+    "databaseSchemaVersion": "35.1.0",
+    "product": "dxp",
+    "productGroupVersion": "2025.q4",
+    "productMajorVersion": "DXP 2025.Q4",
+    "productVersion": "DXP 2025.Q4.11",
+    "promoted": "false",
     "releaseKey": "dxp-2025.q4.11",
     "tags": [
       "jakarta",

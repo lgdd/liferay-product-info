@@ -13,7 +13,7 @@
 				"os_version": null,
 				"size": 462344598,
 				"status": "active",
-				"last_pulled": "2026-03-12T01:49:36.299551018Z",
+				"last_pulled": "2026-03-13T02:12:37.45917742Z",
 				"last_pushed": "2026-01-27T15:25:20.299040264Z"
 			}
 		],
@@ -25,7 +25,7 @@
 		"full_size": 462344598,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2026-03-12T01:49:36.299551018Z",
+		"tag_last_pulled": "2026-03-13T02:12:37.45917742Z",
 		"tag_last_pushed": "2026-01-27T20:59:50.498963Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -46,7 +46,7 @@
 				"os_version": null,
 				"size": 1209028350,
 				"status": "active",
-				"last_pulled": "2026-03-11T21:17:42.428063472Z",
+				"last_pulled": "2026-03-12T14:58:21.033494639Z",
 				"last_pushed": "2024-12-06T14:14:00Z"
 			}
 		],
@@ -58,7 +58,7 @@
 		"full_size": 1209028350,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2026-03-11T21:17:42.428063472Z",
+		"tag_last_pulled": "2026-03-12T14:58:21.033494639Z",
 		"tag_last_pushed": "2024-12-06T14:13:59.738398Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -79,7 +79,7 @@
 				"os_version": null,
 				"size": 85986181,
 				"status": "active",
-				"last_pulled": "2026-03-12T00:40:58.981675005Z",
+				"last_pulled": "2026-03-12T23:13:06.59463321Z",
 				"last_pushed": "2026-02-23T19:47:14.013787599Z"
 			}
 		],
@@ -91,7 +91,7 @@
 		"full_size": 85986181,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2026-03-12T00:40:58.981675005Z",
+		"tag_last_pulled": "2026-03-12T23:13:06.59463321Z",
 		"tag_last_pushed": "2026-02-24T16:44:26.126796Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -145,7 +145,7 @@
 				"os_version": null,
 				"size": 774797449,
 				"status": "active",
-				"last_pulled": "2026-03-12T01:49:37.145782301Z",
+				"last_pulled": "2026-03-12T23:16:58.764689721Z",
 				"last_pushed": "2025-12-19T00:50:48.335428495Z"
 			}
 		],
@@ -157,7 +157,7 @@
 		"full_size": 774797449,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2026-03-12T01:49:37.145782301Z",
+		"tag_last_pulled": "2026-03-12T23:16:58.764689721Z",
 		"tag_last_pushed": "2025-12-19T00:55:37.988164Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -166,35 +166,35 @@
 	},
 	{
 		"creator": 8198517,
-		"id": 1079636255,
+		"id": 1099655382,
 		"images": [
 			{
 				"architecture": "amd64",
 				"features": "",
 				"variant": null,
-				"digest": "sha256:79108f4020030e1f12a3f19b8658cdd4c730da8ab5f233b470aacd22c5c860dd",
+				"digest": "sha256:fa6bf761f2a2f83bec5d2eb153d673aa71ab5cafaf7673337f0161203c5db7f8",
 				"os": "linux",
 				"os_features": "",
 				"os_version": null,
-				"size": 306477515,
+				"size": 272140441,
 				"status": "active",
-				"last_pulled": "2026-03-12T02:18:50.786708214Z",
-				"last_pushed": "2026-02-18T15:07:39.786415715Z"
+				"last_pulled": "2026-03-12T21:20:15.064082951Z",
+				"last_pushed": "2026-03-12T09:03:22.475347577Z"
 			}
 		],
-		"last_updated": "2026-02-19T16:23:10.69243Z",
+		"last_updated": "2026-03-12T20:42:19.19504Z",
 		"last_updater": 8198517,
 		"last_updater_username": "ciliferaycloud",
-		"name": "1.26.3-6.6.0",
+		"name": "1.28.1-6.7.0",
 		"repository": 7077488,
-		"full_size": 306477515,
+		"full_size": 272140441,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2026-03-12T02:18:50.786708214Z",
-		"tag_last_pushed": "2026-02-19T16:23:10.69243Z",
+		"tag_last_pulled": "2026-03-12T21:20:15.064082951Z",
+		"tag_last_pushed": "2026-03-12T20:42:19.19504Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
-		"digest": "sha256:79108f4020030e1f12a3f19b8658cdd4c730da8ab5f233b470aacd22c5c860dd",
-		"latest_docker_image": "liferaycloud/nginx:1.26.3-6.6.0"
+		"digest": "sha256:fa6bf761f2a2f83bec5d2eb153d673aa71ab5cafaf7673337f0161203c5db7f8",
+		"latest_docker_image": "liferaycloud/nginx:1.28.1-6.7.0"
 	}
 ]
