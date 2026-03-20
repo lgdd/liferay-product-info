@@ -1,5 +1,5 @@
 name,firstShipDateOrigin,firstShipDate,endOfPremiumSupport,endOfLimitedSupport,LTS
-2026.q1,https://hub.docker.com/r/liferay/dxp/tags?name=2026.q1.0-lts,2026-03-17,2029-03-16,2031-03-16,true
+2026.q1,https://hub.docker.com/r/liferay/dxp/tags?name=2026.q1.0-lts,2026-03-19,2029-03-18,2031-03-18,true
 2025.q4,https://releases-cdn.liferay.com/dxp/2025.q4.0/release.properties,2025-11-26,2026-11-25,N/A,false
 2025.q3,https://releases-cdn.liferay.com/dxp/2025.q3.0/release.properties,2025-09-03,2026-09-02,N/A,false
 2025.q2,https://releases-cdn.liferay.com/dxp/2025.q2.0/release.properties,2025-05-28,2026-05-27,N/A,false
