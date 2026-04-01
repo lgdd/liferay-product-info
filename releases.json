@@ -3201,7 +3201,6 @@
     "url": "https://releases-cdn.liferay.com/portal/7.4.3.63-ga63"
   },
   {
-    "databaseSchemaVersion": "25.1.2",
     "product": "dxp",
     "productGroupVersion": "7.4",
     "productVersion": "DXP 7.4 U63",
@@ -3431,7 +3430,6 @@
     "url": "https://releases-cdn.liferay.com/portal/7.4.3.53-ga53"
   },
   {
-    "databaseSchemaVersion": "25.0.1",
     "product": "dxp",
     "productGroupVersion": "7.4",
     "productVersion": "DXP 7.4 U53",
@@ -4466,7 +4464,6 @@
     "url": "https://releases-cdn.liferay.com/portal/7.4.3.10-ga10"
   },
   {
-    "databaseSchemaVersion": "13.2.0",
     "product": "dxp",
     "productGroupVersion": "7.4",
     "productVersion": "DXP 7.4 U6",
