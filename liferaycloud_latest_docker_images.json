@@ -1,36 +1,36 @@
 [
 	{
 		"creator": 8198517,
-		"id": 1129878359,
+		"id": 1141189515,
 		"images": [
 			{
 				"architecture": "amd64",
 				"features": "",
 				"variant": null,
-				"digest": "sha256:1eb7dc6cc754a937610ab110a024906dbfd292e7d0c189d7cd2e16a3ffca6b9f",
+				"digest": "sha256:6d2e898d50b9ac4f6579cd997dd681c5f2893276f4543c50809d8a9c00582097",
 				"os": "linux",
 				"os_features": "",
 				"os_version": null,
-				"size": 459569427,
+				"size": 461560241,
 				"status": "active",
-				"last_pulled": "2026-04-23T01:37:22.487785213Z",
-				"last_pushed": "2026-04-13T19:40:43.766098639Z"
+				"last_pulled": "2026-04-24T00:18:27.103435139Z",
+				"last_pushed": "2026-04-23T20:14:42.000630826Z"
 			}
 		],
-		"last_updated": "2026-04-13T19:44:17.789962Z",
+		"last_updated": "2026-04-23T22:00:58.210885Z",
 		"last_updater": 8198517,
 		"last_updater_username": "ciliferaycloud",
-		"name": "5.34.0",
+		"name": "5.35.0",
 		"repository": 7077464,
-		"full_size": 459569427,
+		"full_size": 461560241,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2026-04-23T01:37:22.487785213Z",
-		"tag_last_pushed": "2026-04-13T19:44:17.789962Z",
+		"tag_last_pulled": "2026-04-24T00:18:27.103435139Z",
+		"tag_last_pushed": "2026-04-23T22:00:58.210885Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
-		"digest": "sha256:1eb7dc6cc754a937610ab110a024906dbfd292e7d0c189d7cd2e16a3ffca6b9f",
-		"latest_docker_image": "liferaycloud/backup:5.34.0"
+		"digest": "sha256:6d2e898d50b9ac4f6579cd997dd681c5f2893276f4543c50809d8a9c00582097",
+		"latest_docker_image": "liferaycloud/backup:5.35.0"
 	},
 	{
 		"creator": 8198517,
@@ -46,7 +46,7 @@
 				"os_version": null,
 				"size": 1209028350,
 				"status": "active",
-				"last_pulled": "2026-04-22T20:11:17.354782318Z",
+				"last_pulled": "2026-04-23T14:37:35.716268795Z",
 				"last_pushed": "2024-12-06T14:14:00Z"
 			}
 		],
@@ -58,7 +58,7 @@
 		"full_size": 1209028350,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2026-04-22T20:11:17.354782318Z",
+		"tag_last_pulled": "2026-04-23T14:37:35.716268795Z",
 		"tag_last_pushed": "2024-12-06T14:13:59.738398Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -79,7 +79,7 @@
 				"os_version": null,
 				"size": 87012529,
 				"status": "active",
-				"last_pulled": "2026-04-23T03:16:22.212071436Z",
+				"last_pulled": "2026-04-24T00:09:52.919066519Z",
 				"last_pushed": "2026-04-16T17:35:57.565636932Z"
 			}
 		],
@@ -91,7 +91,7 @@
 		"full_size": 87012529,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2026-04-23T03:16:22.212071436Z",
+		"tag_last_pulled": "2026-04-24T00:09:52.919066519Z",
 		"tag_last_pushed": "2026-04-20T21:55:10.4389Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -145,7 +145,7 @@
 				"os_version": null,
 				"size": 790482550,
 				"status": "active",
-				"last_pulled": "2026-04-22T21:59:25.297035875Z",
+				"last_pulled": "2026-04-24T02:52:51.595811852Z",
 				"last_pushed": "2026-04-13T19:23:08.225561466Z"
 			}
 		],
@@ -157,7 +157,7 @@
 		"full_size": 790482550,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2026-04-22T21:59:25.297035875Z",
+		"tag_last_pulled": "2026-04-24T02:52:51.595811852Z",
 		"tag_last_pushed": "2026-04-13T19:27:34.452501Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
@@ -178,7 +178,7 @@
 				"os_version": null,
 				"size": 272140441,
 				"status": "active",
-				"last_pulled": "2026-04-23T03:04:10.380190953Z",
+				"last_pulled": "2026-04-24T02:51:31.709652534Z",
 				"last_pushed": "2026-03-12T09:03:22.475347577Z"
 			}
 		],
@@ -190,7 +190,7 @@
 		"full_size": 272140441,
 		"v2": true,
 		"tag_status": "active",
-		"tag_last_pulled": "2026-04-23T03:04:10.380190953Z",
+		"tag_last_pulled": "2026-04-24T02:51:31.709652534Z",
 		"tag_last_pushed": "2026-03-13T13:37:58.18867Z",
 		"media_type": "application/vnd.docker.container.image.v1+json",
 		"content_type": "image",
