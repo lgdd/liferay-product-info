@@ -4,8 +4,24 @@
     "product": "dxp",
     "productGroupVersion": "2026.q2",
     "productMajorVersion": "DXP 2026.Q2",
-    "productVersion": "DXP 2026.Q2.1",
+    "productVersion": "DXP 2026.Q2.2",
     "promoted": "true",
+    "releaseKey": "dxp-2026.q2.2",
+    "tags": [
+      "jakarta",
+      "supported",
+      "testBom"
+    ],
+    "targetPlatformVersion": "2026.q2.2",
+    "url": "https://releases-cdn.liferay.com/dxp/2026.q2.2"
+  },
+  {
+    "databaseSchemaVersion": "38.2.2",
+    "product": "dxp",
+    "productGroupVersion": "2026.q2",
+    "productMajorVersion": "DXP 2026.Q2",
+    "productVersion": "DXP 2026.Q2.1",
+    "promoted": "false",
     "releaseKey": "dxp-2026.q2.1",
     "tags": [
       "jakarta",
@@ -762,7 +778,6 @@
     "promoted": "true",
     "releaseKey": "dxp-2025.q2.12",
     "tags": [
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q2.12",
@@ -777,7 +792,6 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.11",
     "tags": [
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q2.11",
@@ -807,7 +821,6 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.10",
     "tags": [
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q2.10",
@@ -822,7 +835,6 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.9",
     "tags": [
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q2.9",
@@ -852,7 +864,6 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.8",
     "tags": [
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q2.8",
@@ -882,7 +893,6 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.7",
     "tags": [
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q2.7",
@@ -897,7 +907,6 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.6",
     "tags": [
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q2.6",
@@ -912,7 +921,6 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.5",
     "tags": [
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q2.5",
@@ -942,7 +950,6 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.4",
     "tags": [
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q2.4",
@@ -957,7 +964,6 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.3",
     "tags": [
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q2.3",
@@ -972,7 +978,6 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.2",
     "tags": [
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q2.2",
@@ -1002,7 +1007,6 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.1",
     "tags": [
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q2.1",
@@ -1032,7 +1036,6 @@
     "promoted": "false",
     "releaseKey": "dxp-2025.q2.0",
     "tags": [
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q2.0",
