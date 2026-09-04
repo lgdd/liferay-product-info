@@ -1,11 +1,27 @@
 [
   {
+    "databaseSchemaVersion": "38.7.7",
+    "product": "dxp",
+    "productGroupVersion": "2026.q3",
+    "productMajorVersion": "DXP 2026.Q3",
+    "productVersion": "DXP 2026.Q3.2",
+    "promoted": "true",
+    "releaseKey": "dxp-2026.q3.2",
+    "tags": [
+      "jakarta",
+      "supported",
+      "testBom"
+    ],
+    "targetPlatformVersion": "2026.q3.2",
+    "url": "https://releases-cdn.liferay.com/dxp/2026.q3.2"
+  },
+  {
     "databaseSchemaVersion": "38.7.6",
     "product": "dxp",
     "productGroupVersion": "2026.q3",
     "productMajorVersion": "DXP 2026.Q3",
     "productVersion": "DXP 2026.Q3.1",
-    "promoted": "true",
+    "promoted": "false",
     "releaseKey": "dxp-2026.q3.1",
     "tags": [
       "jakarta",
@@ -890,7 +906,6 @@
     "releaseKey": "dxp-2025.q3.10",
     "tags": [
       "jakarta",
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q3.10",
@@ -921,7 +936,6 @@
     "releaseKey": "dxp-2025.q3.9",
     "tags": [
       "jakarta",
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q3.9",
@@ -937,7 +951,6 @@
     "releaseKey": "dxp-2025.q3.8",
     "tags": [
       "jakarta",
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q3.8",
@@ -953,7 +966,6 @@
     "releaseKey": "dxp-2025.q3.7",
     "tags": [
       "jakarta",
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q3.7",
@@ -984,7 +996,6 @@
     "releaseKey": "dxp-2025.q3.6",
     "tags": [
       "jakarta",
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q3.6",
@@ -1000,7 +1011,6 @@
     "releaseKey": "dxp-2025.q3.5",
     "tags": [
       "jakarta",
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q3.5",
@@ -1031,7 +1041,6 @@
     "releaseKey": "dxp-2025.q3.4",
     "tags": [
       "jakarta",
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q3.4",
@@ -1047,7 +1056,6 @@
     "releaseKey": "dxp-2025.q3.3",
     "tags": [
       "jakarta",
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q3.3",
@@ -1063,7 +1071,6 @@
     "releaseKey": "dxp-2025.q3.2",
     "tags": [
       "jakarta",
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q3.2",
@@ -1094,7 +1101,6 @@
     "releaseKey": "dxp-2025.q3.1",
     "tags": [
       "jakarta",
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q3.1",
@@ -1125,7 +1131,6 @@
     "releaseKey": "dxp-2025.q3.0",
     "tags": [
       "jakarta",
-      "supported",
       "testBom"
     ],
     "targetPlatformVersion": "2025.q3.0",
