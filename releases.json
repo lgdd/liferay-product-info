@@ -1,5 +1,22 @@
 [
   {
+    "databaseSchemaVersion": "38.2.12",
+    "product": "dxp",
+    "productGroupVersion": "2026.q1",
+    "productMajorVersion": "DXP 2026.Q1 LTS",
+    "productVersion": "DXP 2026.Q1.14 LTS",
+    "promoted": "true",
+    "releaseKey": "dxp-2026.q1.14-lts",
+    "tags": [
+      "jakarta",
+      "recommended",
+      "supported",
+      "testBom"
+    ],
+    "targetPlatformVersion": "2026.q1.14",
+    "url": "https://releases-cdn.liferay.com/dxp/2026.q1.14-lts"
+  },
+  {
     "databaseSchemaVersion": "38.7.9",
     "product": "dxp",
     "productGroupVersion": "2026.q3",
@@ -99,11 +116,10 @@
     "productGroupVersion": "2026.q1",
     "productMajorVersion": "DXP 2026.Q1 LTS",
     "productVersion": "DXP 2026.Q1.13 LTS",
-    "promoted": "true",
+    "promoted": "false",
     "releaseKey": "dxp-2026.q1.13-lts",
     "tags": [
       "jakarta",
-      "recommended",
       "supported",
       "testBom"
     ],
